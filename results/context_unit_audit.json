@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "site": "02035000",
+  "hour_start_utc": "2025-01-01 00:00:00+00:00",
+  "source_files": [
+    {
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_extended_20261005T151809737240Z\\02035000_2025_iv.json.gz",
+      "sha256": "af67d0d3695cb3d6135ecc2c901751bb050520f4d9d1c952fdb129291e84f976"
+    },
+    {
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_extended_20261005T151809737240Z\\02035000_2024_iv.json.gz",
+      "sha256": "0f7b2ce974638cbdc7c7a83c53865c07a3d488ad33f0f4d6477702b19afa3f58"
+    }
+  ],
+  "source_units": [
+    {
+      "parameter": "00060",
+      "unit": {
+        "unitCode": "ft3/s"
+      }
+    },
+    {
+      "parameter": "99133",
+      "unit": {
+        "unitCode": "mg/l as N"
+      }
+    },
+    {
+      "parameter": "00060",
+      "unit": {
+        "unitCode": "ft3/s"
+      }
+    },
+    {
+      "parameter": "99133",
+      "unit": {
+        "unitCode": "mg/l as N"
+      }
+    }
+  ],
+  "quarter_records": [
+    {
+      "time_utc": "2025-01-01 00:00:00+00:00",
+      "q_cfs_raw": 7350.0,
+      "nox_mg_l_as_N_raw": 0.34,
+      "q_cms_independent": 208.12882245120002,
+      "quarter_volume_m3": 187315.94020608003,
+      "quarter_load_kg_N": 63.68741967006722
+    },
+    {
+      "time_utc": "2025-01-01 00:15:00+00:00",
+      "q_cfs_raw": 7350.0,
+      "nox_mg_l_as_N_raw": 0.34,
+      "q_cms_independent": 208.12882245120002,
+      "quarter_volume_m3": 187315.94020608003,
+      "quarter_load_kg_N": 63.68741967006722
+    },
+    {
+      "time_utc": "2025-01-01 00:30:00+00:00",
+      "q_cfs_raw": 7350.0,
+      "nox_mg_l_as_N_raw": 0.34,
+      "q_cms_independent": 208.12882245120002,
+      "quarter_volume_m3": 187315.94020608003,
+      "quarter_load_kg_N": 63.68741967006722
+    },
+    {
+      "time_utc": "2025-01-01 00:45:00+00:00",
+      "q_cfs_raw": 7320.0,
+      "nox_mg_l_as_N_raw": 0.34,
+      "q_cms_independent": 207.27931705344002,
+      "quarter_volume_m3": 186551.38534809602,
+      "quarter_load_kg_N": 63.427471018352655
+    }
+  ],
+  "independent_cfs_to_cms_factor": 0.028316846592000004,
+  "dimensional_derivation": "(ft^3/s)*(0.3048 m/ft)^3*(900 s)*(mg N/L)*(1000 L/m^3)*(1 kg/10^6 mg)",
+  "hour_volume_m3": 748499.205966336,
+  "hour_load_kg_N": 254.48973002855425,
+  "constant_example": {
+    "q_cfs": 100,
+    "concentration_mg_l_N": 2,
+    "q_cms": 2.8316846592000005,
+    "one_hour_load_kg_N": 20.388129546240005
+  }
+}

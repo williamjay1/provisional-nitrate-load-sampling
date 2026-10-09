@@ -1,0 +1,4788 @@
+[
+  {
+    "site": "01491000",
+    "name": "CHOPTANK RIVER NEAR GREENSBORO, MD",
+    "state": "Maryland",
+    "huc": "020600050203",
+    "huc4_group": "0206",
+    "drainage_area_as_reported": 113.0,
+    "coordinates": [
+      -75.7858055555556,
+      38.9971944444444
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-01491000",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "01491000",
+      "monitoring_location_name": "CHOPTANK RIVER NEAR GREENSBORO, MD",
+      "district_code": "24",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "24",
+      "state_name": "Maryland",
+      "county_code": "011",
+      "county_name": "Caroline County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "020600050203",
+      "basin_code": null,
+      "altitude": 2.73,
+      "altitude_accuracy": 0.1,
+      "altitude_method_code": "N",
+      "altitude_method_name": "Interpolated from Digital Elevation Model",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "S",
+      "horizontal_positional_accuracy": "Accurate to + or - 1 sec.",
+      "horizontal_position_method_code": "M",
+      "horizontal_position_method_name": "Interpolated from MAP.",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 113.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "EST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "WSP 1622: 1948. WDR MD-DE-79-1: 1961(P).",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "db2ace9c85fe43f5bb2d808a5b06513e",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T10:36:12.680285",
+          "begin": "2023-09-11T00:00:00+00:00",
+          "end": "2026-10-05T10:30:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Very Low",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2023-08-01T19:51:17.4470955Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -0.01
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Very High",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2024-06-11T17:27:10.2216863Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 20
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-01491000",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H15M",
+          "statistics_begin": "2023"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.7858055555556,
+            38.9971944444444
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "db2ace9c85fe43f5bb2d808a5b06513e-UV013-000101010000000000",
+              "time_series_id": "db2ace9c85fe43f5bb2d808a5b06513e",
+              "begin": "0001-01-01T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV013",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV013",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV absorb, Satlantic SUNA, 5 mm",
+              "method_description": "UV absorption, Satlantic SUNA, 5 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "dc4a2ef3522b4193b55cf8ddae499c8a",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T10:28:35.188421",
+          "begin": "1990-10-01T05:08:09+00:00",
+          "end": "2026-10-05T10:15:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-01491000",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "e76f3d1ecbb2481f995d1ab3294b8119",
+          "data_gap_interval": "PT1H15M",
+          "statistics_begin": "1948"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.7858055555556,
+            38.9971944444444
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "geographic_extension"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "01646500",
+    "name": "POTOMAC RIVER NEAR WASH, DC LITTLE FALLS PUMP STA",
+    "state": "Maryland",
+    "huc": "020700081005",
+    "huc4_group": "0207",
+    "drainage_area_as_reported": 11560.0,
+    "coordinates": [
+      -77.12763888888888,
+      38.949777777777776
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-01646500",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "01646500",
+      "monitoring_location_name": "POTOMAC RIVER NEAR WASH, DC LITTLE FALLS PUMP STA",
+      "district_code": "24",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "24",
+      "state_name": "Maryland",
+      "county_code": "031",
+      "county_name": "Montgomery County",
+      "minor_civil_division_code": "90612",
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "020700081005",
+      "basin_code": null,
+      "altitude": 37.04,
+      "altitude_accuracy": 0.17,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "S",
+      "horizontal_positional_accuracy": "Accurate to + or - 1 sec.",
+      "horizontal_position_method_code": "G",
+      "horizontal_position_method_name": "Mapping grade GPS unit (handheld accuracy range 12 to 40 ft)",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 11560.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "EST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "&lt;ul&gt;\n    &lt;li&gt;WSP 726: Drainage area.&lt;/li&gt;\n    &lt;li&gt;WDR MD-DE-75-1: 1973-74(M).&lt;/li&gt;\n    &lt;li&gt;https://waterdata.usgs.gov/nwis/dv/?site_no=01646500:&lt;a href=\"https://waterdata.usgs.gov/md/nwis/dv?cb_00060=on&amp;format=html&amp;site_no=01646500&amp;referred_module=sw&amp;period=&amp;begin_date=2018-03-02&amp;end_date=2018-03-02\"&gt; 2018.&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;https://waterdata.usgs.gov/nwis/uv/?site_no=01646500:&lt;a href=\"https://nwis.waterdata.usgs.gov/md/nwis/uv/?cb_00060=on&amp;site_no=01646500&amp;referred_module=sw&amp;period=&amp;begin_date=2021-03-02&amp;end_date=2021-06-25\"&gt; 2021.&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;Discharge for Measurement 385 made on 06/25/2021 was revised on 09/22/2021 due to an error in computation.&lt;/li&gt;\n&lt;/ul&gt;",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": "2021-10-19T19:48:10.807000+00:00"
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "c42a4b0d3f3f4cd8b667a7e2e49a8cdf",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-04T14:17:26.293806",
+          "begin": "2019-07-24T17:00:00+00:00",
+          "end": "2026-10-04T14:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Very Low Suppress",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2021-04-06T00:00:00.0000000-05:00",
+                  "AppliedTime": "2021-06-30T12:04:39.8242946Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0.01
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Very high",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2019-12-01T00:00:00.0000000-05:00",
+                  "AppliedTime": "2019-12-23T11:35:32.5360608Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 20
+                }
+              ],
+              "Severity": 0,
+              "Description": "Values above a specified threshold limit",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "Operational limit - high-Public",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Very low",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2019-12-01T00:00:00.0000000-05:00",
+                  "AppliedTime": "2019-12-23T11:35:55.2743649Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0
+                }
+              ],
+              "Severity": 0,
+              "Description": "Values below a specified threshold limit",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "Operational limit - low-Public",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": "SUNA",
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-01646500",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H15M",
+          "statistics_begin": "2019"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.12763888888888,
+            38.949777777777776
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "c42a4b0d3f3f4cd8b667a7e2e49a8cdf-UV013-201907241158000500",
+              "time_series_id": "c42a4b0d3f3f4cd8b667a7e2e49a8cdf",
+              "begin": "2019-07-24T11:58:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV013",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV013",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV absorb, Satlantic SUNA, 5 mm",
+              "method_description": "UV absorption, Satlantic SUNA, 5 mm path length"
+            }
+          },
+          {
+            "interval": {
+              "id": "c42a4b0d3f3f4cd8b667a7e2e49a8cdf-UV014-000101010000000000",
+              "time_series_id": "c42a4b0d3f3f4cd8b667a7e2e49a8cdf",
+              "begin": "0001-01-01T00:00:00+00:00",
+              "end": "2019-07-24T11:58:00+00:00",
+              "method_id": "UV014",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV014",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV absorb, Satlantic ISUS, 10 mm",
+              "method_description": "UV absorption, Satlantic ISUS, 10 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "ceea3bb9b349410ba4ad72128cb63392",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2021-10-27T17:34:31.783489",
+          "begin": "2011-12-03T05:00:00+00:00",
+          "end": "2019-06-11T15:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-05-20T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-07-10T15:07:38.6381613Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-05-20T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-07-10T15:07:38.2902448Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 20
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": "SUNA",
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-01646500",
+          "web_description": "Discontinued",
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H15M",
+          "statistics_begin": "2012"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.12763888888888,
+            38.949777777777776
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "ceea3bb9b349410ba4ad72128cb63392-UV012-201710030900000500",
+              "time_series_id": "ceea3bb9b349410ba4ad72128cb63392",
+              "begin": "2017-10-03T09:00:00+00:00",
+              "end": "2019-10-01T00:00:00+00:00",
+              "method_id": "UV012",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV012",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV absorb, Satlantic SUNA, 10 mm",
+              "method_description": "UV absorption, Satlantic SUNA, 10 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "66a4e3fb8abe42fcb0942b5c0fe98f68",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T09:57:35.664871",
+          "begin": "1972-06-09T05:00:00+00:00",
+          "end": "2026-10-05T09:50:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Begin low flow measurements",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2025-06-16T00:00:00.0000000-05:00",
+                  "AppliedTime": "2025-06-20T16:02:17.2082799Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 2000,
+                  "SecondaryReferenceValue": 2500
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to WSC level users",
+              "DisplayColor": "#009933",
+              "ReferenceCode": "NWISWeb ref level - WSC",
+              "ProcessingOrder": "Normal"
+            },
+            {
+              "Name": "Base discharge",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "Comments": "Base discharge from adaps",
+                  "StartTime": "2016-10-01T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-11-24T19:12:15.0109953Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 45000,
+                  "SecondaryReferenceValue": 45000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#f20aee",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-01646500",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "8a83eb3a3cbc4087b0c201cf07c0c76d",
+          "data_gap_interval": "PT1H15M",
+          "statistics_begin": "1981"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.12763888888888,
+            38.949777777777776
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "geographic_extension"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "02035000",
+    "name": "JAMES RIVER AT CARTERSVILLE, VA",
+    "state": "Virginia",
+    "huc": "020802050403",
+    "huc4_group": "0208",
+    "drainage_area_as_reported": 6252.0,
+    "coordinates": [
+      -78.0858327652848,
+      37.670979573031
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-02035000",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "02035000",
+      "monitoring_location_name": "JAMES RIVER AT CARTERSVILLE, VA",
+      "district_code": "51",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "51",
+      "state_name": "Virginia",
+      "county_code": "075",
+      "county_name": "Goochland County",
+      "minor_civil_division_code": "91382",
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "020802050403",
+      "basin_code": null,
+      "altitude": 167.1,
+      "altitude_accuracy": 0.1,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "U",
+      "horizontal_positional_accuracy": "Unknown or unspecified.",
+      "horizontal_position_method_code": "M",
+      "horizontal_position_method_name": "Interpolated from MAP.",
+      "original_horizontal_datum": "NAD27",
+      "original_horizontal_datum_name": "North American Datum of 1927",
+      "drainage_area": 6252.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "EST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "WSP 972: 1936(M). WSP 1203: 1901-2(M), 1923-25(M), 1928(M). OFR 2006-1308: Drainage area.",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "012a31e8d6aa4a4d9ee79ead9a6f6aee",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:15:27.416477",
+          "begin": "2014-07-30T04:00:00+00:00",
+          "end": "2026-10-05T08:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-06-01T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-06-19T16:22:46.725363Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0.01
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-10-07T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-06-19T16:22:46.617097Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 5
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-02035000",
+          "web_description": "SUNA Satlantic Nitrate",
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.0858327652848,
+            37.670979573031
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "012a31e8d6aa4a4d9ee79ead9a6f6aee-UV013-201705010000000500",
+              "time_series_id": "012a31e8d6aa4a4d9ee79ead9a6f6aee",
+              "begin": "2017-05-01T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV013",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV013",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV absorb, Satlantic SUNA, 5 mm",
+              "method_description": "UV absorption, Satlantic SUNA, 5 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "cb2fa837e92043daab46eee1a9161919",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T10:01:42.175063",
+          "begin": "1994-10-01T04:00:00+00:00",
+          "end": "2026-10-05T09:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-02035000",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "d4c535b440bf44b297baee847c03074b",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1988"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.0858327652848,
+            37.670979573031
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "geographic_extension"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "03216070",
+    "name": "OHIO RIVER AT IRONTON, OH",
+    "state": "Ohio",
+    "huc": "05090103",
+    "huc4_group": "0509",
+    "drainage_area_as_reported": 60825.0,
+    "coordinates": [
+      -82.68594444444444,
+      38.53205555555555
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-03216070",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "03216070",
+      "monitoring_location_name": "OHIO RIVER AT IRONTON, OH",
+      "district_code": "21",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "39",
+      "state_name": "Ohio",
+      "county_code": "087",
+      "county_name": "Lawrence County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "05090103",
+      "basin_code": null,
+      "altitude": 480.41,
+      "altitude_accuracy": 0.07,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "1",
+      "horizontal_positional_accuracy": "Accurate to + or - .1 sec (Differentially-Corrected GPS).",
+      "horizontal_position_method_code": "N",
+      "horizontal_position_method_name": "Interpolated from digital map",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 60825.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "EST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": null,
+      "revision_created": null,
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "b7e05fb7e231415dac7ba712b7add837",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-09-23T10:39:26.665164",
+          "begin": "2020-02-13T22:30:00+00:00",
+          "end": "2026-09-22T15:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03216070",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": null,
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.68594444444444,
+            38.53205555555555
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "b7e05fb7e231415dac7ba712b7add837-UV013-000101010000000000",
+              "time_series_id": "b7e05fb7e231415dac7ba712b7add837",
+              "begin": "0001-01-01T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV013",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV013",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV absorb, Satlantic SUNA, 5 mm",
+              "method_description": "UV absorption, Satlantic SUNA, 5 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "aa7d19f2dbbd4050a86e6e1f3fdf8e5b",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T10:15:40.862613",
+          "begin": "2015-09-03T13:15:00+00:00",
+          "end": "2026-10-05T10:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03216070",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "fb503158aab849c7806974c28d98a965",
+          "data_gap_interval": "PT4H",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.68594444444444,
+            38.53205555555555
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "HESS2026_SI"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "03290500",
+    "name": "KENTUCKY RIVER AT LOCK 2 AT LOCKPORT, KY",
+    "state": "Kentucky",
+    "huc": "05100205",
+    "huc4_group": "0510",
+    "drainage_area_as_reported": 6180.0,
+    "coordinates": [
+      -84.96326371817682,
+      38.43894162497998
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-03290500",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "03290500",
+      "monitoring_location_name": "KENTUCKY RIVER AT LOCK 2 AT LOCKPORT, KY",
+      "district_code": "21",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "21",
+      "state_name": "Kentucky",
+      "county_code": "103",
+      "county_name": "Henry County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "05100205",
+      "basin_code": null,
+      "altitude": 432.99,
+      "altitude_accuracy": 0.16,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "M",
+      "horizontal_position_method_name": "Interpolated from map",
+      "original_horizontal_datum": "NAD27",
+      "original_horizontal_datum_name": "North American Datum of 1927",
+      "drainage_area": 6180.0,
+      "contributing_drainage_area": 5984.0,
+      "time_zone_abbreviation": "EST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "WSP 1385: 1926-29, 1932, 1934-37, 1945. WSP 1955: Drainage area. See also PERIOD OF RECORD.",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "a50e4c36f19241b9b14edcebe7f08bc1",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T04:50:09.713162",
+          "begin": "2018-10-11T19:00:00+00:00",
+          "end": "2026-10-05T04:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Sensor detection limit",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2018-11-29T18:36:38.3325474Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 0.01,
+                  "SecondaryReferenceValue": 0.1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Very High",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2018-11-29T18:35:17.5976393Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 20
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Very Low",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2018-11-29T18:35:46.5012045Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -0.01
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03290500",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": "7c413afadea747b5b1550e96fd932bfc",
+          "data_gap_interval": null,
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.96326371817682,
+            38.43894162497998
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "a50e4c36f19241b9b14edcebe7f08bc1-UV013-000101010000000000",
+              "time_series_id": "a50e4c36f19241b9b14edcebe7f08bc1",
+              "begin": "0001-01-01T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV013",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV013",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV absorb, Satlantic SUNA, 5 mm",
+              "method_description": "UV absorption, Satlantic SUNA, 5 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "e4e6455de5554a4d81f6d52129cc4005",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T06:43:48.146493",
+          "begin": "1989-10-01T05:00:00+00:00",
+          "end": "2026-10-05T06:30:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2015-11-03T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-01-01T17:54:19.7784509Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2015-11-03T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-01-01T17:54:19.6305969Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 150000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2015-11-03T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-01-01T17:54:19.4886636Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 67450
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF9933",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2015-11-03T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-01-01T17:54:19.5354639Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 150
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#CC6600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03290500",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "5932fd3f0f7f4c63ac3b75e67f79e8b6",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1977"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.96326371817682,
+            38.43894162497998
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "HESS2026_SI"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "03338780",
+    "name": "NORTH FORK VERMILION RIVER NEAR BISMARCK, IL",
+    "state": "Illinois",
+    "huc": "051201090805",
+    "huc4_group": "0512",
+    "drainage_area_as_reported": 262.0,
+    "coordinates": [
+      -87.6421388888889,
+      40.2656666666667
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-03338780",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "03338780",
+      "monitoring_location_name": "NORTH FORK VERMILION RIVER NEAR BISMARCK, IL",
+      "district_code": "17",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "17",
+      "state_name": "Illinois",
+      "county_code": "183",
+      "county_name": "Vermilion County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "051201090805",
+      "basin_code": null,
+      "altitude": 599.97,
+      "altitude_accuracy": 0.01,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "X",
+      "horizontal_position_method_name": "GNSS2 - Level 1 Quality Survey Grade Global Navigation Satellite System",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 262.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "N",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "WDR IL-98: 1997 (P).&lt;br /&gt;\nRevisions: Gage datum was updated to 599.97 ft NAVD88 on January 30, 2023, as determined by a GNSS Level II survey. Gage datum was previously published as 594 ft NGVD29 (594 ft NAVD88) from topographic map.&nbsp;",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": "2023-06-28T03:17:02.750000+00:00"
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "b6634b6510494c279fb5dae7bbcf16ed",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-06-04T16:11:23.405630",
+          "begin": "2020-09-11T15:30:00+00:00",
+          "end": "2026-04-16T18:30:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Operational limit (Maximum)",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2020-12-03T16:24:29.0163721Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 50
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Operational limit (minimum)",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2020-12-03T16:24:55.0790653Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -0.1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03338780",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6421388888889,
+            40.2656666666667
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "b6634b6510494c279fb5dae7bbcf16ed-UV016-000101010000000000",
+              "time_series_id": "b6634b6510494c279fb5dae7bbcf16ed",
+              "begin": "0001-01-01T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV016",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV016",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "495ec099d00a40d39223e6c9c6993bf3",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2017-11-29T21:49:24.373769",
+          "begin": "1988-11-03T06:00:00+00:00",
+          "end": "2010-10-01T05:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03338780",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6421388888889,
+            40.2656666666667
+          ]
+        },
+        "methods": []
+      },
+      {
+        "series": {
+          "id": "f562182f69d64b64a25125feccf9d119",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2022-03-08T20:15:59.736895",
+          "begin": "2007-10-01T06:00:00+00:00",
+          "end": "2014-11-13T05:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03338780",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "d79c91ab14514f85a95846b273d1ae16",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6421388888889,
+            40.2656666666667
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "HESS2026_SI"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "03339000",
+    "name": "VERMILION RIVER NEAR DANVILLE, IL",
+    "state": "Illinois",
+    "huc": "051201090906",
+    "huc4_group": "0512",
+    "drainage_area_as_reported": 1290.0,
+    "coordinates": [
+      -87.5976111111111,
+      40.1010833333333
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-03339000",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "03339000",
+      "monitoring_location_name": "VERMILION RIVER NEAR DANVILLE, IL",
+      "district_code": "17",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "17",
+      "state_name": "Illinois",
+      "county_code": "183",
+      "county_name": "Vermilion County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "051201090906",
+      "basin_code": null,
+      "altitude": 503.72,
+      "altitude_accuracy": 0.01,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "X",
+      "horizontal_position_method_name": "GNSS2 - Level 1 Quality Survey Grade Global Navigation Satellite System",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 1290.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "N",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": " WSP 853: 1936(M). WSP 973: 1939. WSP 1305: 1915-16, 1920, 1929. WSP\r\n  1335: 1934(m). WSP 1909: 1960. WDR IL-75-1: Drainage area. WDR\r\n  IL-84-1: 1983. WDR IL-92-1: 1991.",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "8bb437bca83c4c16a8e65408dc06fb1b",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2024-12-16T15:38:47.427315",
+          "begin": "2023-12-18T18:00:00+00:00",
+          "end": "2024-10-04T15:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [],
+          "sublocation_identifier": "(NT3100)",
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03339000",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5976111111111,
+            40.1010833333333
+          ]
+        },
+        "methods": []
+      },
+      {
+        "series": {
+          "id": "a40e8102cb4f49d792c3c7a489276879",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T10:38:38.560549",
+          "begin": "2014-12-19T06:00:00+00:00",
+          "end": "2026-10-05T10:15:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-10-13T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-05-01T23:20:10.8895827Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 50
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-10-13T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-05-01T23:20:11.1413057Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -0.1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03339000",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5976111111111,
+            40.1010833333333
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "a40e8102cb4f49d792c3c7a489276879-UV016-201809170000000600",
+              "time_series_id": "a40e8102cb4f49d792c3c7a489276879",
+              "begin": "2018-09-17T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV016",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV016",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "5536247fe72b4afe9adce22e18c18193",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T07:38:39.573909",
+          "begin": "1985-10-11T06:00:00+00:00",
+          "end": "2026-10-05T07:15:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Peak Discharge, 48,700 cfs, Mar. 13, 1939.",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-09-24T22:41:32.0731238Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 48700,
+                  "SecondaryReferenceValue": 43000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Highest QM, 47,900 cfs, Apr. 13, 1994.",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-09-24T22:40:28.0154215Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 47900,
+                  "SecondaryReferenceValue": 42000
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to USGS level users",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - USGS",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03339000",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "a11b5e0f1e80439894342442fe4e80cd",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1915"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5976111111111,
+            40.1010833333333
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "HESS2026_SI"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "03346500",
+    "name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+    "state": "Illinois",
+    "huc": "051201121504",
+    "huc4_group": "0512",
+    "drainage_area_as_reported": 2333.0,
+    "coordinates": [
+      -87.6643611111111,
+      38.7238055555556
+    ],
+    "pilot_development_site": true,
+    "location_metadata": {
+      "id": "USGS-03346500",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "03346500",
+      "monitoring_location_name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+      "district_code": "17",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "17",
+      "state_name": "Illinois",
+      "county_code": "101",
+      "county_name": "Lawrence County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "051201121504",
+      "basin_code": null,
+      "altitude": 382.24,
+      "altitude_accuracy": 0.01,
+      "altitude_method_code": "L",
+      "altitude_method_name": "Level or other surveyed method.",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "X",
+      "horizontal_position_method_name": "GNSS2 - Level 1 Quality Survey Grade Global Navigation Satellite System",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 2333.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "N",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": null,
+      "revision_created": null,
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "6e0ebb5d1432462297b1ab14a5680c39",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:25:15.652826",
+          "begin": "2015-09-11T06:00:00+00:00",
+          "end": "2026-10-05T08:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-03-20T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-05-01T23:35:45.0091451Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 50
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-03-20T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-05-01T23:35:45.0541642Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -0.1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03346500",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6643611111111,
+            38.7238055555556
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "6e0ebb5d1432462297b1ab14a5680c39-UV016-201809170000000600",
+              "time_series_id": "6e0ebb5d1432462297b1ab14a5680c39",
+              "begin": "2018-09-17T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV016",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV016",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "c6bf854fe3704e42be924f608b928a24",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:58:24.401123",
+          "begin": "2001-10-05T06:00:00+00:00",
+          "end": "2026-10-05T08:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Highest QM, 43,600 cfs, June 9, 2008.",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-10-21T12:28:35.6454439Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 43600,
+                  "SecondaryReferenceValue": 40000
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to USGS level users",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - USGS",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Peak Discharge, 47,500 cfs, June 10, 2008.",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-10-21T12:28:00.5785577Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 47500,
+                  "SecondaryReferenceValue": 45000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03346500",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "b3233cee0d6442b38bc13f2f35cae8ab",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "2002"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6643611111111,
+            38.7238055555556
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "pilot"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "03353200",
+    "name": "EAGLE CREEK AT ZIONSVILLE, IN",
+    "state": "Indiana",
+    "huc": "05120201",
+    "huc4_group": "0512",
+    "drainage_area_as_reported": 106.0,
+    "coordinates": [
+      -86.26024907552512,
+      39.94642216716974
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-03353200",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "03353200",
+      "monitoring_location_name": "EAGLE CREEK AT ZIONSVILLE, IN",
+      "district_code": "18",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "18",
+      "state_name": "Indiana",
+      "county_code": "011",
+      "county_name": "Boone County",
+      "minor_civil_division_code": "86372",
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "05120201",
+      "basin_code": null,
+      "altitude": 813.44,
+      "altitude_accuracy": 0.08,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "S",
+      "horizontal_positional_accuracy": "Accurate to + or - 1 sec.",
+      "horizontal_position_method_code": "M",
+      "horizontal_position_method_name": "Interpolated from MAP.",
+      "original_horizontal_datum": "NAD27",
+      "original_horizontal_datum_name": "North American Datum of 1927",
+      "drainage_area": 106.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "EST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "WSP 2109: Drainage area.",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "0f10c936898f447f8765512273cc1595",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T10:56:02.025909",
+          "begin": "2011-05-18T05:00:00+00:00",
+          "end": "2026-10-05T10:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03353200",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": null,
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.26024907552512,
+            39.94642216716974
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "0f10c936898f447f8765512273cc1595-UV013-000101010000000000",
+              "time_series_id": "0f10c936898f447f8765512273cc1595",
+              "begin": "0001-01-01T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV013",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV013",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV absorb, Satlantic SUNA, 5 mm",
+              "method_description": "UV absorption, Satlantic SUNA, 5 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "26275d3717bc4994bac6c0d581f88f6a",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T06:55:54.073831",
+          "begin": "1987-10-01T06:00:00+00:00",
+          "end": "2026-10-05T06:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Peak Q of record",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2015-12-17T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-01-01T15:59:19.1417804Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 12400
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to WSC level users",
+              "DisplayColor": "#00CCFF",
+              "ReferenceCode": "NWISWeb ref level - WSC",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2015-12-17T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-01-01T15:59:18.9795743Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2015-12-17T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-01-01T15:59:18.8691432Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 18000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03353200",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "082557dc8ff5431fb9b0b47e439daada",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1958"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.26024907552512,
+            39.94642216716974
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "HESS2026_SI"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "03374100",
+    "name": "WHITE RIVER AT HAZLETON, IN",
+    "state": "Indiana",
+    "huc": "05120202",
+    "huc4_group": "0512",
+    "drainage_area_as_reported": 11305.0,
+    "coordinates": [
+      -87.55001321665438,
+      38.48977483645765
+    ],
+    "pilot_development_site": true,
+    "location_metadata": {
+      "id": "USGS-03374100",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "03374100",
+      "monitoring_location_name": "WHITE RIVER AT HAZLETON, IN",
+      "district_code": "18",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "18",
+      "state_name": "Indiana",
+      "county_code": "051",
+      "county_name": "Gibson County",
+      "minor_civil_division_code": "83888",
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "05120202",
+      "basin_code": null,
+      "altitude": 382.77,
+      "altitude_accuracy": 0.05,
+      "altitude_method_code": "D",
+      "altitude_method_name": "Differentially corrected Global Positioning System.",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "M",
+      "horizontal_position_method_name": "Interpolated from map",
+      "original_horizontal_datum": "NAD27",
+      "original_horizontal_datum_name": "North American Datum of 1927",
+      "drainage_area": 11305.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "EST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "The discharges from 02/18/2016 - 03/01/2017 were published in error.",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "5d51502bdbc5458d95fef6621568d59e",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T10:58:27.032642",
+          "begin": "2012-05-18T05:00:00+00:00",
+          "end": "2026-10-05T10:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03374100",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": null,
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55001321665438,
+            38.48977483645765
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "5d51502bdbc5458d95fef6621568d59e-UV013-000101010000000000",
+              "time_series_id": "5d51502bdbc5458d95fef6621568d59e",
+              "begin": "0001-01-01T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV013",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV013",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV absorb, Satlantic SUNA, 5 mm",
+              "method_description": "UV absorption, Satlantic SUNA, 5 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "2f2a2e24a4574598a8e131c1fa4cf0f2",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T06:58:29.427024",
+          "begin": "2010-12-03T05:00:00+00:00",
+          "end": "2026-10-05T06:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2015-11-13T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-01-01T16:11:53.3780957Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 100
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2015-11-13T00:00:00.0000000-05:00",
+                  "AppliedTime": "2017-01-01T16:11:53.1074031Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 400000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-03374100",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "fbb54c7ad7014da4979d71a5445bb68b",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1929"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55001321665438,
+            38.48977483645765
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "pilot"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "05447500",
+    "name": "GREEN RIVER NEAR GENESEO, IL",
+    "state": "Illinois",
+    "huc": "070900070504",
+    "huc4_group": "0709",
+    "drainage_area_as_reported": 1003.0,
+    "coordinates": [
+      -90.1580083333333,
+      41.4889333333333
+    ],
+    "pilot_development_site": true,
+    "location_metadata": {
+      "id": "USGS-05447500",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "05447500",
+      "monitoring_location_name": "GREEN RIVER NEAR GENESEO, IL",
+      "district_code": "17",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "17",
+      "state_name": "Illinois",
+      "county_code": "073",
+      "county_name": "Henry County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "070900070504",
+      "basin_code": null,
+      "altitude": 577.68,
+      "altitude_accuracy": 0.14,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "5",
+      "horizontal_positional_accuracy": "Accurate to + or - .5 sec (PLGR/PPS GPS).",
+      "horizontal_position_method_code": "N",
+      "horizontal_position_method_name": "Interpolated from digital map",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 1003.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "N",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "&lt;p&gt;WSP 875: 1938. WSP 1508: 1937, 1939-41(M), 1946(P), 1947-49. WDR IL-74-1: Drainage area.&lt;/p&gt;",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": "2023-07-12T17:34:02.100000+00:00"
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "61b5dca2b94b4c0080f5993d435788f9",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:26:10.585205",
+          "begin": "2015-06-26T06:00:00+00:00",
+          "end": "2026-10-05T08:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-11-17T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-05-01T23:49:30.782444Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 50
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-11-17T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-05-01T23:49:30.8285763Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -0.1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05447500",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.1580083333333,
+            41.4889333333333
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "61b5dca2b94b4c0080f5993d435788f9-UV016-201809170000000600",
+              "time_series_id": "61b5dca2b94b4c0080f5993d435788f9",
+              "begin": "2018-09-17T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV016",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV016",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "32cb4c7e0914471c89c092b41cfcff4b",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:48:35.777451",
+          "begin": "1987-03-05T06:00:00+00:00",
+          "end": "2026-10-05T08:30:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Highest QM Q",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "Comments": "Highest QM Q",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "0001-01-01T00:00:00Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 10400,
+                  "SecondaryReferenceValue": 8500
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to USGS level users",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - USGS",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Peak Discharge, 12,100 cfs, June 22, 1974.",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-10-22T22:00:52.4997912Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 12100,
+                  "SecondaryReferenceValue": 9000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05447500",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "748fbeb0f79e4c52b457c0f512b9bf62",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1936"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.1580083333333,
+            41.4889333333333
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "pilot"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "05465500",
+    "name": "Iowa River at Wapello, IA",
+    "state": "Iowa",
+    "huc": "070802091104",
+    "huc4_group": "0708",
+    "drainage_area_as_reported": 12500.0,
+    "coordinates": [
+      -91.1820916666667,
+      41.1780861111111
+    ],
+    "pilot_development_site": true,
+    "location_metadata": {
+      "id": "USGS-05465500",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "05465500",
+      "monitoring_location_name": "Iowa River at Wapello, IA",
+      "district_code": "19",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "19",
+      "state_name": "Iowa",
+      "county_code": "115",
+      "county_name": "Louisa County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "070802091104",
+      "basin_code": "04",
+      "altitude": 538.08,
+      "altitude_accuracy": 0.16,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "N",
+      "horizontal_position_method_name": "Interpolated from digital map",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 12500.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "WSP 1308: 1917, 1923-1930, 1932. WSP 1438: Drainage area. WSP 1558: 1918, 1923-1925(M), 1929. WSP 1708: 1955(P), 1956.",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "9727adc70cdb46c3b8ce2ed8740f2d85",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T09:07:32.306286",
+          "begin": "2009-06-03T05:00:00+00:00",
+          "end": "2026-10-05T09:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-05-11T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:06:22.3751338Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 50
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-05-11T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:06:22.9176626Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05465500",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -91.1820916666667,
+            41.1780861111111
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "9727adc70cdb46c3b8ce2ed8740f2d85-UV016-202010010000000600",
+              "time_series_id": "9727adc70cdb46c3b8ce2ed8740f2d85",
+              "begin": "2020-10-01T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV016",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV016",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "6fea358d4238410cafa47e2e5daea269",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T09:07:51.391062",
+          "begin": "1986-10-01T05:15:00+00:00",
+          "end": "2026-10-05T09:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Peak measured discharge, 156,000 cfs, June 16, 2008",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2020-03-02T18:26:36.449615Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 156000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Peak discharge, 188,000 cfs, June 14, 2008",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "0001-01-01T00:00:00Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 188000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#00CCFF",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05465500",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "f1148b0524754242b464320cfec3e16a",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1959"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -91.1820916666667,
+            41.1780861111111
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "pilot"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "05482000",
+    "name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+    "state": "Iowa",
+    "huc": "071000041003",
+    "huc4_group": "0710",
+    "drainage_area_as_reported": 6245.0,
+    "coordinates": [
+      -93.6197222222222,
+      41.6119444444444
+    ],
+    "pilot_development_site": true,
+    "location_metadata": {
+      "id": "USGS-05482000",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "05482000",
+      "monitoring_location_name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+      "district_code": "19",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "19",
+      "state_name": "Iowa",
+      "county_code": "153",
+      "county_name": "Polk County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "071000041003",
+      "basin_code": null,
+      "altitude": 773.26,
+      "altitude_accuracy": 0.33,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "X",
+      "horizontal_position_method_name": "GNSS2 - Level 1 Quality Survey Grade Global Navigation Satellite System",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 6245.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "&lt;p&gt;WSP 1308: 1915-1919, 1921, 1923, 1933, 1943(M). WSP 1438: Drainage area. WDR US-2012: Datum.&lt;/p&gt;\n&lt;p class=\"MsoNormal\"&gt;Revisions: &lt;span lang=\"EN\" style=\"mso-ascii-font-family:Calibri;\nmso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;mso-ansi-language:\nEN;\"&gt;Gage datum was updated to 773.26 ft NAVD88 on July 12, 2022, as determined by a GNSS\nLevel II survey. Gage datum was previously published as 773.74 ft NGVD29 from\nlevels.&lt;/span&gt;&lt;/p&gt;",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": "2023-03-29T20:02:02.657000+00:00"
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "b06249f9a95246b1aa3b90a56cd36295",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:31:58.618998",
+          "begin": "2016-04-01T06:00:00+00:00",
+          "end": "2026-10-05T08:15:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-03-14T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:23:32.4818978Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 50
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-03-14T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:23:32.6115141Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05482000",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.6197222222222,
+            41.6119444444444
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "b06249f9a95246b1aa3b90a56cd36295-UV016-201903271030000600",
+              "time_series_id": "b06249f9a95246b1aa3b90a56cd36295",
+              "begin": "2019-03-27T10:30:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV016",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV016",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "43bba0c0c082494a8b5e11a71acfdf2e",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:33:55.688378",
+          "begin": "1996-10-01T06:00:00+00:00",
+          "end": "2026-10-05T08:15:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Peak discharge, 47,300 cfs, June 13, 2008",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-04-04T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:23:44.3440066Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 47300
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#00CCFF",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Highest QM, 58,400 cfs., June 24, 1954",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-09-11T18:11:23.2524115Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 58400
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to USGS level users",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - USGS",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05482000",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "ab29cc9bbc73490892b3edaa6fe28ff3",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1997"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.6197222222222,
+            41.6119444444444
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "pilot"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "05482300",
+    "name": "North Raccoon River near Sac City, IA",
+    "state": "Iowa",
+    "huc": "071000060801",
+    "huc4_group": "0710",
+    "drainage_area_as_reported": 700.0,
+    "coordinates": [
+      -94.9910277777778,
+      42.3545555555556
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-05482300",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "05482300",
+      "monitoring_location_name": "North Raccoon River near Sac City, IA",
+      "district_code": "19",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "19",
+      "state_name": "Iowa",
+      "county_code": "161",
+      "county_name": "Sac County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "071000060801",
+      "basin_code": null,
+      "altitude": 1146.13,
+      "altitude_accuracy": 0.13,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "X",
+      "horizontal_position_method_name": "GNSS2 - Level 1 Quality Survey Grade Global Navigation Satellite System",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 700.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": null,
+      "revision_created": null,
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "7e223bd521fb4c7fbf527206848bb271",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:21:51.762078",
+          "begin": "2008-03-27T05:00:00+00:00",
+          "end": "2026-10-05T08:15:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-03-07T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:28:03.190358Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-03-07T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:28:02.9496911Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 50
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05482300",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -94.9910277777778,
+            42.3545555555556
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "7e223bd521fb4c7fbf527206848bb271-UV016-201902050945000600",
+              "time_series_id": "7e223bd521fb4c7fbf527206848bb271",
+              "begin": "2019-02-05T09:45:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV016",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV016",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "9c7b6f855088401eaa7f38c4939e57d8",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:23:10.996851",
+          "begin": "1990-10-01T05:15:00+00:00",
+          "end": "2026-10-05T08:15:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Peak discharge, 13,100 cfs, March 23, 1979",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-03-21T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:28:22.5138275Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 13100
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#00CCFF",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Highest QM, 12,500 cfs., March 23, 1979",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-09-24T13:45:53.3758789Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 12500
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to USGS level users",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - USGS",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05482300",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "3d4ac6d9cd3e419db4f9c84356646afe",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1959"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -94.9910277777778,
+            42.3545555555556
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "HESS2026_SI"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "05484000",
+    "name": "South Raccoon River at Redfield, IA",
+    "state": "Iowa",
+    "huc": "071000070902",
+    "huc4_group": "0710",
+    "drainage_area_as_reported": 994.0,
+    "coordinates": [
+      -94.1511666666667,
+      41.5904166666667
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-05484000",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "05484000",
+      "monitoring_location_name": "South Raccoon River at Redfield, IA",
+      "district_code": "19",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "19",
+      "state_name": "Iowa",
+      "county_code": "049",
+      "county_name": "Dallas County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "071000070902",
+      "basin_code": null,
+      "altitude": 888.59,
+      "altitude_accuracy": 0.13,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "X",
+      "horizontal_position_method_name": "GNSS2 - Level 1 Quality Survey Grade Global Navigation Satellite System",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 994.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "WSP 1438: Drainage area. WSP 1508: 1940. WDR IA-87-1: Datum.&lt;br /&gt;\nRevisions: Gage datum was updated to 888.59 ft NAVD88 on July 12, 2022, as determined by a GNSS Level II survey. Gage datum was previously published as 888.88 ft NGVD29 from levels.",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": "2023-04-13T17:00:57.017000+00:00"
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "af28b543c90c423087ac75edc6edc4cd",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T09:02:08.732668",
+          "begin": "2016-03-03T06:00:00+00:00",
+          "end": "2026-10-05T08:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Lower Working Limite",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2023-08-14T00:00:00.0000000-06:00",
+                  "AppliedTime": "2023-08-21T12:13:51.16069Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0,
+                  "SecondaryReferenceValue": 0
+                }
+              ],
+              "Severity": 0,
+              "Description": "Values below a specified threshold limit",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "Operational limit - low-Public",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05484000",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -94.1511666666667,
+            41.5904166666667
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "af28b543c90c423087ac75edc6edc4cd-UV016-201703140000000600",
+              "time_series_id": "af28b543c90c423087ac75edc6edc4cd",
+              "begin": "2017-03-14T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV016",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV016",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "ca2eb3e799a74b24b48e720422c9a9ed",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T09:02:13.255387",
+          "begin": "1990-10-01T05:15:00+00:00",
+          "end": "2026-10-05T08:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Peak discharge, 44,000 cfs, July 10, 1993",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-03-20T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:33:35.0257264Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 44000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#00CCFF",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Highest QM, 37,800 cfs., June 25, 2015",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-09-24T14:08:43.9802104Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 37800
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to USGS level users",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - USGS",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05484000",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "4a2def3c00b8483da70093b6c31428ab",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1941"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -94.1511666666667,
+            41.5904166666667
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "HESS2026_SI"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "05484500",
+    "name": "Raccoon River at Van Meter, IA",
+    "state": "Iowa",
+    "huc": "071000061702",
+    "huc4_group": "0710",
+    "drainage_area_as_reported": 3441.0,
+    "coordinates": [
+      -93.9497777777778,
+      41.5340277777778
+    ],
+    "pilot_development_site": true,
+    "location_metadata": {
+      "id": "USGS-05484500",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "05484500",
+      "monitoring_location_name": "Raccoon River at Van Meter, IA",
+      "district_code": "19",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "19",
+      "state_name": "Iowa",
+      "county_code": "049",
+      "county_name": "Dallas County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "071000061702",
+      "basin_code": null,
+      "altitude": 836.49,
+      "altitude_accuracy": 0.43,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "X",
+      "horizontal_position_method_name": "GNSS2 - Level 1 Quality Survey Grade Global Navigation Satellite System",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 3441.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "WSP 1308: 1927(M). WSP 1438: Drainage area. WSP 1508: 1915(M), 1925(M), 1926, 1933(M), 1939(M), 1947(M), 1949(M).&lt;br /&gt;\nRevisions: Gage datum was revised to 836.49 ft NAVD88 on January 1, 2023, as determined by a GNSS Level II survey. Gage datum was previously published in error as 841.61 ft NGVD29 from levels.",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": "2023-04-19T14:56:21.547000+00:00"
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "643f6fbebc0043698e615c306d657817",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T09:16:57.172113",
+          "begin": "2012-03-02T06:00:00+00:00",
+          "end": "2026-10-05T09:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-03-14T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:35:01.8652956Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-03-14T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:35:01.535588Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 50
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05484500",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.9497777777778,
+            41.5340277777778
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "643f6fbebc0043698e615c306d657817-UV015-201903271230000600",
+              "time_series_id": "643f6fbebc0043698e615c306d657817",
+              "begin": "2019-03-27T12:30:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV015",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV015",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 5 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 5 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "d0b757ceb8b342eb9e724ebe0c288f11",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T09:17:31.912888",
+          "begin": "1986-10-01T05:15:00+00:00",
+          "end": "2026-10-05T09:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Peak discharge, 70,100 cfs, July 10, 1993",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2017-04-05T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-04-30T13:35:22.78063Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 70100
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#00CCFF",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Highest QM, 65,500 cfs., July 10, 1993",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-09-11T18:16:02.8105747Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 65500
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to USGS level users",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - USGS",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05484500",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "88a91c5cf5bc43bb89280658c044001e",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1916"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.9497777777778,
+            41.5340277777778
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "pilot"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "05537980",
+    "name": "DES PLAINES RIVER AT ROUTE 53 AT JOLIET, IL",
+    "state": "Illinois",
+    "huc": "071200040706",
+    "huc4_group": "0712",
+    "drainage_area_as_reported": 1502.0,
+    "coordinates": [
+      -88.0836944444444,
+      41.5364722222222
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-05537980",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "05537980",
+      "monitoring_location_name": "DES PLAINES RIVER AT ROUTE 53 AT JOLIET, IL",
+      "district_code": "17",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "17",
+      "state_name": "Illinois",
+      "county_code": "197",
+      "county_name": "Will County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "071200040706",
+      "basin_code": null,
+      "altitude": -0.28,
+      "altitude_accuracy": 0.01,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "X",
+      "horizontal_position_method_name": "GNSS2 - Level 1 Quality Survey Grade Global Navigation Satellite System",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 1502.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "N",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": null,
+      "revision_created": null,
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "92a5241a94424c5da1ffc24f847f0497",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T04:53:53.829158",
+          "begin": "2017-11-16T19:53:00+00:00",
+          "end": "2026-10-05T04:30:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "very high",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2017-11-27T13:09:50.9158943Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 100
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "very low",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2017-11-27T13:10:47.2000321Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -0.1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05537980",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.0836944444444,
+            41.5364722222222
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "92a5241a94424c5da1ffc24f847f0497-UV016-201809170000000600",
+              "time_series_id": "92a5241a94424c5da1ffc24f847f0497",
+              "begin": "2018-09-17T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV016",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV016",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "7873d14399dd4e9d96f96509a2f5b210",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:55:27.306517",
+          "begin": "2005-02-07T13:30:00+00:00",
+          "end": "2026-10-05T08:30:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Highest QM, 32,000 cfs, May 18, 2020.",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2021-01-11T13:47:24.0883354Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 32000,
+                  "SecondaryReferenceValue": 25000
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to USGS level users",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - USGS",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Peak Discharge, 33,100 cfs, Sept. 14, 2008.",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-10-23T16:19:22.7551703Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 33100,
+                  "SecondaryReferenceValue": 30000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05537980",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "c0302046a9164cb09fec91ca670cae03",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "2005"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.0836944444444,
+            41.5364722222222
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "HESS2026_SI"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "05595000",
+    "name": "KASKASKIA RIVER AT NEW ATHENS, IL",
+    "state": "Illinois",
+    "huc": "071402040906",
+    "huc4_group": "0714",
+    "drainage_area_as_reported": 5189.0,
+    "coordinates": [
+      -89.8883333333333,
+      38.3197222222222
+    ],
+    "pilot_development_site": true,
+    "location_metadata": {
+      "id": "USGS-05595000",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "05595000",
+      "monitoring_location_name": "KASKASKIA RIVER AT NEW ATHENS, IL",
+      "district_code": "17",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "17",
+      "state_name": "Illinois",
+      "county_code": "163",
+      "county_name": "St. Clair County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "071402040906",
+      "basin_code": null,
+      "altitude": 299.54,
+      "altitude_accuracy": 0.02,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "N",
+      "horizontal_position_method_name": "Interpolated from digital map",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 5189.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "N",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "WSP 805: 1935, WSP 1208: 1910-11, 1920. WSP 1508: 1912, 1915-16, 1919, 1921. ",
+      "revision_created": "2017-11-13T06:00:00+00:00",
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "f51caad3dd41403e9bc3bc3d76cb173d",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:24:36.331187",
+          "begin": "2015-09-22T06:00:00+00:00",
+          "end": "2026-10-05T07:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-11-29T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-05-02T02:06:34.3709727Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -0.1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-11-29T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-05-02T02:06:34.2136296Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 50
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05595000",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.8883333333333,
+            38.3197222222222
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "f51caad3dd41403e9bc3bc3d76cb173d-UV016-201809170000000600",
+              "time_series_id": "f51caad3dd41403e9bc3bc3d76cb173d",
+              "begin": "2018-09-17T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV016",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV016",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "1d60b65e8cde4c9a9b66b4615319bd3a",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T10:24:44.981767",
+          "begin": "2009-04-10T06:00:00+00:00",
+          "end": "2026-10-05T10:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Peak Discharge, 55,300 cfs, Jan. 1, 2016.",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-10-23T00:21:47.3739226Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 55300,
+                  "SecondaryReferenceValue": 52000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Highest QM, 53,900 cfs, Dec. 31, 2015.",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-10-23T00:20:54.2188513Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 53900,
+                  "SecondaryReferenceValue": 50000
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to USGS level users",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - USGS",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05595000",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "2009"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.8883333333333,
+            38.3197222222222
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "pilot"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "05599490",
+    "name": "BIG MUDDY RIVER AT RTE 127 AT MURPHYSBORO, IL",
+    "state": "Illinois",
+    "huc": "071401061201",
+    "huc4_group": "0714",
+    "drainage_area_as_reported": 2159.0,
+    "coordinates": [
+      -89.3277777777778,
+      37.7583333333333
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-05599490",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "05599490",
+      "monitoring_location_name": "BIG MUDDY RIVER AT RTE 127 AT MURPHYSBORO, IL",
+      "district_code": "17",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "17",
+      "state_name": "Illinois",
+      "county_code": "077",
+      "county_name": "Jackson County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "071401061201",
+      "basin_code": null,
+      "altitude": 335.06,
+      "altitude_accuracy": 0.04,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "F",
+      "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+      "horizontal_position_method_code": "M",
+      "horizontal_position_method_name": "Interpolated from map",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 2159.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "N",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": "Revisions: Gage datum was updated to 335.06 ft NAVD88 on March 29, 2022, as determined by a GNSS Level II survey. Gage datum was previously published as 335.50 ft NGVD29 from levels.",
+      "revision_created": "2022-05-24T21:49:36.990000+00:00",
+      "revision_modified": "2023-05-24T18:19:42.943000+00:00"
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "b9012ee789df401baae9fc7981b8cd90",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:25:04.833500",
+          "begin": "2015-10-22T06:00:00+00:00",
+          "end": "2026-10-05T08:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-10-25T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-05-02T02:13:10.7700514Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 50
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-10-25T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-05-02T02:13:10.8990501Z",
+                  "SuppressData": true,
+                  "ReferenceValue": -0.1
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05599490",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.3277777777778,
+            37.7583333333333
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "b9012ee789df401baae9fc7981b8cd90-UV016-201809170000000600",
+              "time_series_id": "b9012ee789df401baae9fc7981b8cd90",
+              "begin": "2018-09-17T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV016",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV016",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "d2e71fac7cc54c6b849b58bf54c06dea",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T09:16:23.644032",
+          "begin": "2007-10-01T06:00:00+00:00",
+          "end": "2026-10-05T09:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Highest QM, 37,100 cfs, Apr. 30, 2011.",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-10-22T23:55:40.0077242Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 37100,
+                  "SecondaryReferenceValue": 35000
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to USGS level users",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - USGS",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Peak Discharge, 42,400 cfs, May 2, 2011.",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2019-10-22T23:56:19.3168495Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 42400,
+                  "SecondaryReferenceValue": 40000
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-05599490",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1971"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.3277777777778,
+            37.7583333333333
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "HESS2026_SI"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "06902000",
+    "name": "Grand River near Sumner, MO",
+    "state": "Missouri",
+    "huc": "102801031602",
+    "huc4_group": "1028",
+    "drainage_area_as_reported": 6880.0,
+    "coordinates": [
+      -93.2736944444444,
+      39.6400277777778
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-06902000",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "06902000",
+      "monitoring_location_name": "Grand River near Sumner, MO",
+      "district_code": "29",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "29",
+      "state_name": "Missouri",
+      "county_code": "117",
+      "county_name": "Livingston County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "102801031602",
+      "basin_code": null,
+      "altitude": 631.35,
+      "altitude_accuracy": 0.04,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "5",
+      "horizontal_positional_accuracy": "Accurate to + or - .5 sec (PLGR/PPS GPS).",
+      "horizontal_position_method_code": "N",
+      "horizontal_position_method_name": "Interpolated from digital map",
+      "original_horizontal_datum": "NAD83",
+      "original_horizontal_datum_name": "North American Datum of 1983",
+      "drainage_area": 6880.0,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": null,
+      "revision_created": null,
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "f6f54db6828041fd8e418d5f0d68c48b",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T10:27:35.696132",
+          "begin": "2017-06-28T15:00:00+00:00",
+          "end": "2026-10-05T10:15:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [],
+          "sublocation_identifier": "Nitratax",
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-06902000",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.2736944444444,
+            39.6400277777778
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "f6f54db6828041fd8e418d5f0d68c48b-UV015-000101010000000000",
+              "time_series_id": "f6f54db6828041fd8e418d5f0d68c48b",
+              "begin": "0001-01-01T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV015",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV015",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 5 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 5 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "2036ceba58f84aa9a6662c99ece20fba",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T04:53:50.635294",
+          "begin": "1995-11-11T06:15:00+00:00",
+          "end": "2026-10-05T04:30:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "1DayQ10",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-10-03T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-02-21T15:15:54.4703142Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 48.39
+                }
+              ],
+              "Severity": 0,
+              "Description": "NWISWeb reference line displayed to WSC level users",
+              "DisplayColor": "#00CCFF",
+              "ReferenceCode": "NWISWeb ref level - WSC",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "Minimum discharge",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "Comments": "Filter AVM spikes",
+                  "StartTime": "2018-09-07T00:00:00.0000000-06:00",
+                  "AppliedTime": "2018-09-08T13:27:11.930894Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-06902000",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "245146442f3d4a8b8a5dcbeb1dca58eb",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1925"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.2736944444444,
+            39.6400277777778
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "geographic_extension"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "07144100",
+    "name": "L ARKANSAS R NR SEDGWICK, KS",
+    "state": "Kansas",
+    "huc": "11030012",
+    "huc4_group": "1103",
+    "drainage_area_as_reported": 1239.0,
+    "coordinates": [
+      -97.4244863910926,
+      37.8830673894379
+    ],
+    "pilot_development_site": true,
+    "location_metadata": {
+      "id": "USGS-07144100",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "07144100",
+      "monitoring_location_name": "L ARKANSAS R NR SEDGWICK, KS",
+      "district_code": "20",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "20",
+      "state_name": "Kansas",
+      "county_code": "173",
+      "county_name": "Sedgwick County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "11030012",
+      "basin_code": "07",
+      "altitude": 1340.62,
+      "altitude_accuracy": 0.1,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "M",
+      "horizontal_positional_accuracy": "Accurate to + or - 1 min.",
+      "horizontal_position_method_code": "M",
+      "horizontal_position_method_name": "Interpolated from map",
+      "original_horizontal_datum": "NAD27",
+      "original_horizontal_datum_name": "North American Datum of 1927",
+      "drainage_area": 1239.0,
+      "contributing_drainage_area": 1165.0,
+      "time_zone_abbreviation": "CST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": null,
+      "revision_created": null,
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "91d48bdfd3184b4ebd02daf4d5d85a07",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T09:58:22.615968",
+          "begin": "2012-03-02T15:45:00+00:00",
+          "end": "2026-10-05T09:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-11-07T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-07-16T15:44:45.4221116Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 15
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#FF0000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2016-11-07T00:00:00.0000000-06:00",
+                  "AppliedTime": "2017-07-16T15:44:45.7986608Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#800000",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-07144100",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.4244863910926,
+            37.8830673894379
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "91d48bdfd3184b4ebd02daf4d5d85a07-UV015-201611070000000600",
+              "time_series_id": "91d48bdfd3184b4ebd02daf4d5d85a07",
+              "begin": "2016-11-07T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV015",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV015",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV, HACH Nitratax plus sc, 5 mm",
+              "method_description": "UV absorption, HACH Nitratax plus sc, 5 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "8fc9697214b84dc18a1851f4663147cd",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T10:22:16.550378",
+          "begin": "1993-11-23T06:00:00+00:00",
+          "end": "2026-10-05T10:15:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "Minimum Flow Criteria for Artificial Recharge Withdrawal",
+              "Type": "None",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2019-04-01T00:00:00.0000000-06:00",
+                  "AppliedTime": "2026-06-25T18:47:06.622291Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 100,
+                  "SecondaryReferenceValue": 50
+                },
+                {
+                  "EndTime": "2019-04-01T00:00:00.0000000-06:00",
+                  "Comments": "Oct-Mar (20) Apr-Sept (57)",
+                  "StartTime": "2018-10-01T00:00:00.0000000-06:00",
+                  "AppliedTime": "0001-01-01T00:00:00Z",
+                  "SuppressData": false,
+                  "ReferenceValue": 20,
+                  "SecondaryReferenceValue": 30
+                }
+              ],
+              "Severity": 0,
+              "Description": "Display reference value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "NWISWeb ref level - Public",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-07144100",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "66de7e2c53664e17ba30a7cc0764d378",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1994"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.4244863910926,
+            37.8830673894379
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "pilot"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  },
+  {
+    "site": "12212050",
+    "name": "FISHTRAP CREEK AT FRONT STREET AT LYNDEN, WA",
+    "state": "Washington",
+    "huc": "171100040502",
+    "huc4_group": "1711",
+    "drainage_area_as_reported": 37.8,
+    "coordinates": [
+      -122.47903529503989,
+      48.93868271109531
+    ],
+    "pilot_development_site": false,
+    "location_metadata": {
+      "id": "USGS-12212050",
+      "agency_code": "USGS",
+      "agency_name": "U.S. Geological Survey",
+      "monitoring_location_number": "12212050",
+      "monitoring_location_name": "FISHTRAP CREEK AT FRONT STREET AT LYNDEN, WA",
+      "district_code": "53",
+      "country_code": "US",
+      "country_name": "United States of America",
+      "state_code": "53",
+      "state_name": "Washington",
+      "county_code": "073",
+      "county_name": "Whatcom County",
+      "minor_civil_division_code": null,
+      "site_type_code": "ST",
+      "site_type": "Stream",
+      "hydrologic_unit_code": "171100040502",
+      "basin_code": null,
+      "altitude": 48.93,
+      "altitude_accuracy": 0.1,
+      "altitude_method_code": "X",
+      "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+      "vertical_datum": "NAVD88",
+      "vertical_datum_name": "North American Vertical Datum of 1988",
+      "horizontal_positional_accuracy_code": "S",
+      "horizontal_positional_accuracy": "Accurate to + or - 1 sec.",
+      "horizontal_position_method_code": "M",
+      "horizontal_position_method_name": "Interpolated from map",
+      "original_horizontal_datum": "NAD27",
+      "original_horizontal_datum_name": "North American Datum of 1927",
+      "drainage_area": 37.8,
+      "contributing_drainage_area": null,
+      "time_zone_abbreviation": "PST",
+      "uses_daylight_savings": "Y",
+      "construction_date": null,
+      "aquifer_code": null,
+      "national_aquifer_code": null,
+      "aquifer_type_code": null,
+      "well_constructed_depth": null,
+      "hole_constructed_depth": null,
+      "depth_source_code": null,
+      "revision_note": null,
+      "revision_created": null,
+      "revision_modified": null
+    },
+    "series_metadata": [
+      {
+        "series": {
+          "id": "192cd33d6c2344e581b59840c17973e8",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2019-09-10T01:53:29.758072",
+          "begin": null,
+          "end": null,
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2018-10-30T18:26:25.8211941Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 5
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2018-10-30T18:25:44.0829832Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0.01
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-12212050",
+          "web_description": "Removed on April 4, 2019",
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.47903529503989,
+            48.93868271109531
+          ]
+        },
+        "methods": []
+      },
+      {
+        "series": {
+          "id": "223d67914b394574a609511885a4eb82",
+          "unit_of_measure": "mg/l",
+          "parameter_name": "NO3+NO2,water,insitu as N",
+          "parameter_code": "99133",
+          "statistic_id": "00011",
+          "last_modified": "2024-06-21T17:18:37.350595",
+          "begin": "2018-04-26T23:00:00+00:00",
+          "end": "2024-01-23T23:45:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [
+            {
+              "Name": "VERY LOW",
+              "Type": "ThresholdBelow",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "2020-01-23T00:01:00.0000000-08:00",
+                  "AppliedTime": "2020-02-13T19:36:45.0161803Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0.01
+                },
+                {
+                  "EndTime": "2020-01-23T00:00:00.0000000-08:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2018-07-17T19:24:53.8868948Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 0.01
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            },
+            {
+              "Name": "VERY HIGH",
+              "Type": "ThresholdAbove",
+              "Periods": [
+                {
+                  "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                  "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                  "AppliedTime": "2018-07-17T19:24:37.6150814Z",
+                  "SuppressData": true,
+                  "ReferenceValue": 5
+                }
+              ],
+              "Severity": 0,
+              "Description": "Unspecified threshold value",
+              "DisplayColor": "#990600",
+              "ReferenceCode": "AQUARIUS only",
+              "ProcessingOrder": "Suppression"
+            }
+          ],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-12212050",
+          "web_description": null,
+          "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+          "parent_time_series_id": null,
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.47903529503989,
+            48.93868271109531
+          ]
+        },
+        "methods": [
+          {
+            "interval": {
+              "id": "223d67914b394574a609511885a4eb82-UV012-000101010000000000",
+              "time_series_id": "223d67914b394574a609511885a4eb82",
+              "begin": "0001-01-01T00:00:00+00:00",
+              "end": "9999-12-31T23:59:59.999999+00:00",
+              "method_id": "UV012",
+              "method_category": "STNRD"
+            },
+            "definition": {
+              "id": "UV012",
+              "method_type": "QW",
+              "method_category": "STNRD",
+              "method_name": "UV absorb, Satlantic SUNA, 10 mm",
+              "method_description": "UV absorption, Satlantic SUNA, 10 mm path length"
+            }
+          }
+        ]
+      },
+      {
+        "series": {
+          "id": "50d8f7a5d3ab4beca566b752917af96b",
+          "unit_of_measure": "ft^3/s",
+          "parameter_name": "Discharge",
+          "parameter_code": "00060",
+          "statistic_id": "00011",
+          "last_modified": "2026-10-05T08:21:07.499725",
+          "begin": "1998-12-03T08:00:00+00:00",
+          "end": "2026-10-05T08:00:00+00:00",
+          "computation_period_identifier": "Points",
+          "computation_identifier": "Instantaneous",
+          "thresholds": [],
+          "sublocation_identifier": null,
+          "primary": "Primary",
+          "monitoring_location_id": "USGS-12212050",
+          "web_description": null,
+          "parameter_description": "Discharge, cubic feet per second",
+          "parent_time_series_id": "f3e095ef02e74603b92ef4792ffa89de",
+          "data_gap_interval": "PT1H12M",
+          "statistics_begin": "1999"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.47903529503989,
+            48.93868271109531
+          ]
+        },
+        "methods": []
+      }
+    ],
+    "candidate_provenance": [
+      "geographic_extension"
+    ],
+    "discovery_manifest": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_discovery_20261005T151452620286Z.json"
+  }
+]

@@ -1,0 +1,8 @@
+stage,experiment,scenario,reconstructor,delay_hours,budget,reconstructor_family,half_life_hours,age_origin,policy,absolute_valid_window_bias,hourly_load_normalized_absolute_error,concentration_mae_mg_l,hour_coverage
+temporal,mechanisms,delay_aware_omit_pending,latest_residual_tau168_arrival,72,96,none,none,none,value,0.08045328892554938,0.2532029430319748,0.7541109073519964,0.7478222690551457
+temporal,mechanisms,delay_aware_pending,latest_residual_tau168_arrival,24,96,none,none,none,value,0.06490375444948619,0.22315179508243024,0.6477827786784986,0.7478222690551457
+temporal,mechanisms,delay_aware_pending,latest_residual_tau168_arrival,72,96,none,none,none,value,0.08061621017691192,0.25323692378408436,0.7545865981791757,0.7478222690551457
+temporal,mechanisms,delay_zero_pending,latest_residual_tau168_arrival,24,96,none,none,none,value,0.06425085214380283,0.22156125032574042,0.6473395157542374,0.7478222690551457
+temporal,mechanisms,delay_zero_pending,latest_residual_tau168_arrival,72,96,none,none,none,value,0.08151138119468745,0.25492803717504225,0.7561715614629881,0.7478222690551457
+temporal,mechanisms,historical_only,historical_forest,24,0,none,none,none,no_new_labels,0.16879318743540733,0.3177344405680311,1.1936395399452968,0.7478222690551457
+temporal,mechanisms,historical_only,historical_forest,72,0,none,none,none,no_new_labels,0.16879318743540733,0.3177344405680311,1.1936395399452968,0.7478222690551457

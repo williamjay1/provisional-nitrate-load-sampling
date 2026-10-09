@@ -1,0 +1,20 @@
+{
+  "analysis_identity": "post_review_descriptive_diagnostics_20261009",
+  "history_seed": 41,
+  "residual_lags_hours": [
+    6,
+    24,
+    72,
+    168
+  ],
+  "no_target_labels_in_history_forward_fit": true,
+  "case_rule": "Among temporal run eligible events at budget96 seed41 online, rank abs(value RE)-abs(flow RE); show minimum, maximum and nearest median, ties by site/year/event. Cases are illustrative extrema, not independent confirmation.",
+  "case_run": "temporal_main_v1",
+  "case_budget": 96,
+  "do_not_interpret_as": [
+    "unavoidable error lower bounds",
+    "unobserved total transport",
+    "causal environmental change",
+    "independent river replications"
+  ]
+}

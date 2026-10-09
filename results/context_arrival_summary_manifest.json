@@ -1,0 +1,22 @@
+{
+  "source_sha256": "7b9283acd556ad9dfe823b9d0fc7787d5874d6ffa066485afe98463c9b2df773",
+  "script_sha256": "ff4744dd35277e19094013f44d3cc13f4d27aa7a921eb0f2a135d154d8be924c",
+  "primary_aggregation": "Seed means within each event; event means within station-year; available-year means within station; equal station mean.",
+  "event_scatter": "Use context_arrival_event_seedmeans.csv, one row per physical event/policy/budget, not the seed-repeated raw table.",
+  "no_arrival": "This value is a fraction of seeds at an event after averaging, not a binary event label. No new result during event does not mean no earlier useful result.",
+  "scope": "Descriptive temporal revised replay. No new tests, p-values, CIs, or grouping.",
+  "outputs": {
+    "context_arrival_event_seedmeans.csv": {
+      "sha256": "6cca8395c59c6a1a02a31665ccbbcc77e6ed84e7a2c3448d83b6d0403dd6c8d4",
+      "rows": 552
+    },
+    "context_arrival_station_means.csv": {
+      "sha256": "05e262d25776fa43d263e8464345998b1275071b7be240164ececea4ceafb740",
+      "rows": 108
+    },
+    "context_arrival_summary.csv": {
+      "sha256": "0f2eeae86873941278fa6dcbdb92cf8513a171a8cbf97366bec1423ffeb09633",
+      "rows": 12
+    }
+  }
+}

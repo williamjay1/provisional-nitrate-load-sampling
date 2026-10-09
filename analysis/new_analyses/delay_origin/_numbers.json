@@ -1,0 +1,16 @@
+{
+  "primary_minimum_events": 1,
+  "calendar_count": 3,
+  "station_count": 9,
+  "station_year_count": 9,
+  "cells": 18,
+  "level_mean_error_min": 0.14418426604638687,
+  "level_mean_error_max": 0.2481032102812426,
+  "origin_contrasts_total": 9,
+  "origin_contrasts_ci_excluding_zero": 2,
+  "delay_contrasts_total": 18,
+  "delay_contrasts_ci_excluding_zero": 16,
+  "origin_mean_difference_abs_max": 0.009227554765978844,
+  "delay_mean_difference_abs_max": 0.08673440043364886,
+  "minimum_events_3_levels": 18
+}

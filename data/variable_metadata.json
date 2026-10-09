@@ -1,0 +1,7024 @@
+[
+  {
+    "site": "05484500",
+    "year": 2021,
+    "source": {
+      "siteName": "Raccoon River at Van Meter, IA",
+      "siteCode": [
+        {
+          "value": "05484500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.53402778,
+          "longitude": -93.9497778
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100006",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19049",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44297
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05484500",
+    "year": 2021,
+    "source": {
+      "siteName": "Raccoon River at Van Meter, IA",
+      "siteCode": [
+        {
+          "value": "05484500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.53402778,
+          "longitude": -93.9497778
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100006",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19049",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44302
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05484500",
+    "year": 2022,
+    "source": {
+      "siteName": "Raccoon River at Van Meter, IA",
+      "siteCode": [
+        {
+          "value": "05484500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.53402778,
+          "longitude": -93.9497778
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100006",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19049",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44297
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05484500",
+    "year": 2022,
+    "source": {
+      "siteName": "Raccoon River at Van Meter, IA",
+      "siteCode": [
+        {
+          "value": "05484500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.53402778,
+          "longitude": -93.9497778
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100006",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19049",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44302
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05484500",
+    "year": 2023,
+    "source": {
+      "siteName": "Raccoon River at Van Meter, IA",
+      "siteCode": [
+        {
+          "value": "05484500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.53402778,
+          "longitude": -93.9497778
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100006",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19049",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44297
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05484500",
+    "year": 2023,
+    "source": {
+      "siteName": "Raccoon River at Van Meter, IA",
+      "siteCode": [
+        {
+          "value": "05484500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.53402778,
+          "longitude": -93.9497778
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100006",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19049",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44302
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05484500",
+    "year": 2024,
+    "source": {
+      "siteName": "Raccoon River at Van Meter, IA",
+      "siteCode": [
+        {
+          "value": "05484500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.53402778,
+          "longitude": -93.9497778
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100006",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19049",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44297
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05484500",
+    "year": 2024,
+    "source": {
+      "siteName": "Raccoon River at Van Meter, IA",
+      "siteCode": [
+        {
+          "value": "05484500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.53402778,
+          "longitude": -93.9497778
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100006",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19049",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44302
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05465500",
+    "year": 2021,
+    "source": {
+      "siteName": "Iowa River at Wapello, IA",
+      "siteCode": [
+        {
+          "value": "05465500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.1780861,
+          "longitude": -91.1820917
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07080209",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19115",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44057
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05465500",
+    "year": 2021,
+    "source": {
+      "siteName": "Iowa River at Wapello, IA",
+      "siteCode": [
+        {
+          "value": "05465500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.1780861,
+          "longitude": -91.1820917
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07080209",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19115",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44062
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05465500",
+    "year": 2022,
+    "source": {
+      "siteName": "Iowa River at Wapello, IA",
+      "siteCode": [
+        {
+          "value": "05465500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.1780861,
+          "longitude": -91.1820917
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07080209",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19115",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44057
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05465500",
+    "year": 2022,
+    "source": {
+      "siteName": "Iowa River at Wapello, IA",
+      "siteCode": [
+        {
+          "value": "05465500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.1780861,
+          "longitude": -91.1820917
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07080209",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19115",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44062
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05465500",
+    "year": 2023,
+    "source": {
+      "siteName": "Iowa River at Wapello, IA",
+      "siteCode": [
+        {
+          "value": "05465500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.1780861,
+          "longitude": -91.1820917
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07080209",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19115",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44057
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05465500",
+    "year": 2023,
+    "source": {
+      "siteName": "Iowa River at Wapello, IA",
+      "siteCode": [
+        {
+          "value": "05465500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.1780861,
+          "longitude": -91.1820917
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07080209",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19115",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44062
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05465500",
+    "year": 2024,
+    "source": {
+      "siteName": "Iowa River at Wapello, IA",
+      "siteCode": [
+        {
+          "value": "05465500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.1780861,
+          "longitude": -91.1820917
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07080209",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19115",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44057
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05465500",
+    "year": 2024,
+    "source": {
+      "siteName": "Iowa River at Wapello, IA",
+      "siteCode": [
+        {
+          "value": "05465500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.1780861,
+          "longitude": -91.1820917
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07080209",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19115",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44062
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05482000",
+    "year": 2021,
+    "source": {
+      "siteName": "Des Moines River at 2nd Avenue at Des Moines, IA",
+      "siteCode": [
+        {
+          "value": "05482000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.61194444,
+          "longitude": -93.6197222
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100004",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19153",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44234
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05482000",
+    "year": 2021,
+    "source": {
+      "siteName": "Des Moines River at 2nd Avenue at Des Moines, IA",
+      "siteCode": [
+        {
+          "value": "05482000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.61194444,
+          "longitude": -93.6197222
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100004",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19153",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44240
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05482000",
+    "year": 2022,
+    "source": {
+      "siteName": "Des Moines River at 2nd Avenue at Des Moines, IA",
+      "siteCode": [
+        {
+          "value": "05482000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.61194444,
+          "longitude": -93.6197222
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100004",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19153",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44234
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05482000",
+    "year": 2022,
+    "source": {
+      "siteName": "Des Moines River at 2nd Avenue at Des Moines, IA",
+      "siteCode": [
+        {
+          "value": "05482000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.61194444,
+          "longitude": -93.6197222
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100004",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19153",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44240
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05482000",
+    "year": 2023,
+    "source": {
+      "siteName": "Des Moines River at 2nd Avenue at Des Moines, IA",
+      "siteCode": [
+        {
+          "value": "05482000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.61194444,
+          "longitude": -93.6197222
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100004",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19153",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44234
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05482000",
+    "year": 2023,
+    "source": {
+      "siteName": "Des Moines River at 2nd Avenue at Des Moines, IA",
+      "siteCode": [
+        {
+          "value": "05482000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.61194444,
+          "longitude": -93.6197222
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100004",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19153",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44240
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05482000",
+    "year": 2024,
+    "source": {
+      "siteName": "Des Moines River at 2nd Avenue at Des Moines, IA",
+      "siteCode": [
+        {
+          "value": "05482000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.61194444,
+          "longitude": -93.6197222
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100004",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19153",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44234
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05482000",
+    "year": 2024,
+    "source": {
+      "siteName": "Des Moines River at 2nd Avenue at Des Moines, IA",
+      "siteCode": [
+        {
+          "value": "05482000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.61194444,
+          "longitude": -93.6197222
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07100004",
+          "name": "hucCd"
+        },
+        {
+          "value": "19",
+          "name": "stateCd"
+        },
+        {
+          "value": "19153",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 44240
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03374100",
+    "year": 2021,
+    "source": {
+      "siteName": "WHITE RIVER AT HAZLETON, IN",
+      "siteCode": [
+        {
+          "value": "03374100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "EST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-04:00",
+          "zoneAbbreviation": "EDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.4897748,
+          "longitude": -87.5500132
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120202",
+          "name": "hucCd"
+        },
+        {
+          "value": "18",
+          "name": "stateCd"
+        },
+        {
+          "value": "18051",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 53830
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03374100",
+    "year": 2021,
+    "source": {
+      "siteName": "WHITE RIVER AT HAZLETON, IN",
+      "siteCode": [
+        {
+          "value": "03374100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "EST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-04:00",
+          "zoneAbbreviation": "EDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.4897748,
+          "longitude": -87.5500132
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120202",
+          "name": "hucCd"
+        },
+        {
+          "value": "18",
+          "name": "stateCd"
+        },
+        {
+          "value": "18051",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "R",
+            "qualifierDescription": "Records for these data have been revised.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 356488
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03374100",
+    "year": 2022,
+    "source": {
+      "siteName": "WHITE RIVER AT HAZLETON, IN",
+      "siteCode": [
+        {
+          "value": "03374100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "EST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-04:00",
+          "zoneAbbreviation": "EDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.4897748,
+          "longitude": -87.5500132
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120202",
+          "name": "hucCd"
+        },
+        {
+          "value": "18",
+          "name": "stateCd"
+        },
+        {
+          "value": "18051",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 53830
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03374100",
+    "year": 2022,
+    "source": {
+      "siteName": "WHITE RIVER AT HAZLETON, IN",
+      "siteCode": [
+        {
+          "value": "03374100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "EST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-04:00",
+          "zoneAbbreviation": "EDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.4897748,
+          "longitude": -87.5500132
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120202",
+          "name": "hucCd"
+        },
+        {
+          "value": "18",
+          "name": "stateCd"
+        },
+        {
+          "value": "18051",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 356488
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03374100",
+    "year": 2023,
+    "source": {
+      "siteName": "WHITE RIVER AT HAZLETON, IN",
+      "siteCode": [
+        {
+          "value": "03374100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "EST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-04:00",
+          "zoneAbbreviation": "EDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.4897748,
+          "longitude": -87.5500132
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120202",
+          "name": "hucCd"
+        },
+        {
+          "value": "18",
+          "name": "stateCd"
+        },
+        {
+          "value": "18051",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 53830
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03374100",
+    "year": 2023,
+    "source": {
+      "siteName": "WHITE RIVER AT HAZLETON, IN",
+      "siteCode": [
+        {
+          "value": "03374100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "EST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-04:00",
+          "zoneAbbreviation": "EDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.4897748,
+          "longitude": -87.5500132
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120202",
+          "name": "hucCd"
+        },
+        {
+          "value": "18",
+          "name": "stateCd"
+        },
+        {
+          "value": "18051",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 356488
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03374100",
+    "year": 2024,
+    "source": {
+      "siteName": "WHITE RIVER AT HAZLETON, IN",
+      "siteCode": [
+        {
+          "value": "03374100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "EST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-04:00",
+          "zoneAbbreviation": "EDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.4897748,
+          "longitude": -87.5500132
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120202",
+          "name": "hucCd"
+        },
+        {
+          "value": "18",
+          "name": "stateCd"
+        },
+        {
+          "value": "18051",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 53830
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03374100",
+    "year": 2024,
+    "source": {
+      "siteName": "WHITE RIVER AT HAZLETON, IN",
+      "siteCode": [
+        {
+          "value": "03374100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "EST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-04:00",
+          "zoneAbbreviation": "EDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.4897748,
+          "longitude": -87.5500132
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120202",
+          "name": "hucCd"
+        },
+        {
+          "value": "18",
+          "name": "stateCd"
+        },
+        {
+          "value": "18051",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 356488
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05447500",
+    "year": 2021,
+    "source": {
+      "siteName": "GREEN RIVER NEAR GENESEO, IL",
+      "siteCode": [
+        {
+          "value": "05447500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.4889333,
+          "longitude": -90.1580083
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07090007",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17073",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50232
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05447500",
+    "year": 2021,
+    "source": {
+      "siteName": "GREEN RIVER NEAR GENESEO, IL",
+      "siteCode": [
+        {
+          "value": "05447500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.4889333,
+          "longitude": -90.1580083
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07090007",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17073",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50237
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05447500",
+    "year": 2022,
+    "source": {
+      "siteName": "GREEN RIVER NEAR GENESEO, IL",
+      "siteCode": [
+        {
+          "value": "05447500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.4889333,
+          "longitude": -90.1580083
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07090007",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17073",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50232
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05447500",
+    "year": 2022,
+    "source": {
+      "siteName": "GREEN RIVER NEAR GENESEO, IL",
+      "siteCode": [
+        {
+          "value": "05447500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.4889333,
+          "longitude": -90.1580083
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07090007",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17073",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50237
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05447500",
+    "year": 2023,
+    "source": {
+      "siteName": "GREEN RIVER NEAR GENESEO, IL",
+      "siteCode": [
+        {
+          "value": "05447500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.4889333,
+          "longitude": -90.1580083
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07090007",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17073",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50232
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05447500",
+    "year": 2023,
+    "source": {
+      "siteName": "GREEN RIVER NEAR GENESEO, IL",
+      "siteCode": [
+        {
+          "value": "05447500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.4889333,
+          "longitude": -90.1580083
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07090007",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17073",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50237
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05447500",
+    "year": 2024,
+    "source": {
+      "siteName": "GREEN RIVER NEAR GENESEO, IL",
+      "siteCode": [
+        {
+          "value": "05447500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.4889333,
+          "longitude": -90.1580083
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07090007",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17073",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50232
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05447500",
+    "year": 2024,
+    "source": {
+      "siteName": "GREEN RIVER NEAR GENESEO, IL",
+      "siteCode": [
+        {
+          "value": "05447500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 41.4889333,
+          "longitude": -90.1580083
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07090007",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17073",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50237
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05595000",
+    "year": 2021,
+    "source": {
+      "siteName": "KASKASKIA RIVER AT NEW ATHENS, IL",
+      "siteCode": [
+        {
+          "value": "05595000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.3197222,
+          "longitude": -89.8883333
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07140204",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17163",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50998
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05595000",
+    "year": 2021,
+    "source": {
+      "siteName": "KASKASKIA RIVER AT NEW ATHENS, IL",
+      "siteCode": [
+        {
+          "value": "05595000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.3197222,
+          "longitude": -89.8883333
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07140204",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17163",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 51009
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05595000",
+    "year": 2022,
+    "source": {
+      "siteName": "KASKASKIA RIVER AT NEW ATHENS, IL",
+      "siteCode": [
+        {
+          "value": "05595000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.3197222,
+          "longitude": -89.8883333
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07140204",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17163",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50998
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05595000",
+    "year": 2022,
+    "source": {
+      "siteName": "KASKASKIA RIVER AT NEW ATHENS, IL",
+      "siteCode": [
+        {
+          "value": "05595000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.3197222,
+          "longitude": -89.8883333
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07140204",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17163",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 51009
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05595000",
+    "year": 2023,
+    "source": {
+      "siteName": "KASKASKIA RIVER AT NEW ATHENS, IL",
+      "siteCode": [
+        {
+          "value": "05595000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.3197222,
+          "longitude": -89.8883333
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07140204",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17163",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50998
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05595000",
+    "year": 2023,
+    "source": {
+      "siteName": "KASKASKIA RIVER AT NEW ATHENS, IL",
+      "siteCode": [
+        {
+          "value": "05595000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.3197222,
+          "longitude": -89.8883333
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07140204",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17163",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 51009
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05595000",
+    "year": 2024,
+    "source": {
+      "siteName": "KASKASKIA RIVER AT NEW ATHENS, IL",
+      "siteCode": [
+        {
+          "value": "05595000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.3197222,
+          "longitude": -89.8883333
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07140204",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17163",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 50998
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "05595000",
+    "year": 2024,
+    "source": {
+      "siteName": "KASKASKIA RIVER AT NEW ATHENS, IL",
+      "siteCode": [
+        {
+          "value": "05595000",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.3197222,
+          "longitude": -89.8883333
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "07140204",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17163",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 51009
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03346500",
+    "year": 2021,
+    "source": {
+      "siteName": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+      "siteCode": [
+        {
+          "value": "03346500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.72380556,
+          "longitude": -87.6643611
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120112",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17101",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 49990
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03346500",
+    "year": 2021,
+    "source": {
+      "siteName": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+      "siteCode": [
+        {
+          "value": "03346500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.72380556,
+          "longitude": -87.6643611
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120112",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17101",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 49998
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03346500",
+    "year": 2022,
+    "source": {
+      "siteName": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+      "siteCode": [
+        {
+          "value": "03346500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.72380556,
+          "longitude": -87.6643611
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120112",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17101",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 49990
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03346500",
+    "year": 2022,
+    "source": {
+      "siteName": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+      "siteCode": [
+        {
+          "value": "03346500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.72380556,
+          "longitude": -87.6643611
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120112",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17101",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 49998
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03346500",
+    "year": 2023,
+    "source": {
+      "siteName": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+      "siteCode": [
+        {
+          "value": "03346500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.72380556,
+          "longitude": -87.6643611
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120112",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17101",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 49990
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03346500",
+    "year": 2023,
+    "source": {
+      "siteName": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+      "siteCode": [
+        {
+          "value": "03346500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.72380556,
+          "longitude": -87.6643611
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120112",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17101",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 49998
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03346500",
+    "year": 2024,
+    "source": {
+      "siteName": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+      "siteCode": [
+        {
+          "value": "03346500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.72380556,
+          "longitude": -87.6643611
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120112",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17101",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 49990
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "03346500",
+    "year": 2024,
+    "source": {
+      "siteName": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+      "siteCode": [
+        {
+          "value": "03346500",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": false
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 38.72380556,
+          "longitude": -87.6643611
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "05120112",
+          "name": "hucCd"
+        },
+        {
+          "value": "17",
+          "name": "stateCd"
+        },
+        {
+          "value": "17101",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 49998
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "07144100",
+    "year": 2021,
+    "source": {
+      "siteName": "L ARKANSAS R NR SEDGWICK, KS",
+      "siteCode": [
+        {
+          "value": "07144100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 37.88306739,
+          "longitude": -97.4244864
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "11030012",
+          "name": "hucCd"
+        },
+        {
+          "value": "20",
+          "name": "stateCd"
+        },
+        {
+          "value": "20173",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 57466
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "07144100",
+    "year": 2021,
+    "source": {
+      "siteName": "L ARKANSAS R NR SEDGWICK, KS",
+      "siteCode": [
+        {
+          "value": "07144100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 37.88306739,
+          "longitude": -97.4244864
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "11030012",
+          "name": "hucCd"
+        },
+        {
+          "value": "20",
+          "name": "stateCd"
+        },
+        {
+          "value": "20173",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "<",
+            "qualifierDescription": "Actual value is known to be less than reported value.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "[(3)]",
+            "methodID": 57493
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "07144100",
+    "year": 2022,
+    "source": {
+      "siteName": "L ARKANSAS R NR SEDGWICK, KS",
+      "siteCode": [
+        {
+          "value": "07144100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 37.88306739,
+          "longitude": -97.4244864
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "11030012",
+          "name": "hucCd"
+        },
+        {
+          "value": "20",
+          "name": "stateCd"
+        },
+        {
+          "value": "20173",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 57466
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "07144100",
+    "year": 2022,
+    "source": {
+      "siteName": "L ARKANSAS R NR SEDGWICK, KS",
+      "siteCode": [
+        {
+          "value": "07144100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 37.88306739,
+          "longitude": -97.4244864
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "11030012",
+          "name": "hucCd"
+        },
+        {
+          "value": "20",
+          "name": "stateCd"
+        },
+        {
+          "value": "20173",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "<",
+            "qualifierDescription": "Actual value is known to be less than reported value.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "[(3)]",
+            "methodID": 57493
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "07144100",
+    "year": 2023,
+    "source": {
+      "siteName": "L ARKANSAS R NR SEDGWICK, KS",
+      "siteCode": [
+        {
+          "value": "07144100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 37.88306739,
+          "longitude": -97.4244864
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "11030012",
+          "name": "hucCd"
+        },
+        {
+          "value": "20",
+          "name": "stateCd"
+        },
+        {
+          "value": "20173",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 57466
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "07144100",
+    "year": 2023,
+    "source": {
+      "siteName": "L ARKANSAS R NR SEDGWICK, KS",
+      "siteCode": [
+        {
+          "value": "07144100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 37.88306739,
+          "longitude": -97.4244864
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "11030012",
+          "name": "hucCd"
+        },
+        {
+          "value": "20",
+          "name": "stateCd"
+        },
+        {
+          "value": "20173",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "<",
+            "qualifierDescription": "Actual value is known to be less than reported value.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "[(3)]",
+            "methodID": 57493
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "07144100",
+    "year": 2024,
+    "source": {
+      "siteName": "L ARKANSAS R NR SEDGWICK, KS",
+      "siteCode": [
+        {
+          "value": "07144100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 37.88306739,
+          "longitude": -97.4244864
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "11030012",
+          "name": "hucCd"
+        },
+        {
+          "value": "20",
+          "name": "stateCd"
+        },
+        {
+          "value": "20173",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "00060",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 45807197,
+          "default": true
+        }
+      ],
+      "variableName": "Streamflow, ft&#179;/s",
+      "variableDescription": "Discharge, cubic feet per second",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "ft3/s"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "45807197"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "e",
+            "qualifierDescription": "Value has been estimated.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "",
+            "methodID": 57466
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  },
+  {
+    "site": "07144100",
+    "year": 2024,
+    "source": {
+      "siteName": "L ARKANSAS R NR SEDGWICK, KS",
+      "siteCode": [
+        {
+          "value": "07144100",
+          "network": "NWIS",
+          "agencyCode": "USGS"
+        }
+      ],
+      "timeZoneInfo": {
+        "defaultTimeZone": {
+          "zoneOffset": "-06:00",
+          "zoneAbbreviation": "CST"
+        },
+        "daylightSavingsTimeZone": {
+          "zoneOffset": "-05:00",
+          "zoneAbbreviation": "CDT"
+        },
+        "siteUsesDaylightSavingsTime": true
+      },
+      "geoLocation": {
+        "geogLocation": {
+          "srs": "EPSG:4326",
+          "latitude": 37.88306739,
+          "longitude": -97.4244864
+        },
+        "localSiteXY": []
+      },
+      "note": [],
+      "siteType": [],
+      "siteProperty": [
+        {
+          "value": "ST",
+          "name": "siteTypeCd"
+        },
+        {
+          "value": "11030012",
+          "name": "hucCd"
+        },
+        {
+          "value": "20",
+          "name": "stateCd"
+        },
+        {
+          "value": "20173",
+          "name": "countyCd"
+        }
+      ]
+    },
+    "variable": {
+      "variableCode": [
+        {
+          "value": "99133",
+          "network": "NWIS",
+          "vocabulary": "NWIS:UnitValues",
+          "variableID": 54387876,
+          "default": true
+        }
+      ],
+      "variableName": "Nitrate plus nitrite, water, in situ, mg/L as N",
+      "variableDescription": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+      "valueType": "Derived Value",
+      "unit": {
+        "unitCode": "mg/l as N"
+      },
+      "options": {
+        "option": [
+          {
+            "name": "Statistic",
+            "optionCode": "00000"
+          }
+        ]
+      },
+      "note": [],
+      "noDataValue": -999999.0,
+      "variableProperty": [],
+      "oid": "54387876"
+    },
+    "value_metadata": [
+      {
+        "qualifier": [
+          {
+            "qualifierCode": "<",
+            "qualifierDescription": "Actual value is known to be less than reported value.",
+            "qualifierID": 0,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          },
+          {
+            "qualifierCode": "A",
+            "qualifierDescription": "Approved for publication -- Processing and review completed.",
+            "qualifierID": 1,
+            "network": "NWIS",
+            "vocabulary": "uv_rmk_cd"
+          }
+        ],
+        "qualityControlLevel": [],
+        "method": [
+          {
+            "methodDescription": "[(3)]",
+            "methodID": 57493
+          }
+        ],
+        "source": [],
+        "offset": [],
+        "sample": [],
+        "censorCode": []
+      }
+    ]
+  }
+]

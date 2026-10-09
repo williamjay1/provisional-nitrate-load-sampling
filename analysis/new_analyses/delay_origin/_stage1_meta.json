@@ -1,0 +1,72 @@
+{
+  "started_at_utc": "2026-10-09T06:43:08.430019+00:00",
+  "completed_at_utc": "2026-10-09T06:43:43.547781+00:00",
+  "elapsed_seconds": 35.11763220001012,
+  "archive": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\revision_20261009\\results\\experiments_main_temporal_v1",
+  "context_cache": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64",
+  "data_sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905",
+  "code_sha256": {
+    "scripts/paper_context.py": {
+      "sha256": "14804504c05fdb18b256711d74ef4a817cbd9df4a77bab0fbd16a788bc691cb0",
+      "matches_archived_manifest": null
+    },
+    "scripts/replay.py": {
+      "sha256": "56be2ad9c7680d882b4e2661c8eb5c0a3d8f67c48393dd2bd93d283a6538a314",
+      "matches_archived_manifest": null
+    },
+    "scripts/paper_metrics.py": {
+      "sha256": "32c381af8b3481f5aca7a9f73a8ce6af770eed4c090f158e857ca54f8986aaf6",
+      "matches_archived_manifest": null
+    },
+    "scripts/value_sampling.py": {
+      "sha256": "f4a508ba2ec77102d06d4615eb027e4ceb4a0c7c1bbf27a20ff683b052039e1b",
+      "matches_archived_manifest": null
+    },
+    "revision_20261009/scripts/revision_state.py": {
+      "sha256": "c0c4b920dcd5e002d997e5aee42ff5d67fd16e91a50c045f51668e910a67504f",
+      "matches_archived_manifest": null
+    }
+  },
+  "input_sha256": {
+    "revision_20261009/results/experiments_main_temporal_v1/attempts.csv": {
+      "sha256": "9025860abb39607ec1b1f5af9ce5e078dfc96dd03aa4553eb91ec10ad9aa9b52",
+      "bytes": 7818913,
+      "exists": true
+    },
+    "revision_20261009/results/experiments_main_temporal_v1/metrics.csv": {
+      "sha256": "75a903aae0f8deaf7b68980216a0c9b8500f275e5b1b01fe61b1cb3a942a4505",
+      "bytes": 173602,
+      "exists": true
+    },
+    "revision_20261009/results/experiments_main_temporal_v1/events.csv": {
+      "sha256": "624c7bdc58349221609ec1f6a163cdd72e997c38f7a728fbf973e9ebe5d4bc79",
+      "bytes": 1638594,
+      "exists": true
+    },
+    "revision_20261009/results/experiments_main_temporal_v1/run_manifest.json": {
+      "sha256": "55dcc703377a706dea751b4a29d78bd7fe2aee418c6dfe8a7add0dd1173700f0",
+      "bytes": 1883,
+      "exists": true
+    },
+    "datasets/extended_hourly_2019_2025_v1.parquet": {
+      "sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905",
+      "bytes": 27703115,
+      "exists": true
+    }
+  },
+  "calendars": 117,
+  "result_rows": 702,
+  "endpoint_validation": {
+    "calendars_checked": 117,
+    "endpoint_max_absolute_difference": 9.71445146547012e-17,
+    "all_event_counts_match": true,
+    "all_endpoints_match_archive": true,
+    "max_reference_mass_difference_kg": 4.656612873077393e-10,
+    "max_predicted_mass_difference_kg": 9.313225746154785e-10,
+    "events_compared": 414
+  },
+  "outputs": {
+    "results.csv": "51961e9ddaa6c4ad04f445b49d87a7ba771327618671f5f72d1066bfbf75d590",
+    "validation_against_archive.csv": "bfa95b2aa3afd8e7c9cd81dae1f3613be44b6896d6d5c12854c6f305d7929092"
+  }
+}

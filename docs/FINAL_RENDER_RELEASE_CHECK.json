@@ -1,0 +1,227 @@
+{
+  "v5_pages": 36,
+  "v6_pages": 36,
+  "changed_pages": [
+    22
+  ],
+  "change": "Wagner 2006 author suffix corrected from Jr., R. W. B. to Boulger, R. W., Jr.; no numerical or scientific text changes",
+  "final_word_sha256": "1c25b678cb115902cd7fbe8c9826e1e1371a5f0a9e6b6066e452d389cf339d0e",
+  "pages": [
+    {
+      "page": 1,
+      "before_sha256": "301c43535756c597d6c1f4fbbfcfa5d2417ea896a79dfbb5d0d71c6c585fd0b9",
+      "after_sha256": "301c43535756c597d6c1f4fbbfcfa5d2417ea896a79dfbb5d0d71c6c585fd0b9",
+      "identical": true
+    },
+    {
+      "page": 10,
+      "before_sha256": "0e63041ca4f48630af497727742e45bfd6f50ff507b280daaca1687c7b9e4c51",
+      "after_sha256": "0e63041ca4f48630af497727742e45bfd6f50ff507b280daaca1687c7b9e4c51",
+      "identical": true
+    },
+    {
+      "page": 11,
+      "before_sha256": "a1c606427381965f67444085131c15b0c68f9887d93b8704e5f3401ce27f3afc",
+      "after_sha256": "a1c606427381965f67444085131c15b0c68f9887d93b8704e5f3401ce27f3afc",
+      "identical": true
+    },
+    {
+      "page": 12,
+      "before_sha256": "786c092d5dd575a3128abe1fcd01249991d331351c332b336d157fdf64e9d6a8",
+      "after_sha256": "786c092d5dd575a3128abe1fcd01249991d331351c332b336d157fdf64e9d6a8",
+      "identical": true
+    },
+    {
+      "page": 13,
+      "before_sha256": "db3b85a9a2eebfae889764ad09335df53a5710f3b8b3232d66dbcad57adfb60f",
+      "after_sha256": "db3b85a9a2eebfae889764ad09335df53a5710f3b8b3232d66dbcad57adfb60f",
+      "identical": true
+    },
+    {
+      "page": 14,
+      "before_sha256": "b664b85e5591bf2d4c49371ff733654944489974c5a18c32fbc477154ae6b0f4",
+      "after_sha256": "b664b85e5591bf2d4c49371ff733654944489974c5a18c32fbc477154ae6b0f4",
+      "identical": true
+    },
+    {
+      "page": 15,
+      "before_sha256": "00bcdfa31389d9e409b7e2f431e83274827702e4e2b493af13ab20084be7f8bc",
+      "after_sha256": "00bcdfa31389d9e409b7e2f431e83274827702e4e2b493af13ab20084be7f8bc",
+      "identical": true
+    },
+    {
+      "page": 16,
+      "before_sha256": "56c329ac02b265f9c9cd3a2a6ae40611264782a8e2e5bba878ac86c0fe6c68fb",
+      "after_sha256": "56c329ac02b265f9c9cd3a2a6ae40611264782a8e2e5bba878ac86c0fe6c68fb",
+      "identical": true
+    },
+    {
+      "page": 17,
+      "before_sha256": "d2958b8cc69f90f834a111d326f8ebe6fa8b7d15b92d2d695d64d5d45b38445c",
+      "after_sha256": "d2958b8cc69f90f834a111d326f8ebe6fa8b7d15b92d2d695d64d5d45b38445c",
+      "identical": true
+    },
+    {
+      "page": 18,
+      "before_sha256": "69fd61fb8205b11778ce1a791d9a37ca1a392aa89b6bf48b49418d951305feef",
+      "after_sha256": "69fd61fb8205b11778ce1a791d9a37ca1a392aa89b6bf48b49418d951305feef",
+      "identical": true
+    },
+    {
+      "page": 19,
+      "before_sha256": "5bb85c8498b1eabc919e0dd5516e6aa17cfd6e7620c01bc619ae41db1f23a458",
+      "after_sha256": "5bb85c8498b1eabc919e0dd5516e6aa17cfd6e7620c01bc619ae41db1f23a458",
+      "identical": true
+    },
+    {
+      "page": 2,
+      "before_sha256": "c6e716ee5df642cff70e53aac99a86e57dbcdd23d0cdec142f53b60d38292264",
+      "after_sha256": "c6e716ee5df642cff70e53aac99a86e57dbcdd23d0cdec142f53b60d38292264",
+      "identical": true
+    },
+    {
+      "page": 20,
+      "before_sha256": "3fb35844ec990a38783a7154092c3824c68e522893c195db4c0aa3c9d3bc367d",
+      "after_sha256": "3fb35844ec990a38783a7154092c3824c68e522893c195db4c0aa3c9d3bc367d",
+      "identical": true
+    },
+    {
+      "page": 21,
+      "before_sha256": "5dbc0e40d0e885e4a4ebf3449d4384037702cdfe6508eec90ebbb54ab81b2ae7",
+      "after_sha256": "5dbc0e40d0e885e4a4ebf3449d4384037702cdfe6508eec90ebbb54ab81b2ae7",
+      "identical": true
+    },
+    {
+      "page": 22,
+      "before_sha256": "15b0454967cf95a671fbb547e14b9c7bc850406c211df75659973826e1313430",
+      "after_sha256": "090d61859186befb171cce279cc9f26997898bf5c9f59f0b4f8f8e6a7d10f6cf",
+      "identical": false
+    },
+    {
+      "page": 23,
+      "before_sha256": "1aab8721bdf436272c821e342d0f624fc359cfd4212f41c7ad4dbfa4e3bd9d62",
+      "after_sha256": "1aab8721bdf436272c821e342d0f624fc359cfd4212f41c7ad4dbfa4e3bd9d62",
+      "identical": true
+    },
+    {
+      "page": 24,
+      "before_sha256": "c24ca38c481261012204508a0fe621b200cf995ab16f52f83c6d63c3720e51c0",
+      "after_sha256": "c24ca38c481261012204508a0fe621b200cf995ab16f52f83c6d63c3720e51c0",
+      "identical": true
+    },
+    {
+      "page": 25,
+      "before_sha256": "f1cb4a0b8f616434a4c09c0e1195d2b9e88807ee251351054b69f8688d7b4717",
+      "after_sha256": "f1cb4a0b8f616434a4c09c0e1195d2b9e88807ee251351054b69f8688d7b4717",
+      "identical": true
+    },
+    {
+      "page": 26,
+      "before_sha256": "7dcf651f7a9b6e257921a47e88c25f616dfee7bb7a97e5f406435d03aa0a6bad",
+      "after_sha256": "7dcf651f7a9b6e257921a47e88c25f616dfee7bb7a97e5f406435d03aa0a6bad",
+      "identical": true
+    },
+    {
+      "page": 27,
+      "before_sha256": "d1b3085f09a644ad1c9f32c033e6cbcd08df62c7e413a300e9ff2da7740acdc0",
+      "after_sha256": "d1b3085f09a644ad1c9f32c033e6cbcd08df62c7e413a300e9ff2da7740acdc0",
+      "identical": true
+    },
+    {
+      "page": 28,
+      "before_sha256": "cfc23936e3a875ddeb74aafb3922bc3b2d20372113d7d14a5aea00ef6383679f",
+      "after_sha256": "cfc23936e3a875ddeb74aafb3922bc3b2d20372113d7d14a5aea00ef6383679f",
+      "identical": true
+    },
+    {
+      "page": 29,
+      "before_sha256": "bd0d32be7aa764cbb6a22de3717809e3f0838237c07fbe7e0aeaf935070a01c7",
+      "after_sha256": "bd0d32be7aa764cbb6a22de3717809e3f0838237c07fbe7e0aeaf935070a01c7",
+      "identical": true
+    },
+    {
+      "page": 3,
+      "before_sha256": "a2e925344a26402ea416e139896d3aaebaac455ee466473ac0068ab81632d0a3",
+      "after_sha256": "a2e925344a26402ea416e139896d3aaebaac455ee466473ac0068ab81632d0a3",
+      "identical": true
+    },
+    {
+      "page": 30,
+      "before_sha256": "6d8d99ed62147f27e3c858585172a0032ce50042510dc4afbfc23688ab9395c3",
+      "after_sha256": "6d8d99ed62147f27e3c858585172a0032ce50042510dc4afbfc23688ab9395c3",
+      "identical": true
+    },
+    {
+      "page": 31,
+      "before_sha256": "fb309c3325419fdceed656b383c9cde997e57e6638aa0c7392073522e7624398",
+      "after_sha256": "fb309c3325419fdceed656b383c9cde997e57e6638aa0c7392073522e7624398",
+      "identical": true
+    },
+    {
+      "page": 32,
+      "before_sha256": "45db9d7a2125d41e7d0c0ff34ed11fa602bd9687fe4b1c3f2d929e6060036ed4",
+      "after_sha256": "45db9d7a2125d41e7d0c0ff34ed11fa602bd9687fe4b1c3f2d929e6060036ed4",
+      "identical": true
+    },
+    {
+      "page": 33,
+      "before_sha256": "8916a2c44812cdd311191d953a9ea8cc3b27e762b6574a713c44fa22a8b97a37",
+      "after_sha256": "8916a2c44812cdd311191d953a9ea8cc3b27e762b6574a713c44fa22a8b97a37",
+      "identical": true
+    },
+    {
+      "page": 34,
+      "before_sha256": "86f08b33cb96b043ef2bc3e4a7a7cee954b38ddd3ccf3bc999bdbaaa12d3a6fa",
+      "after_sha256": "86f08b33cb96b043ef2bc3e4a7a7cee954b38ddd3ccf3bc999bdbaaa12d3a6fa",
+      "identical": true
+    },
+    {
+      "page": 35,
+      "before_sha256": "9acfcd0acbb05a65236b672060a717b31442ff139e89f44a163b29a366cc0329",
+      "after_sha256": "9acfcd0acbb05a65236b672060a717b31442ff139e89f44a163b29a366cc0329",
+      "identical": true
+    },
+    {
+      "page": 36,
+      "before_sha256": "8d7297d1c3d430aed246d95757baa5539b3c8330e77a597a7558eaf803af1e49",
+      "after_sha256": "8d7297d1c3d430aed246d95757baa5539b3c8330e77a597a7558eaf803af1e49",
+      "identical": true
+    },
+    {
+      "page": 4,
+      "before_sha256": "442b8cd66af54b15e1e230e17d688502db0a55170c95bb2a8ad1a31ec2b6f6ae",
+      "after_sha256": "442b8cd66af54b15e1e230e17d688502db0a55170c95bb2a8ad1a31ec2b6f6ae",
+      "identical": true
+    },
+    {
+      "page": 5,
+      "before_sha256": "632c8aed4f8d3945c5a13ee104d69406165f237f7be752e93e822c32a8a0490a",
+      "after_sha256": "632c8aed4f8d3945c5a13ee104d69406165f237f7be752e93e822c32a8a0490a",
+      "identical": true
+    },
+    {
+      "page": 6,
+      "before_sha256": "3ca879191c8a9831e915b458f6b3e6e9bab3147dcdbe6a7bafd5a2c2fdf382c4",
+      "after_sha256": "3ca879191c8a9831e915b458f6b3e6e9bab3147dcdbe6a7bafd5a2c2fdf382c4",
+      "identical": true
+    },
+    {
+      "page": 7,
+      "before_sha256": "814457cc7dc64e25b347f4f0baba7e2aee91f522ded24708e4f07ec8182287e5",
+      "after_sha256": "814457cc7dc64e25b347f4f0baba7e2aee91f522ded24708e4f07ec8182287e5",
+      "identical": true
+    },
+    {
+      "page": 8,
+      "before_sha256": "473d9445df16afaf21e9c44fdd12b7d1f05a675eddb064ccd2d5de73995ee589",
+      "after_sha256": "473d9445df16afaf21e9c44fdd12b7d1f05a675eddb064ccd2d5de73995ee589",
+      "identical": true
+    },
+    {
+      "page": 9,
+      "before_sha256": "a6554f525acda5f60a355285aeca9e553e0dfcbb883662325f6d77fcdd89ebb0",
+      "after_sha256": "a6554f525acda5f60a355285aeca9e553e0dfcbb883662325f6d77fcdd89ebb0",
+      "identical": true
+    }
+  ]
+}

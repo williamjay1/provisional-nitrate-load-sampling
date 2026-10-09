@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "independent calculations from stored residual timestamps and original revised events/attempts/hourly data; does not call analyze_monitoring_context functions",
+  "case_selection_population_events": 46,
+  "case_selection_exactly_matches_fixed_rule": true,
+  "case_prediction_load_checks": 12,
+  "case_policies": [
+    "uniform",
+    "flow_trigger",
+    "deadline_only",
+    "value"
+  ],
+  "lag_pair_and_correlation_checks": 344,
+  "actual_first_usable_arrival_and_load_fraction_checks": 1656,
+  "original_vs_revised_zero_label_station_seed_rows": 39,
+  "output_hashes_verified": 22,
+  "elapsed_seconds": 7.338574699941091,
+  "definitions_checked": [
+    "event end exclusive",
+    "load fractions strictly before arrival; receive before predict at arrival hour",
+    "no within-event arrival encoded fraction1 plus explicit flag; earlier information retained",
+    "native Q denominator independent of NOx",
+    "uninterrupted qualified residual lags and endpoint sensitivity separate",
+    "cases are post-result extrema/median seed41 budget96; not representative selection",
+    "historical residual statistics before target; target drift post hoc and model-confounded"
+  ],
+  "unit_audit_status": "PASS"
+}

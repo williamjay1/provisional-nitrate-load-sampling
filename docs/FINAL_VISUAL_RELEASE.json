@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "document_sha256": "1c25b678cb115902cd7fbe8c9826e1e1371a5f0a9e6b6066e452d389cf339d0e",
+  "manuscript_sha256": "24044503b830e0eeda1a6a5fea6d2473f5224aeb7a90a7e7d486b8f291de13aa",
+  "pages": 36,
+  "coverage": [
+    {"pages": "1–12", "reviewer": "root", "report": "DOCX_QA_PAGES_1_12.md", "actual_viewing": "v4 pages 1–12; changed v5 pages 9 and 10 actually viewed; all final v6 pages 1–12 byte-identical to v5"},
+    {"pages": "13–24", "reviewer": "energy_control", "report": "DOCX_QA_PAGES_13_24.md", "actual_viewing": "all v5 pages 13–24 actually viewed; changed v6 page 22 actually viewed; other final pages byte-identical"},
+    {"pages": "25–36", "reviewer": "nitrate_data", "report": "DOCX_QA_PAGES_25_END.md", "actual_viewing": "all v4 pages 25–36 actually viewed; every final v6 page 25–36 byte-identical through both comparison stages"}
+  ],
+  "figure_visual_checks": "All 11 final figures and three vector table companions actually viewed; source/export and text/line geometry checks PASS.",
+  "limits": "Visual review verifies presentation and observed overlaps, not chemical accuracy, generalization, author approval or journal acceptance. Independent numerical and scientific audits are separate."
+}

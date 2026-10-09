@@ -1,0 +1,13 @@
+{
+  "planned_candidates": 168,
+  "eligible_candidates": 82,
+  "sites": 7,
+  "station_years": 14,
+  "beneficial": 50,
+  "harmful": 32,
+  "unchanged": 0,
+  "pooled_rank_association": 0.15316550755869004,
+  "within_site_rank_association": 0.11372079089275015,
+  "median_relative_utility": 0.01701942411149685,
+  "identity": "post-result isolated added-sample diagnostic; no inferential p value or deployment effect"
+}

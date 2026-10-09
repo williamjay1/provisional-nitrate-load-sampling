@@ -1,0 +1,1033 @@
+{
+  "created_utc": "2026-10-05T14:36:07.102646+00:00",
+  "raw_run": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z",
+  "sites": [
+    "05484500",
+    "05465500",
+    "05482000"
+  ],
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "metadata": [
+    {
+      "site": "05484500",
+      "series": [
+        {
+          "series": {
+            "id": "643f6fbebc0043698e615c306d657817",
+            "unit_of_measure": "mg/l",
+            "parameter_name": "NO3+NO2,water,insitu as N",
+            "parameter_code": "99133",
+            "statistic_id": "00011",
+            "last_modified": "2026-10-05T09:16:57.172113",
+            "begin": "2012-03-02T06:00:00+00:00",
+            "end": "2026-10-05T09:00:00+00:00",
+            "computation_period_identifier": "Points",
+            "computation_identifier": "Instantaneous",
+            "thresholds": [
+              {
+                "Name": "VERY LOW",
+                "Type": "ThresholdBelow",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2017-03-14T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-04-30T13:35:01.8652956Z",
+                    "SuppressData": true,
+                    "ReferenceValue": -1
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Unspecified threshold value",
+                "DisplayColor": "#800000",
+                "ReferenceCode": "AQUARIUS only",
+                "ProcessingOrder": "Suppression"
+              },
+              {
+                "Name": "VERY HIGH",
+                "Type": "ThresholdAbove",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2017-03-14T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-04-30T13:35:01.535588Z",
+                    "SuppressData": true,
+                    "ReferenceValue": 50
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Unspecified threshold value",
+                "DisplayColor": "#FF0000",
+                "ReferenceCode": "AQUARIUS only",
+                "ProcessingOrder": "Suppression"
+              }
+            ],
+            "sublocation_identifier": null,
+            "primary": "Primary",
+            "monitoring_location_id": "USGS-05484500",
+            "web_description": null,
+            "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+            "parent_time_series_id": null,
+            "data_gap_interval": "PT1H12M",
+            "statistics_begin": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.9497777777778,
+              41.5340277777778
+            ]
+          },
+          "methods": [
+            {
+              "interval": {
+                "id": "643f6fbebc0043698e615c306d657817-UV015-201903271230000600",
+                "time_series_id": "643f6fbebc0043698e615c306d657817",
+                "begin": "2019-03-27T12:30:00+00:00",
+                "end": "9999-12-31T23:59:59.999999+00:00",
+                "method_id": "UV015",
+                "method_category": "STNRD"
+              },
+              "definition": {
+                "id": "UV015",
+                "method_type": "QW",
+                "method_category": "STNRD",
+                "method_name": "UV, HACH Nitratax plus sc, 5 mm",
+                "method_description": "UV absorption, HACH Nitratax plus sc, 5 mm path length"
+              }
+            }
+          ]
+        },
+        {
+          "series": {
+            "id": "d0b757ceb8b342eb9e724ebe0c288f11",
+            "unit_of_measure": "ft^3/s",
+            "parameter_name": "Discharge",
+            "parameter_code": "00060",
+            "statistic_id": "00011",
+            "last_modified": "2026-10-05T09:17:31.912888",
+            "begin": "1986-10-01T05:15:00+00:00",
+            "end": "2026-10-05T09:00:00+00:00",
+            "computation_period_identifier": "Points",
+            "computation_identifier": "Instantaneous",
+            "thresholds": [
+              {
+                "Name": "Peak discharge, 70,100 cfs, July 10, 1993",
+                "Type": "None",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2017-04-05T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-04-30T13:35:22.78063Z",
+                    "SuppressData": false,
+                    "ReferenceValue": 70100
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Display reference value",
+                "DisplayColor": "#00CCFF",
+                "ReferenceCode": "NWISWeb ref level - Public",
+                "ProcessingOrder": "Suppression"
+              },
+              {
+                "Name": "Highest QM, 65,500 cfs., July 10, 1993",
+                "Type": "None",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                    "AppliedTime": "2019-09-11T18:16:02.8105747Z",
+                    "SuppressData": false,
+                    "ReferenceValue": 65500
+                  }
+                ],
+                "Severity": 0,
+                "Description": "NWISWeb reference line displayed to USGS level users",
+                "DisplayColor": "#990600",
+                "ReferenceCode": "NWISWeb ref level - USGS",
+                "ProcessingOrder": "Suppression"
+              }
+            ],
+            "sublocation_identifier": null,
+            "primary": "Primary",
+            "monitoring_location_id": "USGS-05484500",
+            "web_description": null,
+            "parameter_description": "Discharge, cubic feet per second",
+            "parent_time_series_id": "88a91c5cf5bc43bb89280658c044001e",
+            "data_gap_interval": "PT1H12M",
+            "statistics_begin": "1916"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.9497777777778,
+              41.5340277777778
+            ]
+          },
+          "methods": []
+        }
+      ],
+      "raw_files": [
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05484500_99133_series_metadata.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-metadata/items?f=json&monitoring_location_id=USGS-05484500&parameter_code=99133&limit=100",
+          "bytes": 5045
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05484500_99133_643f6fbebc0043698e615c306d657817_methods.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-methods/items?f=json&time_series_id=643f6fbebc0043698e615c306d657817&limit=100",
+          "bytes": 1910
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05484500_99133_643f6fbebc0043698e615c306d657817_UV015_definition.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/methods/items/UV015?f=json",
+          "bytes": 1706
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05484500_00060_series_metadata.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-metadata/items?f=json&monitoring_location_id=USGS-05484500&parameter_code=00060&limit=100",
+          "bytes": 6160
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05484500_00060_d0b757ceb8b342eb9e724ebe0c288f11_methods.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-methods/items?f=json&time_series_id=d0b757ceb8b342eb9e724ebe0c288f11&limit=100",
+          "bytes": 1444
+        }
+      ]
+    },
+    {
+      "site": "05465500",
+      "series": [
+        {
+          "series": {
+            "id": "9727adc70cdb46c3b8ce2ed8740f2d85",
+            "unit_of_measure": "mg/l",
+            "parameter_name": "NO3+NO2,water,insitu as N",
+            "parameter_code": "99133",
+            "statistic_id": "00011",
+            "last_modified": "2026-10-05T09:07:32.306286",
+            "begin": "2009-06-03T05:00:00+00:00",
+            "end": "2026-10-05T09:00:00+00:00",
+            "computation_period_identifier": "Points",
+            "computation_identifier": "Instantaneous",
+            "thresholds": [
+              {
+                "Name": "VERY HIGH",
+                "Type": "ThresholdAbove",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2016-05-11T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-04-30T13:06:22.3751338Z",
+                    "SuppressData": true,
+                    "ReferenceValue": 50
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Unspecified threshold value",
+                "DisplayColor": "#FF0000",
+                "ReferenceCode": "AQUARIUS only",
+                "ProcessingOrder": "Suppression"
+              },
+              {
+                "Name": "VERY LOW",
+                "Type": "ThresholdBelow",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2016-05-11T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-04-30T13:06:22.9176626Z",
+                    "SuppressData": true,
+                    "ReferenceValue": -1
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Unspecified threshold value",
+                "DisplayColor": "#800000",
+                "ReferenceCode": "AQUARIUS only",
+                "ProcessingOrder": "Suppression"
+              }
+            ],
+            "sublocation_identifier": null,
+            "primary": "Primary",
+            "monitoring_location_id": "USGS-05465500",
+            "web_description": null,
+            "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+            "parent_time_series_id": null,
+            "data_gap_interval": "PT1H12M",
+            "statistics_begin": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -91.1820916666667,
+              41.1780861111111
+            ]
+          },
+          "methods": [
+            {
+              "interval": {
+                "id": "9727adc70cdb46c3b8ce2ed8740f2d85-UV016-202010010000000600",
+                "time_series_id": "9727adc70cdb46c3b8ce2ed8740f2d85",
+                "begin": "2020-10-01T00:00:00+00:00",
+                "end": "9999-12-31T23:59:59.999999+00:00",
+                "method_id": "UV016",
+                "method_category": "STNRD"
+              },
+              "definition": {
+                "id": "UV016",
+                "method_type": "QW",
+                "method_category": "STNRD",
+                "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+                "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+              }
+            }
+          ]
+        },
+        {
+          "series": {
+            "id": "6fea358d4238410cafa47e2e5daea269",
+            "unit_of_measure": "ft^3/s",
+            "parameter_name": "Discharge",
+            "parameter_code": "00060",
+            "statistic_id": "00011",
+            "last_modified": "2026-10-05T09:07:51.391062",
+            "begin": "1986-10-01T05:15:00+00:00",
+            "end": "2026-10-05T09:00:00+00:00",
+            "computation_period_identifier": "Points",
+            "computation_identifier": "Instantaneous",
+            "thresholds": [
+              {
+                "Name": "Peak measured discharge, 156,000 cfs, June 16, 2008",
+                "Type": "None",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                    "AppliedTime": "2020-03-02T18:26:36.449615Z",
+                    "SuppressData": false,
+                    "ReferenceValue": 156000
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Display reference value",
+                "DisplayColor": "#990600",
+                "ReferenceCode": "NWISWeb ref level - Public",
+                "ProcessingOrder": "Suppression"
+              },
+              {
+                "Name": "Peak discharge, 188,000 cfs, June 14, 2008",
+                "Type": "None",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                    "AppliedTime": "0001-01-01T00:00:00Z",
+                    "SuppressData": false,
+                    "ReferenceValue": 188000
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Display reference value",
+                "DisplayColor": "#00CCFF",
+                "ReferenceCode": "NWISWeb ref level - Public",
+                "ProcessingOrder": "Suppression"
+              }
+            ],
+            "sublocation_identifier": null,
+            "primary": "Primary",
+            "monitoring_location_id": "USGS-05465500",
+            "web_description": null,
+            "parameter_description": "Discharge, cubic feet per second",
+            "parent_time_series_id": "f1148b0524754242b464320cfec3e16a",
+            "data_gap_interval": "PT1H12M",
+            "statistics_begin": "1959"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -91.1820916666667,
+              41.1780861111111
+            ]
+          },
+          "methods": []
+        }
+      ],
+      "raw_files": [
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05465500_99133_series_metadata.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-metadata/items?f=json&monitoring_location_id=USGS-05465500&parameter_code=99133&limit=100",
+          "bytes": 5046
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05465500_99133_9727adc70cdb46c3b8ce2ed8740f2d85_methods.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-methods/items?f=json&time_series_id=9727adc70cdb46c3b8ce2ed8740f2d85&limit=100",
+          "bytes": 1910
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05465500_99133_9727adc70cdb46c3b8ce2ed8740f2d85_UV016_definition.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/methods/items/UV016?f=json",
+          "bytes": 1706
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05465500_00060_series_metadata.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-metadata/items?f=json&monitoring_location_id=USGS-05465500&parameter_code=00060&limit=100",
+          "bytes": 6142
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05465500_00060_6fea358d4238410cafa47e2e5daea269_methods.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-methods/items?f=json&time_series_id=6fea358d4238410cafa47e2e5daea269&limit=100",
+          "bytes": 1444
+        }
+      ]
+    },
+    {
+      "site": "05482000",
+      "series": [
+        {
+          "series": {
+            "id": "b06249f9a95246b1aa3b90a56cd36295",
+            "unit_of_measure": "mg/l",
+            "parameter_name": "NO3+NO2,water,insitu as N",
+            "parameter_code": "99133",
+            "statistic_id": "00011",
+            "last_modified": "2026-10-05T08:31:58.618998",
+            "begin": "2016-04-01T06:00:00+00:00",
+            "end": "2026-10-05T08:15:00+00:00",
+            "computation_period_identifier": "Points",
+            "computation_identifier": "Instantaneous",
+            "thresholds": [
+              {
+                "Name": "VERY HIGH",
+                "Type": "ThresholdAbove",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2017-03-14T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-04-30T13:23:32.4818978Z",
+                    "SuppressData": true,
+                    "ReferenceValue": 50
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Unspecified threshold value",
+                "DisplayColor": "#FF0000",
+                "ReferenceCode": "AQUARIUS only",
+                "ProcessingOrder": "Suppression"
+              },
+              {
+                "Name": "VERY LOW",
+                "Type": "ThresholdBelow",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2017-03-14T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-04-30T13:23:32.6115141Z",
+                    "SuppressData": true,
+                    "ReferenceValue": -1
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Unspecified threshold value",
+                "DisplayColor": "#800000",
+                "ReferenceCode": "AQUARIUS only",
+                "ProcessingOrder": "Suppression"
+              }
+            ],
+            "sublocation_identifier": null,
+            "primary": "Primary",
+            "monitoring_location_id": "USGS-05482000",
+            "web_description": null,
+            "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+            "parent_time_series_id": null,
+            "data_gap_interval": "PT1H12M",
+            "statistics_begin": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.6197222222222,
+              41.6119444444444
+            ]
+          },
+          "methods": [
+            {
+              "interval": {
+                "id": "b06249f9a95246b1aa3b90a56cd36295-UV016-201903271030000600",
+                "time_series_id": "b06249f9a95246b1aa3b90a56cd36295",
+                "begin": "2019-03-27T10:30:00+00:00",
+                "end": "9999-12-31T23:59:59.999999+00:00",
+                "method_id": "UV016",
+                "method_category": "STNRD"
+              },
+              "definition": {
+                "id": "UV016",
+                "method_type": "QW",
+                "method_category": "STNRD",
+                "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+                "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+              }
+            }
+          ]
+        },
+        {
+          "series": {
+            "id": "43bba0c0c082494a8b5e11a71acfdf2e",
+            "unit_of_measure": "ft^3/s",
+            "parameter_name": "Discharge",
+            "parameter_code": "00060",
+            "statistic_id": "00011",
+            "last_modified": "2026-10-05T08:33:55.688378",
+            "begin": "1996-10-01T06:00:00+00:00",
+            "end": "2026-10-05T08:15:00+00:00",
+            "computation_period_identifier": "Points",
+            "computation_identifier": "Instantaneous",
+            "thresholds": [
+              {
+                "Name": "Peak discharge, 47,300 cfs, June 13, 2008",
+                "Type": "None",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2017-04-04T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-04-30T13:23:44.3440066Z",
+                    "SuppressData": false,
+                    "ReferenceValue": 47300
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Display reference value",
+                "DisplayColor": "#00CCFF",
+                "ReferenceCode": "NWISWeb ref level - Public",
+                "ProcessingOrder": "Suppression"
+              },
+              {
+                "Name": "Highest QM, 58,400 cfs., June 24, 1954",
+                "Type": "None",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                    "AppliedTime": "2019-09-11T18:11:23.2524115Z",
+                    "SuppressData": false,
+                    "ReferenceValue": 58400
+                  }
+                ],
+                "Severity": 0,
+                "Description": "NWISWeb reference line displayed to USGS level users",
+                "DisplayColor": "#990600",
+                "ReferenceCode": "NWISWeb ref level - USGS",
+                "ProcessingOrder": "Suppression"
+              }
+            ],
+            "sublocation_identifier": null,
+            "primary": "Primary",
+            "monitoring_location_id": "USGS-05482000",
+            "web_description": null,
+            "parameter_description": "Discharge, cubic feet per second",
+            "parent_time_series_id": "ab29cc9bbc73490892b3edaa6fe28ff3",
+            "data_gap_interval": "PT1H12M",
+            "statistics_begin": "1997"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -93.6197222222222,
+              41.6119444444444
+            ]
+          },
+          "methods": []
+        }
+      ],
+      "raw_files": [
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05482000_99133_series_metadata.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-metadata/items?f=json&monitoring_location_id=USGS-05482000&parameter_code=99133&limit=100",
+          "bytes": 5046
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05482000_99133_b06249f9a95246b1aa3b90a56cd36295_methods.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-methods/items?f=json&time_series_id=b06249f9a95246b1aa3b90a56cd36295&limit=100",
+          "bytes": 1910
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05482000_99133_b06249f9a95246b1aa3b90a56cd36295_UV016_definition.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/methods/items/UV016?f=json",
+          "bytes": 1706
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05482000_00060_series_metadata.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-metadata/items?f=json&monitoring_location_id=USGS-05482000&parameter_code=00060&limit=100",
+          "bytes": 6993
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05482000_00060_43bba0c0c082494a8b5e11a71acfdf2e_methods.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-methods/items?f=json&time_series_id=43bba0c0c082494a8b5e11a71acfdf2e&limit=100",
+          "bytes": 1444
+        }
+      ]
+    }
+  ],
+  "downloads": [
+    {
+      "site": "05484500",
+      "year": 2021,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05484500_2021_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05484500&parameterCd=00060%2C99133&startDT=2021-01-01T00%3A00%3A00Z&endDT=2022-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:35:26.666209+00:00",
+      "sha256": "03074d63944ab0ff9cd723b2423ac0b1fc27282cf1b6848061647b5dee0e4bed",
+      "compressed_bytes": 292952,
+      "response_bytes": 6677722,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Raccoon River at Van Meter, IA",
+          "n": 30204,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44297
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Raccoon River at Van Meter, IA",
+          "n": 55164,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44302
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "05484500",
+      "year": 2022,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05484500_2022_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05484500&parameterCd=00060%2C99133&startDT=2022-01-01T00%3A00%3A00Z&endDT=2023-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:35:26.323990+00:00",
+      "sha256": "ebdc2276b3f695ce6360c602456305945c6e1a3478f4fea29e2b983390053c52",
+      "compressed_bytes": 226931,
+      "response_bytes": 4901857,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Raccoon River at Van Meter, IA",
+          "n": 25770,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44297
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Raccoon River at Van Meter, IA",
+          "n": 36769,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44302
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "05484500",
+      "year": 2023,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05484500_2023_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05484500&parameterCd=00060%2C99133&startDT=2023-01-01T00%3A00%3A00Z&endDT=2024-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:35:35.285278+00:00",
+      "sha256": "2feb3b6124d6dd978f7c4e5d76e691adb788d5655633ecd743d1901c3db5edf8",
+      "compressed_bytes": 229769,
+      "response_bytes": 5007654,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Raccoon River at Van Meter, IA",
+          "n": 29728,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44297
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Raccoon River at Van Meter, IA",
+          "n": 34276,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44302
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "05484500",
+      "year": 2024,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05484500_2024_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05484500&parameterCd=00060%2C99133&startDT=2024-01-01T00%3A00%3A00Z&endDT=2025-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:35:34.440274+00:00",
+      "sha256": "44d4f6d38878e7ee2d8bde41106b9b10d33b3e6185866b49e79d10274051e79b",
+      "compressed_bytes": 234243,
+      "response_bytes": 5025945,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Raccoon River at Van Meter, IA",
+          "n": 29728,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44297
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Raccoon River at Van Meter, IA",
+          "n": 34369,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44302
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "05465500",
+      "year": 2021,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05465500_2021_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05465500&parameterCd=00060%2C99133&startDT=2021-01-01T00%3A00%3A00Z&endDT=2022-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:35:40.235665+00:00",
+      "sha256": "9f2360cb885f92df8aa54260730026694cceadc7c251079c8b21edb2df886246",
+      "compressed_bytes": 214536,
+      "response_bytes": 4808006,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Iowa River at Wapello, IA",
+          "n": 29128,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44057
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Iowa River at Wapello, IA",
+          "n": 32004,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44062
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "05465500",
+      "year": 2022,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05465500_2022_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05465500&parameterCd=00060%2C99133&startDT=2022-01-01T00%3A00%3A00Z&endDT=2023-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:35:45.657520+00:00",
+      "sha256": "c1d5bada9b13af33f486aa48f8011bbf19cdfd8abee0c956ed0e5d5969461ef0",
+      "compressed_bytes": 200127,
+      "response_bytes": 4546499,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Iowa River at Wapello, IA",
+          "n": 27603,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44057
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Iowa River at Wapello, IA",
+          "n": 30042,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44062
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "05465500",
+      "year": 2023,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05465500_2023_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05465500&parameterCd=00060%2C99133&startDT=2023-01-01T00%3A00%3A00Z&endDT=2024-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:35:45.161803+00:00",
+      "sha256": "e9f3145330e38c657e76125170c4af8eb91cfead742887fecca202ca13c6dacf",
+      "compressed_bytes": 143251,
+      "response_bytes": 3211684,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Iowa River at Wapello, IA",
+          "n": 30819,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44057
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Iowa River at Wapello, IA",
+          "n": 9809,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44062
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "05465500",
+      "year": 2024,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05465500_2024_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05465500&parameterCd=00060%2C99133&startDT=2024-01-01T00%3A00%3A00Z&endDT=2025-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:35:51.324787+00:00",
+      "sha256": "2af0c8cae79e50851fcb2b549cdd20c53a7891c38e2e7cb4a0eb458ce3786ff5",
+      "compressed_bytes": 186525,
+      "response_bytes": 4005481,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Iowa River at Wapello, IA",
+          "n": 32043,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44057
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Iowa River at Wapello, IA",
+          "n": 18663,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44062
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "05482000",
+      "year": 2021,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05482000_2021_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05482000&parameterCd=00060%2C99133&startDT=2021-01-01T00%3A00%3A00Z&endDT=2022-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:35:57.243452+00:00",
+      "sha256": "5a445def8359b44f775c4ac4981b2920974940ce85352f79c3a08bf10fb2bc63",
+      "compressed_bytes": 211527,
+      "response_bytes": 4731242,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+          "n": 30132,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44234
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+          "n": 30120,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44240
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "05482000",
+      "year": 2022,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05482000_2022_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05482000&parameterCd=00060%2C99133&startDT=2022-01-01T00%3A00%3A00Z&endDT=2023-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:35:58.280914+00:00",
+      "sha256": "53388ac3b00fb35c52f72e17f0dd2b214c5a14b9d39e63ebf5a4880a5786542d",
+      "compressed_bytes": 262930,
+      "response_bytes": 5722349,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+          "n": 34987,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44234
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+          "n": 38082,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44240
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "05482000",
+      "year": 2023,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05482000_2023_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05482000&parameterCd=00060%2C99133&startDT=2023-01-01T00%3A00%3A00Z&endDT=2024-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:36:07.093551+00:00",
+      "sha256": "07368804b3e92bed11c6b9233170ca14da98122e7cf51861248c8c9bdc3fbf2f",
+      "compressed_bytes": 230366,
+      "response_bytes": 5114920,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+          "n": 34981,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44234
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+          "n": 30329,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44240
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "05482000",
+      "year": 2024,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T143458057570Z\\05482000_2024_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=05482000&parameterCd=00060%2C99133&startDT=2024-01-01T00%3A00%3A00Z&endDT=2025-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:36:05.253997+00:00",
+      "sha256": "960e9c3e15c40efd0233a1299cfda00b84bd21e50d14fdce846c2f2635318c3f",
+      "compressed_bytes": 226137,
+      "response_bytes": 5052391,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+          "n": 33331,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44234
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+          "n": 30955,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 44240
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

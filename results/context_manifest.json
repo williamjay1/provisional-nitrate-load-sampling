@@ -1,0 +1,174 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 8.524444599985145,
+  "data_sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905",
+  "native_sha256": "eafa83cc86637e2692b4f87fc8d3da47b71274509b5bd63bcf0ec25a3d7330ae",
+  "context_cache": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64",
+  "script_sha256": "ff4744dd35277e19094013f44d3cc13f4d27aa7a921eb0f2a135d154d8be924c",
+  "sources": [
+    {
+      "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\results\\paper_runs\\development_full_v1",
+      "manifest_sha256": "cc3a223cdf71e90f153678adec3d4bdbb7881c9d9897c12be1a957d450c50163",
+      "metrics_sha256": "54b40ae5636dfd36eca4fd3c1f9b6d2f96578f89da0a6fb3150a5de7500426d4",
+      "events_sha256": "555a60f72bf399d54d305855151a517c8c1457dd28f6a2ef94ffb9acbab4e743",
+      "data_sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905"
+    },
+    {
+      "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\results\\paper_runs\\external_main_v1",
+      "manifest_sha256": "b8b6d649197210df77eb177195edfd42cc2ccf3d2a9fab46985d123a13d82125",
+      "metrics_sha256": "bc7c1321e8ccb73b6a7cd666893eb2f83e3b79019f9fb38e262af0d6f133cc79",
+      "events_sha256": "7d6cc2de61ac0ca23085eb9ea6465a4aaf47a490708fb63bac5b6eb80fd5157a",
+      "data_sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905"
+    },
+    {
+      "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\results\\paper_runs\\temporal_main_v1",
+      "manifest_sha256": "313417edcece5e0fee2d08a8c399607772bf6da70e7b4e03660741f65d539288",
+      "metrics_sha256": "5fde377e69598d5229ea7ae1063466c040c03f634201e86f451b891c1672dd22",
+      "events_sha256": "751a6db5b0f0b85a1328b95fba12e10ecac7ffd22cb763ac91566743c1145a7f",
+      "data_sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905"
+    }
+  ],
+  "arguments": {
+    "runs": [
+      "development_full_v1",
+      "external_main_v1",
+      "temporal_main_v1"
+    ],
+    "history_seed": 41,
+    "case_run": "temporal_main_v1",
+    "case_budget": 96,
+    "skip_forward": true,
+    "skip_cases": true,
+    "cases_only": false
+  },
+  "checks": [
+    "native volume sums match independent hourly Q-only sums",
+    "all event reference loads and coverages match original events",
+    "forward calibration audit reproduced",
+    "historical model training ends before calibration and target",
+    "exact continuous-hour residual pairs",
+    "independent raw unit conversion matches 4 native quarters and full-hour load",
+    "case prediction loads match event metrics"
+  ],
+  "outputs": {
+    "context_analysis_plan.json": {
+      "bytes": 701,
+      "sha256": "1065f47b7431836ef8f94691aad9bf2d8caa3d3787a364c70d9e372283e2daec"
+    },
+    "context_case_attempts.csv": {
+      "bytes": 9463,
+      "sha256": "9a41294733f3b89afe3ed36d3d5f2e761685870ebad5cedc8ee86050535a3b9e"
+    },
+    "context_case_hourly.csv": {
+      "bytes": 249599,
+      "sha256": "9a011031128d5773e69da50d2426fd93e54a1a32e2aa25acfca82f4886e0a5b4"
+    },
+    "context_case_manifest.json": {
+      "bytes": 4029,
+      "sha256": "1d86c57a6ad03303a640023282f86bb4fdc62f878dcaa696383ceb9d45601995"
+    },
+    "context_case_selection.csv": {
+      "bytes": 905,
+      "sha256": "e5c92a42c01e17a1d9da18bff5ed51d661b0f407fc67e4acdc402004fc5eb567"
+    },
+    "context_case_selection_population.csv": {
+      "bytes": 3423,
+      "sha256": "a77d52b33e5a163c777e8fc7968a638f0c38079216e66b9229a7591371fdfbbb"
+    },
+    "context_event_retention_summary.csv": {
+      "bytes": 765,
+      "sha256": "3a4789d04bb37b6288e8155cf5491e8914ff9c52bb45b0d22f5a21623e457618"
+    },
+    "context_events.csv": {
+      "bytes": 158532,
+      "sha256": "5d26775ecc468384d6c44d88057b2178155639a0814508af89cfb9743eaccac3"
+    },
+    "context_figure_source_manifest.json": {
+      "bytes": 1419,
+      "sha256": "dc7a93d663fd7d0412e206cb1b7139ae5f93b1d4b8a07b157828ebf91e3beed7"
+    },
+    "context_forward_model.csv": {
+      "bytes": 19203,
+      "sha256": "e79c63ea1909f0f81980e370826f38df9422fc999a62646df533bbdd98963b76"
+    },
+    "context_historical_forward_residuals.parquet": {
+      "bytes": 6133778,
+      "sha256": "eb9e062da7af61de9cf713f674cbc27ae7286ae81de69e195222795ae94a7961"
+    },
+    "context_plot_event_long.csv": {
+      "bytes": 252004,
+      "sha256": "71d010fc80d6bee43083c649c9c5c201faae836e26f3c00f3cde0034874b17bc"
+    },
+    "context_plot_site_year_long.csv": {
+      "bytes": 22667,
+      "sha256": "2bc22f86cf9a2a06bda4963221c4b86d5794941569267b9c8681e98261eee856"
+    },
+    "context_plot_zero_label_long.csv": {
+      "bytes": 16560,
+      "sha256": "a56575009501f35e5e6c1288f965048caf088ed73122dd194a8e8604e5d0c827"
+    },
+    "context_policy_event_timing.csv": {
+      "bytes": 406047,
+      "sha256": "7b9283acd556ad9dfe823b9d0fc7787d5874d6ffa066485afe98463c9b2df773"
+    },
+    "context_residual_persistence.csv": {
+      "bytes": 45604,
+      "sha256": "df4adb9ca4e52e038990d3170bde2c563468c9f1735502f4a51d2b9e8a8873cf"
+    },
+    "context_site_year.csv": {
+      "bytes": 59484,
+      "sha256": "34fae439bb309791f2b5aeddc3f1fad1f7d76543529a390b490c4dc3e0c7ce07"
+    },
+    "context_station_year_diagnostics.csv": {
+      "bytes": 49796,
+      "sha256": "f83141b3e0670f1ae72f476742d534e6e4be788798b6b44c9db82753baafcaf3"
+    },
+    "context_summary.json": {
+      "bytes": 4260,
+      "sha256": "6df10ee2e1ec9e9bf5b4755ee2abcc7babaab239d0484a0a97b935836ec3529e"
+    },
+    "context_unit_audit.json": {
+      "bytes": 2527,
+      "sha256": "6751c9e2942959760b482585a59e6633c072414c9fd60bc23179b8db87f8f12a"
+    },
+    "context_variable_definitions.json": {
+      "bytes": 3066,
+      "sha256": "eee19d8478cf44cc05bc5684f49ccdd7aedc79bf90e4835fcdfcdb187d4c27af"
+    },
+    "context_zero_label_station_year.csv": {
+      "bytes": 12269,
+      "sha256": "3859f8835efe236eeda629fffaa3ac316143f62270ba58ad31644370f0a4e8d6"
+    },
+    "context_independent_check.json": {
+      "bytes": 1268,
+      "sha256": "6859be6e375d3b0bd61a489b07eb70f1cba12963cfaea8a42bbe985c5acca322"
+    },
+    "context_arrival_event_seedmeans.csv": {
+      "bytes": 58143,
+      "sha256": "6cca8395c59c6a1a02a31665ccbbcc77e6ed84e7a2c3448d83b6d0403dd6c8d4"
+    },
+    "context_arrival_station_means.csv": {
+      "bytes": 11922,
+      "sha256": "05e262d25776fa43d263e8464345998b1275071b7be240164ececea4ceafb740"
+    },
+    "context_arrival_summary.csv": {
+      "bytes": 3284,
+      "sha256": "0f2eeae86873941278fa6dcbdb92cf8513a171a8cbf97366bec1423ffeb09633"
+    },
+    "context_arrival_summary_manifest.json": {
+      "bytes": 1221,
+      "sha256": "f19aba3581196f9bd53818e192bf08dd93a3f96049a0b6ecd048038215b21849"
+    }
+  },
+  "case_completion_source": [
+    {
+      "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\revision_20261009\\results\\experiments_main_temporal_v1",
+      "manifest_sha256": "55dcc703377a706dea751b4a29d78bd7fe2aee418c6dfe8a7add0dd1173700f0",
+      "metrics_sha256": "75a903aae0f8deaf7b68980216a0c9b8500f275e5b1b01fe61b1cb3a942a4505",
+      "events_sha256": "624c7bdc58349221609ec1f6a163cdd72e997c38f7a728fbf973e9ebe5d4bc79",
+      "data_sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905"
+    }
+  ],
+  "case_status": "complete_revised_closed_loop",
+  "independent_output_check": "PASS"
+}

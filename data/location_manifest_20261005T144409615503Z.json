@@ -1,0 +1,802 @@
+[
+  {
+    "site": "03346500",
+    "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144409615503Z\\03346500_location.json",
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-03346500?f=json",
+    "sha256": "d9dad2ed0343ff46a93a49f50b31dfa67e51b1840ae4daba2f336f074e41b111",
+    "data": {
+      "type": "Feature",
+      "properties": {
+        "id": "USGS-03346500",
+        "agency_code": "USGS",
+        "agency_name": "U.S. Geological Survey",
+        "monitoring_location_number": "03346500",
+        "monitoring_location_name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+        "district_code": "17",
+        "country_code": "US",
+        "country_name": "United States of America",
+        "state_code": "17",
+        "state_name": "Illinois",
+        "county_code": "101",
+        "county_name": "Lawrence County",
+        "minor_civil_division_code": null,
+        "site_type_code": "ST",
+        "site_type": "Stream",
+        "hydrologic_unit_code": "051201121504",
+        "basin_code": null,
+        "altitude": 382.24,
+        "altitude_accuracy": 0.01,
+        "altitude_method_code": "L",
+        "altitude_method_name": "Level or other surveyed method.",
+        "vertical_datum": "NAVD88",
+        "vertical_datum_name": "North American Vertical Datum of 1988",
+        "horizontal_positional_accuracy_code": "F",
+        "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+        "horizontal_position_method_code": "X",
+        "horizontal_position_method_name": "GNSS2 - Level 1 Quality Survey Grade Global Navigation Satellite System",
+        "original_horizontal_datum": "NAD83",
+        "original_horizontal_datum_name": "North American Datum of 1983",
+        "drainage_area": 2333.0,
+        "contributing_drainage_area": null,
+        "time_zone_abbreviation": "CST",
+        "uses_daylight_savings": "N",
+        "construction_date": null,
+        "aquifer_code": null,
+        "national_aquifer_code": null,
+        "aquifer_type_code": null,
+        "well_constructed_depth": null,
+        "hole_constructed_depth": null,
+        "depth_source_code": null,
+        "revision_note": null,
+        "revision_created": null,
+        "revision_modified": null
+      },
+      "id": "USGS-03346500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6643611111111,
+          38.7238055555556
+        ]
+      },
+      "links": [
+        {
+          "type": "application/json",
+          "rel": "root",
+          "title": "The landing page of this server as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=json"
+        },
+        {
+          "type": "text/html",
+          "rel": "root",
+          "title": "The landing page of this server as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=html"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "title": "This document as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-03346500?f=json"
+        },
+        {
+          "rel": "alternate",
+          "type": "application/ld+json",
+          "title": "This document as RDF (JSON-LD)",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-03346500?f=jsonld"
+        },
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "title": "This document as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-03346500?f=html"
+        },
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "title": "Monitoring locations",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations"
+        }
+      ]
+    }
+  },
+  {
+    "site": "03374100",
+    "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144409615503Z\\03374100_location.json",
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-03374100?f=json",
+    "sha256": "4712ac15f41f6b8c9bf404febe92fb7d67136891c2a1ff42226ed44ae1766007",
+    "data": {
+      "type": "Feature",
+      "properties": {
+        "id": "USGS-03374100",
+        "agency_code": "USGS",
+        "agency_name": "U.S. Geological Survey",
+        "monitoring_location_number": "03374100",
+        "monitoring_location_name": "WHITE RIVER AT HAZLETON, IN",
+        "district_code": "18",
+        "country_code": "US",
+        "country_name": "United States of America",
+        "state_code": "18",
+        "state_name": "Indiana",
+        "county_code": "051",
+        "county_name": "Gibson County",
+        "minor_civil_division_code": "83888",
+        "site_type_code": "ST",
+        "site_type": "Stream",
+        "hydrologic_unit_code": "05120202",
+        "basin_code": null,
+        "altitude": 382.77,
+        "altitude_accuracy": 0.05,
+        "altitude_method_code": "D",
+        "altitude_method_name": "Differentially corrected Global Positioning System.",
+        "vertical_datum": "NAVD88",
+        "vertical_datum_name": "North American Vertical Datum of 1988",
+        "horizontal_positional_accuracy_code": "F",
+        "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+        "horizontal_position_method_code": "M",
+        "horizontal_position_method_name": "Interpolated from map",
+        "original_horizontal_datum": "NAD27",
+        "original_horizontal_datum_name": "North American Datum of 1927",
+        "drainage_area": 11305.0,
+        "contributing_drainage_area": null,
+        "time_zone_abbreviation": "EST",
+        "uses_daylight_savings": "Y",
+        "construction_date": null,
+        "aquifer_code": null,
+        "national_aquifer_code": null,
+        "aquifer_type_code": null,
+        "well_constructed_depth": null,
+        "hole_constructed_depth": null,
+        "depth_source_code": null,
+        "revision_note": "The discharges from 02/18/2016 - 03/01/2017 were published in error.",
+        "revision_created": "2017-11-13T06:00:00+00:00",
+        "revision_modified": null
+      },
+      "id": "USGS-03374100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.55001321665438,
+          38.48977483645765
+        ]
+      },
+      "links": [
+        {
+          "type": "application/json",
+          "rel": "root",
+          "title": "The landing page of this server as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=json"
+        },
+        {
+          "type": "text/html",
+          "rel": "root",
+          "title": "The landing page of this server as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=html"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "title": "This document as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-03374100?f=json"
+        },
+        {
+          "rel": "alternate",
+          "type": "application/ld+json",
+          "title": "This document as RDF (JSON-LD)",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-03374100?f=jsonld"
+        },
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "title": "This document as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-03374100?f=html"
+        },
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "title": "Monitoring locations",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations"
+        }
+      ]
+    }
+  },
+  {
+    "site": "05447500",
+    "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144409615503Z\\05447500_location.json",
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05447500?f=json",
+    "sha256": "d3c7221f5857bd5d4d51baed7ad64ec696bc07e80d8719518be09d4f3e5d6ed5",
+    "data": {
+      "type": "Feature",
+      "properties": {
+        "id": "USGS-05447500",
+        "agency_code": "USGS",
+        "agency_name": "U.S. Geological Survey",
+        "monitoring_location_number": "05447500",
+        "monitoring_location_name": "GREEN RIVER NEAR GENESEO, IL",
+        "district_code": "17",
+        "country_code": "US",
+        "country_name": "United States of America",
+        "state_code": "17",
+        "state_name": "Illinois",
+        "county_code": "073",
+        "county_name": "Henry County",
+        "minor_civil_division_code": null,
+        "site_type_code": "ST",
+        "site_type": "Stream",
+        "hydrologic_unit_code": "070900070504",
+        "basin_code": null,
+        "altitude": 577.68,
+        "altitude_accuracy": 0.14,
+        "altitude_method_code": "X",
+        "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+        "vertical_datum": "NAVD88",
+        "vertical_datum_name": "North American Vertical Datum of 1988",
+        "horizontal_positional_accuracy_code": "5",
+        "horizontal_positional_accuracy": "Accurate to + or - .5 sec (PLGR/PPS GPS).",
+        "horizontal_position_method_code": "N",
+        "horizontal_position_method_name": "Interpolated from digital map",
+        "original_horizontal_datum": "NAD83",
+        "original_horizontal_datum_name": "North American Datum of 1983",
+        "drainage_area": 1003.0,
+        "contributing_drainage_area": null,
+        "time_zone_abbreviation": "CST",
+        "uses_daylight_savings": "N",
+        "construction_date": null,
+        "aquifer_code": null,
+        "national_aquifer_code": null,
+        "aquifer_type_code": null,
+        "well_constructed_depth": null,
+        "hole_constructed_depth": null,
+        "depth_source_code": null,
+        "revision_note": "&lt;p&gt;WSP 875: 1938. WSP 1508: 1937, 1939-41(M), 1946(P), 1947-49. WDR IL-74-1: Drainage area.&lt;/p&gt;",
+        "revision_created": "2017-11-13T06:00:00+00:00",
+        "revision_modified": "2023-07-12T17:34:02.100000+00:00"
+      },
+      "id": "USGS-05447500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1580083333333,
+          41.4889333333333
+        ]
+      },
+      "links": [
+        {
+          "type": "application/json",
+          "rel": "root",
+          "title": "The landing page of this server as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=json"
+        },
+        {
+          "type": "text/html",
+          "rel": "root",
+          "title": "The landing page of this server as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=html"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "title": "This document as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05447500?f=json"
+        },
+        {
+          "rel": "alternate",
+          "type": "application/ld+json",
+          "title": "This document as RDF (JSON-LD)",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05447500?f=jsonld"
+        },
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "title": "This document as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05447500?f=html"
+        },
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "title": "Monitoring locations",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations"
+        }
+      ]
+    }
+  },
+  {
+    "site": "05465500",
+    "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144409615503Z\\05465500_location.json",
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05465500?f=json",
+    "sha256": "63f8c899aeb1ca1843084ffecdf841ca7fe84afb44986ce1ba036a2771ffb382",
+    "data": {
+      "type": "Feature",
+      "properties": {
+        "id": "USGS-05465500",
+        "agency_code": "USGS",
+        "agency_name": "U.S. Geological Survey",
+        "monitoring_location_number": "05465500",
+        "monitoring_location_name": "Iowa River at Wapello, IA",
+        "district_code": "19",
+        "country_code": "US",
+        "country_name": "United States of America",
+        "state_code": "19",
+        "state_name": "Iowa",
+        "county_code": "115",
+        "county_name": "Louisa County",
+        "minor_civil_division_code": null,
+        "site_type_code": "ST",
+        "site_type": "Stream",
+        "hydrologic_unit_code": "070802091104",
+        "basin_code": "04",
+        "altitude": 538.08,
+        "altitude_accuracy": 0.16,
+        "altitude_method_code": "X",
+        "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+        "vertical_datum": "NAVD88",
+        "vertical_datum_name": "North American Vertical Datum of 1988",
+        "horizontal_positional_accuracy_code": "F",
+        "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+        "horizontal_position_method_code": "N",
+        "horizontal_position_method_name": "Interpolated from digital map",
+        "original_horizontal_datum": "NAD83",
+        "original_horizontal_datum_name": "North American Datum of 1983",
+        "drainage_area": 12500.0,
+        "contributing_drainage_area": null,
+        "time_zone_abbreviation": "CST",
+        "uses_daylight_savings": "Y",
+        "construction_date": null,
+        "aquifer_code": null,
+        "national_aquifer_code": null,
+        "aquifer_type_code": null,
+        "well_constructed_depth": null,
+        "hole_constructed_depth": null,
+        "depth_source_code": null,
+        "revision_note": "WSP 1308: 1917, 1923-1930, 1932. WSP 1438: Drainage area. WSP 1558: 1918, 1923-1925(M), 1929. WSP 1708: 1955(P), 1956.",
+        "revision_created": "2017-11-13T06:00:00+00:00",
+        "revision_modified": null
+      },
+      "id": "USGS-05465500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1820916666667,
+          41.1780861111111
+        ]
+      },
+      "links": [
+        {
+          "type": "application/json",
+          "rel": "root",
+          "title": "The landing page of this server as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=json"
+        },
+        {
+          "type": "text/html",
+          "rel": "root",
+          "title": "The landing page of this server as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=html"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "title": "This document as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05465500?f=json"
+        },
+        {
+          "rel": "alternate",
+          "type": "application/ld+json",
+          "title": "This document as RDF (JSON-LD)",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05465500?f=jsonld"
+        },
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "title": "This document as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05465500?f=html"
+        },
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "title": "Monitoring locations",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations"
+        }
+      ]
+    }
+  },
+  {
+    "site": "05482000",
+    "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144409615503Z\\05482000_location.json",
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05482000?f=json",
+    "sha256": "eab364631360e2d98991ae9aaac1e62e5c73e0dfd040921176df624b34233e25",
+    "data": {
+      "type": "Feature",
+      "properties": {
+        "id": "USGS-05482000",
+        "agency_code": "USGS",
+        "agency_name": "U.S. Geological Survey",
+        "monitoring_location_number": "05482000",
+        "monitoring_location_name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+        "district_code": "19",
+        "country_code": "US",
+        "country_name": "United States of America",
+        "state_code": "19",
+        "state_name": "Iowa",
+        "county_code": "153",
+        "county_name": "Polk County",
+        "minor_civil_division_code": null,
+        "site_type_code": "ST",
+        "site_type": "Stream",
+        "hydrologic_unit_code": "071000041003",
+        "basin_code": null,
+        "altitude": 773.26,
+        "altitude_accuracy": 0.33,
+        "altitude_method_code": "X",
+        "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+        "vertical_datum": "NAVD88",
+        "vertical_datum_name": "North American Vertical Datum of 1988",
+        "horizontal_positional_accuracy_code": "F",
+        "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+        "horizontal_position_method_code": "X",
+        "horizontal_position_method_name": "GNSS2 - Level 1 Quality Survey Grade Global Navigation Satellite System",
+        "original_horizontal_datum": "NAD83",
+        "original_horizontal_datum_name": "North American Datum of 1983",
+        "drainage_area": 6245.0,
+        "contributing_drainage_area": null,
+        "time_zone_abbreviation": "CST",
+        "uses_daylight_savings": "Y",
+        "construction_date": null,
+        "aquifer_code": null,
+        "national_aquifer_code": null,
+        "aquifer_type_code": null,
+        "well_constructed_depth": null,
+        "hole_constructed_depth": null,
+        "depth_source_code": null,
+        "revision_note": "&lt;p&gt;WSP 1308: 1915-1919, 1921, 1923, 1933, 1943(M). WSP 1438: Drainage area. WDR US-2012: Datum.&lt;/p&gt;\n&lt;p class=\"MsoNormal\"&gt;Revisions: &lt;span lang=\"EN\" style=\"mso-ascii-font-family:Calibri;\nmso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;mso-ansi-language:\nEN;\"&gt;Gage datum was updated to 773.26 ft NAVD88 on July 12, 2022, as determined by a GNSS\nLevel II survey. Gage datum was previously published as 773.74 ft NGVD29 from\nlevels.&lt;/span&gt;&lt;/p&gt;",
+        "revision_created": "2017-11-13T06:00:00+00:00",
+        "revision_modified": "2023-03-29T20:02:02.657000+00:00"
+      },
+      "id": "USGS-05482000",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6197222222222,
+          41.6119444444444
+        ]
+      },
+      "links": [
+        {
+          "type": "application/json",
+          "rel": "root",
+          "title": "The landing page of this server as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=json"
+        },
+        {
+          "type": "text/html",
+          "rel": "root",
+          "title": "The landing page of this server as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=html"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "title": "This document as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05482000?f=json"
+        },
+        {
+          "rel": "alternate",
+          "type": "application/ld+json",
+          "title": "This document as RDF (JSON-LD)",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05482000?f=jsonld"
+        },
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "title": "This document as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05482000?f=html"
+        },
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "title": "Monitoring locations",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations"
+        }
+      ]
+    }
+  },
+  {
+    "site": "05484500",
+    "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144409615503Z\\05484500_location.json",
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05484500?f=json",
+    "sha256": "9a4bb95305e61dfbbd2bfbc9ab4661df997b9735a42aef96c4403d90f2ca3908",
+    "data": {
+      "type": "Feature",
+      "properties": {
+        "id": "USGS-05484500",
+        "agency_code": "USGS",
+        "agency_name": "U.S. Geological Survey",
+        "monitoring_location_number": "05484500",
+        "monitoring_location_name": "Raccoon River at Van Meter, IA",
+        "district_code": "19",
+        "country_code": "US",
+        "country_name": "United States of America",
+        "state_code": "19",
+        "state_name": "Iowa",
+        "county_code": "049",
+        "county_name": "Dallas County",
+        "minor_civil_division_code": null,
+        "site_type_code": "ST",
+        "site_type": "Stream",
+        "hydrologic_unit_code": "071000061702",
+        "basin_code": null,
+        "altitude": 836.49,
+        "altitude_accuracy": 0.43,
+        "altitude_method_code": "X",
+        "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+        "vertical_datum": "NAVD88",
+        "vertical_datum_name": "North American Vertical Datum of 1988",
+        "horizontal_positional_accuracy_code": "F",
+        "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+        "horizontal_position_method_code": "X",
+        "horizontal_position_method_name": "GNSS2 - Level 1 Quality Survey Grade Global Navigation Satellite System",
+        "original_horizontal_datum": "NAD83",
+        "original_horizontal_datum_name": "North American Datum of 1983",
+        "drainage_area": 3441.0,
+        "contributing_drainage_area": null,
+        "time_zone_abbreviation": "CST",
+        "uses_daylight_savings": "Y",
+        "construction_date": null,
+        "aquifer_code": null,
+        "national_aquifer_code": null,
+        "aquifer_type_code": null,
+        "well_constructed_depth": null,
+        "hole_constructed_depth": null,
+        "depth_source_code": null,
+        "revision_note": "WSP 1308: 1927(M). WSP 1438: Drainage area. WSP 1508: 1915(M), 1925(M), 1926, 1933(M), 1939(M), 1947(M), 1949(M).&lt;br /&gt;\nRevisions: Gage datum was revised to 836.49 ft NAVD88 on January 1, 2023, as determined by a GNSS Level II survey. Gage datum was previously published in error as 841.61 ft NGVD29 from levels.",
+        "revision_created": "2017-11-13T06:00:00+00:00",
+        "revision_modified": "2023-04-19T14:56:21.547000+00:00"
+      },
+      "id": "USGS-05484500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9497777777778,
+          41.5340277777778
+        ]
+      },
+      "links": [
+        {
+          "type": "application/json",
+          "rel": "root",
+          "title": "The landing page of this server as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=json"
+        },
+        {
+          "type": "text/html",
+          "rel": "root",
+          "title": "The landing page of this server as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=html"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "title": "This document as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05484500?f=json"
+        },
+        {
+          "rel": "alternate",
+          "type": "application/ld+json",
+          "title": "This document as RDF (JSON-LD)",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05484500?f=jsonld"
+        },
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "title": "This document as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05484500?f=html"
+        },
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "title": "Monitoring locations",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations"
+        }
+      ]
+    }
+  },
+  {
+    "site": "05595000",
+    "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144409615503Z\\05595000_location.json",
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05595000?f=json",
+    "sha256": "d30df377af272f95ee0713a4e971dd6af554354d0664ae63690454403eb9745e",
+    "data": {
+      "type": "Feature",
+      "properties": {
+        "id": "USGS-05595000",
+        "agency_code": "USGS",
+        "agency_name": "U.S. Geological Survey",
+        "monitoring_location_number": "05595000",
+        "monitoring_location_name": "KASKASKIA RIVER AT NEW ATHENS, IL",
+        "district_code": "17",
+        "country_code": "US",
+        "country_name": "United States of America",
+        "state_code": "17",
+        "state_name": "Illinois",
+        "county_code": "163",
+        "county_name": "St. Clair County",
+        "minor_civil_division_code": null,
+        "site_type_code": "ST",
+        "site_type": "Stream",
+        "hydrologic_unit_code": "071402040906",
+        "basin_code": null,
+        "altitude": 299.54,
+        "altitude_accuracy": 0.02,
+        "altitude_method_code": "X",
+        "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+        "vertical_datum": "NAVD88",
+        "vertical_datum_name": "North American Vertical Datum of 1988",
+        "horizontal_positional_accuracy_code": "F",
+        "horizontal_positional_accuracy": "Accurate to + or - 5 sec.",
+        "horizontal_position_method_code": "N",
+        "horizontal_position_method_name": "Interpolated from digital map",
+        "original_horizontal_datum": "NAD83",
+        "original_horizontal_datum_name": "North American Datum of 1983",
+        "drainage_area": 5189.0,
+        "contributing_drainage_area": null,
+        "time_zone_abbreviation": "CST",
+        "uses_daylight_savings": "N",
+        "construction_date": null,
+        "aquifer_code": null,
+        "national_aquifer_code": null,
+        "aquifer_type_code": null,
+        "well_constructed_depth": null,
+        "hole_constructed_depth": null,
+        "depth_source_code": null,
+        "revision_note": "WSP 805: 1935, WSP 1208: 1910-11, 1920. WSP 1508: 1912, 1915-16, 1919, 1921. ",
+        "revision_created": "2017-11-13T06:00:00+00:00",
+        "revision_modified": null
+      },
+      "id": "USGS-05595000",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8883333333333,
+          38.3197222222222
+        ]
+      },
+      "links": [
+        {
+          "type": "application/json",
+          "rel": "root",
+          "title": "The landing page of this server as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=json"
+        },
+        {
+          "type": "text/html",
+          "rel": "root",
+          "title": "The landing page of this server as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=html"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "title": "This document as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05595000?f=json"
+        },
+        {
+          "rel": "alternate",
+          "type": "application/ld+json",
+          "title": "This document as RDF (JSON-LD)",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05595000?f=jsonld"
+        },
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "title": "This document as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-05595000?f=html"
+        },
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "title": "Monitoring locations",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations"
+        }
+      ]
+    }
+  },
+  {
+    "site": "07144100",
+    "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144409615503Z\\07144100_location.json",
+    "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-07144100?f=json",
+    "sha256": "3e5fcf254a45371ae6e3e5adb0dc83f931f5295ac317d859197db6557641f1e0",
+    "data": {
+      "type": "Feature",
+      "properties": {
+        "id": "USGS-07144100",
+        "agency_code": "USGS",
+        "agency_name": "U.S. Geological Survey",
+        "monitoring_location_number": "07144100",
+        "monitoring_location_name": "L ARKANSAS R NR SEDGWICK, KS",
+        "district_code": "20",
+        "country_code": "US",
+        "country_name": "United States of America",
+        "state_code": "20",
+        "state_name": "Kansas",
+        "county_code": "173",
+        "county_name": "Sedgwick County",
+        "minor_civil_division_code": null,
+        "site_type_code": "ST",
+        "site_type": "Stream",
+        "hydrologic_unit_code": "11030012",
+        "basin_code": "07",
+        "altitude": 1340.62,
+        "altitude_accuracy": 0.1,
+        "altitude_method_code": "X",
+        "altitude_method_name": "GNSS2 - Level 2 Quality Survey Grade Global Navigation Satellite System",
+        "vertical_datum": "NAVD88",
+        "vertical_datum_name": "North American Vertical Datum of 1988",
+        "horizontal_positional_accuracy_code": "M",
+        "horizontal_positional_accuracy": "Accurate to + or - 1 min.",
+        "horizontal_position_method_code": "M",
+        "horizontal_position_method_name": "Interpolated from map",
+        "original_horizontal_datum": "NAD27",
+        "original_horizontal_datum_name": "North American Datum of 1927",
+        "drainage_area": 1239.0,
+        "contributing_drainage_area": 1165.0,
+        "time_zone_abbreviation": "CST",
+        "uses_daylight_savings": "Y",
+        "construction_date": null,
+        "aquifer_code": null,
+        "national_aquifer_code": null,
+        "aquifer_type_code": null,
+        "well_constructed_depth": null,
+        "hole_constructed_depth": null,
+        "depth_source_code": null,
+        "revision_note": null,
+        "revision_created": null,
+        "revision_modified": null
+      },
+      "id": "USGS-07144100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4244863910926,
+          37.8830673894379
+        ]
+      },
+      "links": [
+        {
+          "type": "application/json",
+          "rel": "root",
+          "title": "The landing page of this server as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=json"
+        },
+        {
+          "type": "text/html",
+          "rel": "root",
+          "title": "The landing page of this server as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1?f=html"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "title": "This document as JSON",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-07144100?f=json"
+        },
+        {
+          "rel": "alternate",
+          "type": "application/ld+json",
+          "title": "This document as RDF (JSON-LD)",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-07144100?f=jsonld"
+        },
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "title": "This document as HTML",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations/items/USGS-07144100?f=html"
+        },
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "title": "Monitoring locations",
+          "href": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/monitoring-locations"
+        }
+      ]
+    }
+  }
+]

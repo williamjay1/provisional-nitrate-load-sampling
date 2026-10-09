@@ -1,0 +1,89 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 8.024346000049263,
+  "analysis_identity": "post_result_revised_closed_loop_illustration",
+  "source": [
+    {
+      "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\revision_20261009\\results\\experiments_main_temporal_v1",
+      "manifest_sha256": "55dcc703377a706dea751b4a29d78bd7fe2aee418c6dfe8a7add0dd1173700f0",
+      "metrics_sha256": "75a903aae0f8deaf7b68980216a0c9b8500f275e5b1b01fe61b1cb3a942a4505",
+      "events_sha256": "624c7bdc58349221609ec1f6a163cdd72e997c38f7a728fbf973e9ebe5d4bc79",
+      "data_sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905"
+    }
+  ],
+  "data_sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905",
+  "script_sha256": "a77156d838bea2d2862c15ef3cc70c537a46a4e0637af751a0a5fc6d52739019",
+  "case_selection": [
+    {
+      "case_id": "largest_improvement_06902000_2025_12",
+      "selection": "largest_improvement",
+      "site": "06902000",
+      "year": 2025,
+      "event_id": 12,
+      "seed": 41,
+      "budget": 96,
+      "delta_absRE_value_minus_flow": -0.3725954223787058,
+      "value_relative_error": 0.0465597865627646,
+      "flow_relative_error": 0.4191552089414704,
+      "start_time": "2025-07-09 08:00:00+00:00",
+      "end_time_exclusive": "2025-07-10 07:00:00+00:00",
+      "source_run": "experiments_main_temporal_v1",
+      "status": "revised_post_result_closed_loop"
+    },
+    {
+      "case_id": "largest_harm_06902000_2025_11",
+      "selection": "largest_harm",
+      "site": "06902000",
+      "year": 2025,
+      "event_id": 11,
+      "seed": 41,
+      "budget": 96,
+      "delta_absRE_value_minus_flow": 0.2803738423285472,
+      "value_relative_error": -0.4183099424199105,
+      "flow_relative_error": -0.1379361000913633,
+      "start_time": "2025-07-06 22:00:00+00:00",
+      "end_time_exclusive": "2025-07-08 04:00:00+00:00",
+      "source_run": "experiments_main_temporal_v1",
+      "status": "revised_post_result_closed_loop"
+    },
+    {
+      "case_id": "nearest_median_difference_02035000_2025_3",
+      "selection": "nearest_median_difference",
+      "site": "02035000",
+      "year": 2025,
+      "event_id": 3,
+      "seed": 41,
+      "budget": 96,
+      "delta_absRE_value_minus_flow": 0.0,
+      "value_relative_error": 0.0043757782590597,
+      "flow_relative_error": 0.0043757782590597,
+      "start_time": "2025-05-14 08:00:00+00:00",
+      "end_time_exclusive": "2025-05-21 06:00:00+00:00",
+      "source_run": "experiments_main_temporal_v1",
+      "status": "revised_post_result_closed_loop"
+    }
+  ],
+  "selection_rule": "At budget96 seed41 online: extrema and nearest median of abs(value RE)-abs(flow RE) among all jointly scorable temporal events; stable ties by site/year/event; distinct cases.",
+  "case_prediction_loads_independently_matched_event_records": true,
+  "timing_rows": 1656,
+  "timing_definition": "Within-event common-support load strictly before the first actual usable arrival from any acquired sample, including pre-event samples. If no usable arrival occurs during the event, fraction=1 and an explicit no-arrival flag is set. Previous useful labels and historical predictions still exist; not an error lower bound.",
+  "outputs": {
+    "context_case_attempts.csv": {
+      "bytes": 9463,
+      "sha256": "9a41294733f3b89afe3ed36d3d5f2e761685870ebad5cedc8ee86050535a3b9e"
+    },
+    "context_case_hourly.csv": {
+      "bytes": 249599,
+      "sha256": "9a011031128d5773e69da50d2426fd93e54a1a32e2aa25acfca82f4886e0a5b4"
+    },
+    "context_case_selection.csv": {
+      "bytes": 905,
+      "sha256": "e5c92a42c01e17a1d9da18bff5ed51d661b0f407fc67e4acdc402004fc5eb567"
+    },
+    "context_case_selection_population.csv": {
+      "bytes": 3423,
+      "sha256": "a77d52b33e5a163c777e8fc7968a638f0c38079216e66b9229a7591371fdfbbb"
+    },
+    "actual_arrival_timing_sha256": "7b9283acd556ad9dfe823b9d0fc7787d5874d6ffa066485afe98463c9b2df773"
+  }
+}

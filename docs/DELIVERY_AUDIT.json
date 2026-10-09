@@ -1,0 +1,293 @@
+{
+  "status": "PASS",
+  "figures": 11,
+  "vector_main_tables": 3,
+  "native_word_tables": 9,
+  "source_preserved_table_cells": 834,
+  "document_sha256": "1c25b678cb115902cd7fbe8c9826e1e1371a5f0a9e6b6066e452d389cf339d0e",
+  "manuscript_sha256": "24044503b830e0eeda1a6a5fea6d2473f5224aeb7a90a7e7d486b8f291de13aa",
+  "vector_assets": [
+    {
+      "name": "Fig1_information_and_reference",
+      "section": "main",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        6850
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "dfe777c717d48e06df532e75ea79b648aee2ff899d2c0e072a0fc8aa19a21cf5",
+        "svg": "bb7238b9b40b2e9f812a19d50590683dfd826311729ddd5d9893f747cb7386e9",
+        "png": "661b3f81e0f8d34edafb86899fac6c34d26461295cea8086d66b5f491254f929"
+      }
+    },
+    {
+      "name": "Fig2_transport_and_event_timing",
+      "section": "main",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        6850
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "4db22dcc6cc08ef7896c86b1796e4e81146dde74bda9913c768004dfa3250ca2",
+        "svg": "2b8ed2146f69e80e299704cfd5010775c4f84db0d5df0986e55394ec8250728e",
+        "png": "c2281d4038ed31d3085f1ffd883d9764da3dd2b1569eafb51b4cf7a209d7f2b6"
+      }
+    },
+    {
+      "name": "Fig3_complete_system_performance",
+      "section": "main",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        7464
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "9130ca5a923eb72514e57421183bfeb64335c21962d9ebb308e19dc8f681b53e",
+        "svg": "daad481f730a32d1c42acf5c9402a708bf8c2059476b81be471f73fc7ba6e936",
+        "png": "4d5855ea39df2252aef8ca3ed0d88e10fc31d1c94f22a0816fefeddcc6ac7b68"
+      }
+    },
+    {
+      "name": "Fig4_reconstruction_memory",
+      "section": "main",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        7181
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "e5196beea62c3c8c833c00d58be1c94b20beed7afe20299e0b90336079eb7d5d",
+        "svg": "0a340e2c9068a628a6a71f12823833d8217f39543852033ef7881b8eb8a8aa1b",
+        "png": "9e8beedea68fd1304281e559bfe1d03c217b26fb41d1d7081e2625910ad0153f"
+      }
+    },
+    {
+      "name": "Fig5_delay_queue_and_fallback",
+      "section": "main",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        6755
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "93f0e06432bc83a470f7704430236aa51fe031488ae838ae227be32d40aa3e47",
+        "svg": "9a574c08a9ab461feddbccde945815601b0e6e9361a60895ececdb1d1cc54d36",
+        "png": "e915548964b946aa4925d08f9d470d13d9e446310284c76af0dd17f471c7722c"
+      }
+    },
+    {
+      "name": "Fig6_real_event_processes",
+      "section": "main",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        8031
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "3ccd69df06520726823958d813b5b6f95e1f6bf971a9365c60673cdb1dd8514e",
+        "svg": "b777984be0e3a75129f9190b4755163a9417d7e6b80ab1da48244cf6138a1a59",
+        "png": "553f89b9842fdc699ffc3f2ff0dd6fc8c33f34774c59ce43638c78f3b2057022"
+      }
+    },
+    {
+      "name": "FigS1_reference_selection",
+      "section": "supplement",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        6708
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "a7e7011961f47c0d992b46e0ce9c8c29538855f9da4743424adddbbb661ad764",
+        "svg": "aef8070e5b8556533be2c46244bcbe30de3ffaf97ab8e2337b3fba0b7bc99a03",
+        "png": "421da580f30d0e98b425f93f1fccdd0d8681f469655eaf0064bd1e584355dc7e"
+      }
+    },
+    {
+      "name": "FigS2_historical_support",
+      "section": "supplement",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        6708
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "13e910d7bbc5b3c8213b67c7eb60d822ba55f6faa2affaa5d29b23015ab29e07",
+        "svg": "bddeb752497ed80382471e93c5f852f969d41ecb850e6c6bee764a892a116100",
+        "png": "e8b0511834e840738be90a625d9b550f9a13eaf8576a5ba709168b545643c900"
+      }
+    },
+    {
+      "name": "FigS3_station_heterogeneity",
+      "section": "supplement",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        5196
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "543ecda15edd36dabe40b56fcab1b8a89d383aa736bd67de7050645e3a745881",
+        "svg": "89366c4563be3b222b73d9bdd0efc900b27ed0c19e218d524af2b9d281013409",
+        "png": "f8ddc117b4d5b6f903d6285c2a58b0cd8d730abe88b5c4efb701fb722e039a5d"
+      }
+    },
+    {
+      "name": "FigS4_actual_result_arrivals",
+      "section": "supplement",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        4157
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "2ec7e50e510225d344c3613ea17005f6ac451c7947cf27f93d307257d296e24d",
+        "svg": "024c785b9ef84dc06db6b2e51ab163bec5f810669ad21440686fb040a59fcb1a",
+        "png": "90d3c4220b622d26974376ce26caa5eb87bcd388b19984035a880c3467d56029"
+      }
+    },
+    {
+      "name": "FigS5_score_and_observed_utility",
+      "section": "supplement",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        4440
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "b08dbfb5e3cb7662a184bb84fc5b4ccdb09eea04a40e6da0161bccfbf98a51a6",
+        "svg": "11c94a9f6eb3d12150c1ef1d942f5a0256518fe15b23dfe256d97e5a4098b6c7",
+        "png": "fc7733931706cc3c97e9e8710f5189feef373a1a68ef5d86375595261ff506a0"
+      }
+    },
+    {
+      "name": "Table1",
+      "section": "tables",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        2125
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "44f6aca6f694ba7b61dfac9f7848b40a84d41ca365affbe06cb259a77cee19c7",
+        "svg": "d8943b7c3b366851d14ea6d2bef3b3e61fa5fbbde017f5114efd755ebe1742c4",
+        "png": "14c25e59529dfaec4377f3593fb4c26238f289c767de8ff059e80d77edd5c16a"
+      }
+    },
+    {
+      "name": "Table2",
+      "section": "tables",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        2409
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "b2091ac5e90465895ad0f705e61aa08bec288c599bfbb66b8fe05d60c136dcdf",
+        "svg": "b34a0c01f53eb217ee212dd11307d97cb97a5c775fe76b8700f15212ace707e3",
+        "png": "f62d9430169921d80294248d2b43823ce9970a61442e092415a03cc74d1f5b1f"
+      }
+    },
+    {
+      "name": "Table3",
+      "section": "tables",
+      "width_mm": 182.9999999999947,
+      "pdf_image_objects": 0,
+      "svg_text_editable": true,
+      "png_pixels": [
+        8645,
+        4299
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "sha256": {
+        "pdf": "b06d3fe84b04b308261dc39c76830ec449c060950f04529b8f81aca30755a146",
+        "svg": "ba7d6315760d36d6429820fd4244fcef0ead580426ddadf8efebc9ea7a933d2c",
+        "png": "b93cfaff47617ce030623a5e09fd37e2065875958e1eaefb25be8a7443a61015"
+      }
+    }
+  ],
+  "figure_manifest_unchanged": true,
+  "note": "DPI is a raster property; PDF/SVG are genuine vector files with no raster image objects."
+}

@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "analysis_status": "revision_post_result",
+  "sources": [
+    {
+      "run": "experiments_mechanisms_temporal_v1",
+      "manifest": {
+        "arguments": {
+          "suite": "mechanisms",
+          "stage": "temporal",
+          "years": [
+            2025
+          ],
+          "sites": null,
+          "seeds": [
+            41,
+            73,
+            109
+          ],
+          "budgets": [
+            96
+          ],
+          "data": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\datasets\\extended_hourly_2019_2025_v1.parquet",
+          "run_name": "mechanisms_temporal_v1",
+          "self_test": false,
+          "save_predictions": true
+        },
+        "analysis_status": "revision_post_result_not_unseen_validation",
+        "started_at_utc": "2026-10-08T19:04:39.097464+00:00",
+        "completed_at_utc": "2026-10-08T19:12:10.123540+00:00",
+        "elapsed_seconds": 451.0261973000597,
+        "data_sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905",
+        "code_sha256": {
+          "scripts\\paper_context.py": "14804504c05fdb18b256711d74ef4a817cbd9df4a77bab0fbd16a788bc691cb0",
+          "scripts\\replay.py": "56be2ad9c7680d882b4e2661c8eb5c0a3d8f67c48393dd2bd93d283a6538a314",
+          "scripts\\paper_metrics.py": "32c381af8b3481f5aca7a9f73a8ce6af770eed4c090f158e857ca54f8986aaf6",
+          "scripts\\value_sampling.py": "f4a508ba2ec77102d06d4615eb027e4ceb4a0c7c1bbf27a20ff683b052039e1b",
+          "revision_20261009\\scripts\\revision_experiments.py": "5a29f7a6553e5901c27c3fea9a118425a3320f2c1ca2da1a1ba5ed222950fd0f",
+          "revision_20261009\\scripts\\revision_state.py": "c0c4b920dcd5e002d997e5aee42ff5d67fd16e91a50c045f51668e910a67504f"
+        },
+        "metric_rows": 273,
+        "event_rows": 3087,
+        "reconstructor_rule": "Latest returned residual with fixed tau168 (half-life168*ln2), arrival-age; chosen from prior observed diagnostic, not newly tuned",
+        "acquisition_state": "Frozen C2 RFF covariance; innovation scale uses the actual published sample-time output",
+        "output_path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\revision_20261009\\results\\experiments_mechanisms_temporal_v1"
+      },
+      "metrics_sha256": "20f11e012d03b01c0538ed404dee546e7a55cbd6781ea1be4450d295d55464e0",
+      "events_sha256": "ef222fc443521b768c69cf696927a3ee53dc5bbb92c79745b8ba43d85d83b9ea"
+    }
+  ],
+  "event_endpoint_checks": [
+    {
+      "run": "experiments_mechanisms_temporal_v1",
+      "metrics": 273,
+      "eligible_event_rows": 966,
+      "maximum_endpoint_discrepancy": 1.1102230246251565e-16,
+      "status": "PASS"
+    }
+  ],
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 271828,
+  "estimand": "mean within station-year-seed events, across seeds, years within station, equal stations",
+  "difference": "baseline minus value; positive favors lower candidate ERROR but not accuracy-scenario fraction",
+  "script_sha256": "2c2441a5e1dba6601890849761747514d4807697d07a5bb1a6659baab36e46e6"
+}

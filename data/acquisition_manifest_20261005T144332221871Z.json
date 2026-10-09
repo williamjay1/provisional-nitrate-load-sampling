@@ -1,0 +1,688 @@
+{
+  "created_utc": "2026-10-05T14:44:13.338850+00:00",
+  "raw_run": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z",
+  "sites": [
+    "03346500",
+    "07144100"
+  ],
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "metadata": [
+    {
+      "site": "03346500",
+      "series": [
+        {
+          "series": {
+            "id": "6e0ebb5d1432462297b1ab14a5680c39",
+            "unit_of_measure": "mg/l",
+            "parameter_name": "NO3+NO2,water,insitu as N",
+            "parameter_code": "99133",
+            "statistic_id": "00011",
+            "last_modified": "2026-10-05T08:25:15.652826",
+            "begin": "2015-09-11T06:00:00+00:00",
+            "end": "2026-10-05T08:00:00+00:00",
+            "computation_period_identifier": "Points",
+            "computation_identifier": "Instantaneous",
+            "thresholds": [
+              {
+                "Name": "VERY HIGH",
+                "Type": "ThresholdAbove",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2017-03-20T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-05-01T23:35:45.0091451Z",
+                    "SuppressData": true,
+                    "ReferenceValue": 50
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Unspecified threshold value",
+                "DisplayColor": "#FF0000",
+                "ReferenceCode": "AQUARIUS only",
+                "ProcessingOrder": "Suppression"
+              },
+              {
+                "Name": "VERY LOW",
+                "Type": "ThresholdBelow",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2017-03-20T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-05-01T23:35:45.0541642Z",
+                    "SuppressData": true,
+                    "ReferenceValue": -0.1
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Unspecified threshold value",
+                "DisplayColor": "#800000",
+                "ReferenceCode": "AQUARIUS only",
+                "ProcessingOrder": "Suppression"
+              }
+            ],
+            "sublocation_identifier": null,
+            "primary": "Primary",
+            "monitoring_location_id": "USGS-03346500",
+            "web_description": null,
+            "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+            "parent_time_series_id": null,
+            "data_gap_interval": "PT1H12M",
+            "statistics_begin": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -87.6643611111111,
+              38.7238055555556
+            ]
+          },
+          "methods": [
+            {
+              "interval": {
+                "id": "6e0ebb5d1432462297b1ab14a5680c39-UV016-201809170000000600",
+                "time_series_id": "6e0ebb5d1432462297b1ab14a5680c39",
+                "begin": "2018-09-17T00:00:00+00:00",
+                "end": "9999-12-31T23:59:59.999999+00:00",
+                "method_id": "UV016",
+                "method_category": "STNRD"
+              },
+              "definition": {
+                "id": "UV016",
+                "method_type": "QW",
+                "method_category": "STNRD",
+                "method_name": "UV, HACH Nitratax plus sc, 2 mm",
+                "method_description": "UV absorption, HACH Nitratax plus sc, 2 mm path length"
+              }
+            }
+          ]
+        },
+        {
+          "series": {
+            "id": "c6bf854fe3704e42be924f608b928a24",
+            "unit_of_measure": "ft^3/s",
+            "parameter_name": "Discharge",
+            "parameter_code": "00060",
+            "statistic_id": "00011",
+            "last_modified": "2026-10-05T08:58:24.401123",
+            "begin": "2001-10-05T06:00:00+00:00",
+            "end": "2026-10-05T08:45:00+00:00",
+            "computation_period_identifier": "Points",
+            "computation_identifier": "Instantaneous",
+            "thresholds": [
+              {
+                "Name": "Highest QM, 43,600 cfs, June 9, 2008.",
+                "Type": "None",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                    "AppliedTime": "2019-10-21T12:28:35.6454439Z",
+                    "SuppressData": false,
+                    "ReferenceValue": 43600,
+                    "SecondaryReferenceValue": 40000
+                  }
+                ],
+                "Severity": 0,
+                "Description": "NWISWeb reference line displayed to USGS level users",
+                "DisplayColor": "#990600",
+                "ReferenceCode": "NWISWeb ref level - USGS",
+                "ProcessingOrder": "Suppression"
+              },
+              {
+                "Name": "Peak Discharge, 47,500 cfs, June 10, 2008.",
+                "Type": "None",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "0001-01-01T00:00:00.0000000+00:00",
+                    "AppliedTime": "2019-10-21T12:28:00.5785577Z",
+                    "SuppressData": false,
+                    "ReferenceValue": 47500,
+                    "SecondaryReferenceValue": 45000
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Display reference value",
+                "DisplayColor": "#990600",
+                "ReferenceCode": "NWISWeb ref level - Public",
+                "ProcessingOrder": "Suppression"
+              }
+            ],
+            "sublocation_identifier": null,
+            "primary": "Primary",
+            "monitoring_location_id": "USGS-03346500",
+            "web_description": null,
+            "parameter_description": "Discharge, cubic feet per second",
+            "parent_time_series_id": "b3233cee0d6442b38bc13f2f35cae8ab",
+            "data_gap_interval": "PT1H12M",
+            "statistics_begin": "2002"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -87.6643611111111,
+              38.7238055555556
+            ]
+          },
+          "methods": []
+        }
+      ],
+      "raw_files": [
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\03346500_99133_series_metadata.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-metadata/items?f=json&monitoring_location_id=USGS-03346500&parameter_code=99133&limit=100",
+          "bytes": 7306
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\03346500_99133_6e0ebb5d1432462297b1ab14a5680c39_methods.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-methods/items?f=json&time_series_id=6e0ebb5d1432462297b1ab14a5680c39&limit=100",
+          "bytes": 1910
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\03346500_99133_6e0ebb5d1432462297b1ab14a5680c39_UV016_definition.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/methods/items/UV016?f=json",
+          "bytes": 1706
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\03346500_00060_series_metadata.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-metadata/items?f=json&monitoring_location_id=USGS-03346500&parameter_code=00060&limit=100",
+          "bytes": 6262
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\03346500_00060_c6bf854fe3704e42be924f608b928a24_methods.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-methods/items?f=json&time_series_id=c6bf854fe3704e42be924f608b928a24&limit=100",
+          "bytes": 1444
+        }
+      ]
+    },
+    {
+      "site": "07144100",
+      "series": [
+        {
+          "series": {
+            "id": "91d48bdfd3184b4ebd02daf4d5d85a07",
+            "unit_of_measure": "mg/l",
+            "parameter_name": "NO3+NO2,water,insitu as N",
+            "parameter_code": "99133",
+            "statistic_id": "00011",
+            "last_modified": "2026-10-05T09:58:22.615968",
+            "begin": "2012-03-02T15:45:00+00:00",
+            "end": "2026-10-05T09:45:00+00:00",
+            "computation_period_identifier": "Points",
+            "computation_identifier": "Instantaneous",
+            "thresholds": [
+              {
+                "Name": "VERY HIGH",
+                "Type": "ThresholdAbove",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2016-11-07T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-07-16T15:44:45.4221116Z",
+                    "SuppressData": true,
+                    "ReferenceValue": 15
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Unspecified threshold value",
+                "DisplayColor": "#FF0000",
+                "ReferenceCode": "AQUARIUS only",
+                "ProcessingOrder": "Suppression"
+              },
+              {
+                "Name": "VERY LOW",
+                "Type": "ThresholdBelow",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2016-11-07T00:00:00.0000000-06:00",
+                    "AppliedTime": "2017-07-16T15:44:45.7986608Z",
+                    "SuppressData": true,
+                    "ReferenceValue": 0
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Unspecified threshold value",
+                "DisplayColor": "#800000",
+                "ReferenceCode": "AQUARIUS only",
+                "ProcessingOrder": "Suppression"
+              }
+            ],
+            "sublocation_identifier": null,
+            "primary": "Primary",
+            "monitoring_location_id": "USGS-07144100",
+            "web_description": null,
+            "parameter_description": "Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",
+            "parent_time_series_id": null,
+            "data_gap_interval": "PT1H12M",
+            "statistics_begin": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -97.4244863910926,
+              37.8830673894379
+            ]
+          },
+          "methods": [
+            {
+              "interval": {
+                "id": "91d48bdfd3184b4ebd02daf4d5d85a07-UV015-201611070000000600",
+                "time_series_id": "91d48bdfd3184b4ebd02daf4d5d85a07",
+                "begin": "2016-11-07T00:00:00+00:00",
+                "end": "9999-12-31T23:59:59.999999+00:00",
+                "method_id": "UV015",
+                "method_category": "STNRD"
+              },
+              "definition": {
+                "id": "UV015",
+                "method_type": "QW",
+                "method_category": "STNRD",
+                "method_name": "UV, HACH Nitratax plus sc, 5 mm",
+                "method_description": "UV absorption, HACH Nitratax plus sc, 5 mm path length"
+              }
+            }
+          ]
+        },
+        {
+          "series": {
+            "id": "8fc9697214b84dc18a1851f4663147cd",
+            "unit_of_measure": "ft^3/s",
+            "parameter_name": "Discharge",
+            "parameter_code": "00060",
+            "statistic_id": "00011",
+            "last_modified": "2026-10-05T10:22:16.550378",
+            "begin": "1993-11-23T06:00:00+00:00",
+            "end": "2026-10-05T10:15:00+00:00",
+            "computation_period_identifier": "Points",
+            "computation_identifier": "Instantaneous",
+            "thresholds": [
+              {
+                "Name": "Minimum Flow Criteria for Artificial Recharge Withdrawal",
+                "Type": "None",
+                "Periods": [
+                  {
+                    "EndTime": "9999-12-31T23:59:59.9999999+00:00",
+                    "StartTime": "2019-04-01T00:00:00.0000000-06:00",
+                    "AppliedTime": "2026-06-25T18:47:06.622291Z",
+                    "SuppressData": false,
+                    "ReferenceValue": 100,
+                    "SecondaryReferenceValue": 50
+                  },
+                  {
+                    "EndTime": "2019-04-01T00:00:00.0000000-06:00",
+                    "Comments": "Oct-Mar (20) Apr-Sept (57)",
+                    "StartTime": "2018-10-01T00:00:00.0000000-06:00",
+                    "AppliedTime": "0001-01-01T00:00:00Z",
+                    "SuppressData": false,
+                    "ReferenceValue": 20,
+                    "SecondaryReferenceValue": 30
+                  }
+                ],
+                "Severity": 0,
+                "Description": "Display reference value",
+                "DisplayColor": "#990600",
+                "ReferenceCode": "NWISWeb ref level - Public",
+                "ProcessingOrder": "Suppression"
+              }
+            ],
+            "sublocation_identifier": null,
+            "primary": "Primary",
+            "monitoring_location_id": "USGS-07144100",
+            "web_description": null,
+            "parameter_description": "Discharge, cubic feet per second",
+            "parent_time_series_id": "66de7e2c53664e17ba30a7cc0764d378",
+            "data_gap_interval": "PT1H12M",
+            "statistics_begin": "1994"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -97.4244863910926,
+              37.8830673894379
+            ]
+          },
+          "methods": []
+        }
+      ],
+      "raw_files": [
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\07144100_99133_series_metadata.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-metadata/items?f=json&monitoring_location_id=USGS-07144100&parameter_code=99133&limit=100",
+          "bytes": 3915
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\07144100_99133_91d48bdfd3184b4ebd02daf4d5d85a07_methods.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-methods/items?f=json&time_series_id=91d48bdfd3184b4ebd02daf4d5d85a07&limit=100",
+          "bytes": 1910
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\07144100_99133_91d48bdfd3184b4ebd02daf4d5d85a07_UV015_definition.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/methods/items/UV015?f=json",
+          "bytes": 1706
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\07144100_00060_series_metadata.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-metadata/items?f=json&monitoring_location_id=USGS-07144100&parameter_code=00060&limit=100",
+          "bytes": 5910
+        },
+        {
+          "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\07144100_00060_8fc9697214b84dc18a1851f4663147cd_methods.json",
+          "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/time-series-methods/items?f=json&time_series_id=8fc9697214b84dc18a1851f4663147cd&limit=100",
+          "bytes": 1444
+        }
+      ]
+    }
+  ],
+  "downloads": [
+    {
+      "site": "03346500",
+      "year": 2021,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\03346500_2021_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=03346500&parameterCd=00060%2C99133&startDT=2021-01-01T00%3A00%3A00Z&endDT=2022-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:43:53.965023+00:00",
+      "sha256": "22b0d379d50470f76d4336f6d101ad8395d9ead6063d84f4f7e9e25e54d12b5c",
+      "compressed_bytes": 269818,
+      "response_bytes": 5290291,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+          "n": 32578,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 49990
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+          "n": 34899,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 49998
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "03346500",
+      "year": 2022,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\03346500_2022_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=03346500&parameterCd=00060%2C99133&startDT=2022-01-01T00%3A00%3A00Z&endDT=2023-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:43:51.410505+00:00",
+      "sha256": "f99dbbd6bb5e9983ba21f42de2f03d79b1f3d943bc36655448160bff1f86f08c",
+      "compressed_bytes": 262554,
+      "response_bytes": 5308344,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+          "n": 33121,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 49990
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+          "n": 34572,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 49998
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "03346500",
+      "year": 2023,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\03346500_2023_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=03346500&parameterCd=00060%2C99133&startDT=2023-01-01T00%3A00%3A00Z&endDT=2024-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:43:57.829317+00:00",
+      "sha256": "b933b8546adc9e95cac589c15ce9c9c941648771fde10868e2cff576a6260d99",
+      "compressed_bytes": 254962,
+      "response_bytes": 5321468,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+          "n": 33344,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 49990
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+          "n": 34536,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 49998
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "03346500",
+      "year": 2024,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\03346500_2024_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=03346500&parameterCd=00060%2C99133&startDT=2024-01-01T00%3A00%3A00Z&endDT=2025-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:44:00.156800+00:00",
+      "sha256": "17ab3ea6b4fa17f681ed55d6d75c0f717c0a0ac5c2a1575c87a3cb4a243ea0db",
+      "compressed_bytes": 213273,
+      "response_bytes": 4349160,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+          "n": 31211,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 49990
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+          "n": 24295,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 49998
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "07144100",
+      "year": 2021,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\07144100_2021_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=07144100&parameterCd=00060%2C99133&startDT=2021-01-01T00%3A00%3A00Z&endDT=2022-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:44:03.922331+00:00",
+      "sha256": "7941099e206473dfa52a78495d6ebfe990cfd642ed96ea2baa9ba0f2b0c7dd11",
+      "compressed_bytes": 242269,
+      "response_bytes": 4989336,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "L ARKANSAS R NR SEDGWICK, KS",
+          "n": 34501,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 57466
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "L ARKANSAS R NR SEDGWICK, KS",
+          "n": 29046,
+          "method": [
+            [
+              {
+                "methodDescription": "[(3)]",
+                "methodID": 57493
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "07144100",
+      "year": 2022,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\07144100_2022_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=07144100&parameterCd=00060%2C99133&startDT=2022-01-01T00%3A00%3A00Z&endDT=2023-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:44:06.673128+00:00",
+      "sha256": "c6d569ae5dd19cc9c12b90874306f0016318dd024a8fd4a019a83fc05c6e004c",
+      "compressed_bytes": 242095,
+      "response_bytes": 5355392,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "L ARKANSAS R NR SEDGWICK, KS",
+          "n": 34693,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 57466
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "L ARKANSAS R NR SEDGWICK, KS",
+          "n": 33437,
+          "method": [
+            [
+              {
+                "methodDescription": "[(3)]",
+                "methodID": 57493
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "07144100",
+      "year": 2023,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\07144100_2023_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=07144100&parameterCd=00060%2C99133&startDT=2023-01-01T00%3A00%3A00Z&endDT=2024-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:44:10.334639+00:00",
+      "sha256": "2fc8b344b8831f44c1960da2bca6b4d8e7f7e52863a849f0aaa463c929a87683",
+      "compressed_bytes": 239154,
+      "response_bytes": 5426148,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "L ARKANSAS R NR SEDGWICK, KS",
+          "n": 34780,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 57466
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "L ARKANSAS R NR SEDGWICK, KS",
+          "n": 34290,
+          "method": [
+            [
+              {
+                "methodDescription": "[(3)]",
+                "methodID": 57493
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "site": "07144100",
+      "year": 2024,
+      "path": "F:\\AcademicData\\NitrateAdaptiveSampling_20261005\\raw\\usgs_20261005T144332221871Z\\07144100_2024_iv.json.gz",
+      "url": "https://nwis.waterservices.usgs.gov/nwis/iv/?format=json&sites=07144100&parameterCd=00060%2C99133&startDT=2024-01-01T00%3A00%3A00Z&endDT=2025-01-01T00%3A00%3A00Z&siteStatus=all",
+      "retrieved_utc": "2026-10-05T14:44:13.328109+00:00",
+      "sha256": "cc8663918ead9eec9e462494eb80496dd4c6bba79c255fde2479a7b9d6ca5348",
+      "compressed_bytes": 247959,
+      "response_bytes": 5294428,
+      "series_summary": [
+        {
+          "parameter": "00060",
+          "site_name": "L ARKANSAS R NR SEDGWICK, KS",
+          "n": 34084,
+          "method": [
+            [
+              {
+                "methodDescription": "",
+                "methodID": 57466
+              }
+            ]
+          ]
+        },
+        {
+          "parameter": "99133",
+          "site_name": "L ARKANSAS R NR SEDGWICK, KS",
+          "n": 33354,
+          "method": [
+            [
+              {
+                "methodDescription": "[(3)]",
+                "methodID": 57493
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

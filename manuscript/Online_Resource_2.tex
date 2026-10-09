@@ -1,0 +1,109 @@
+%% Springer Nature LaTeX template (sn-jnl.cls) supplied with the submission.
+\documentclass[lineno,pdflatex,sn-apa]{sn-jnl}% Math and Physical Sciences Numbered Reference Style
+
+%%%% Standard Packages
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{listings}%
+\let\orcidlogo\undefined
+\usepackage{orcidlink}%
+%%%%
+
+\theoremstyle{thmstyleone}%
+\newtheorem{theorem}{Theorem}%
+\newtheorem{proposition}[theorem]{Proposition}%
+
+\theoremstyle{thmstyletwo}%
+\newtheorem{example}{Example}%
+\newtheorem{remark}{Remark}%
+
+\theoremstyle{thmstylethree}%
+\newtheorem{definition}{Definition}%
+
+\raggedbottom
+
+
+\begin{document}
+
+
+
+\title[Online Resource 2]{Online Resource 2: Complete comparison outcomes}
+
+
+
+\author*[1,2]{\fnm{Junjie} \sur{Zhang}\,\orcidlink{0009-0004-8821-4018}}\email{junjiezhang2024@shisu.edu.cn}
+
+\affil*[1]{\orgdiv{Shanghai Academy of Global Governance and Area Studies}, \orgname{Shanghai International Studies University}, \orgaddress{\city{Shanghai}, \postcode{201620}, \country{China}}}
+
+\affil[2]{\orgdiv{School of Economics and Finance}, \orgname{Shanghai International Studies University}, \orgaddress{\city{Shanghai}, \postcode{201620}, \country{China}}}
+
+
+\abstract{Complete paired comparison outcomes for the sparse river nutrient monitoring assessment, covering every station, budget, seed, accuracy scenario and geographical sensitivity.}
+
+
+
+\keywords{paired comparisons; station intervals; accuracy scenarios}
+
+
+
+\maketitle
+
+
+
+\begin{center}
+\noindent\textbf{Table S2} Paired baseline error minus load value error (percentage points)
+\end{center}
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+Records & Budget & Baseline & Difference & Sites improved & \multicolumn{2}{c}{95\% interval} \\
+\cmidrule(lr){6-7}
+& & & & & Station & HUC4 \\
+\midrule
+Additional & 24 & Block deadline & 3.49 & 6/8 & $-$3.73 to 11.83 & $-$2.56 to 13.24\\
+Additional & 24 & Flow trigger & $-$1.03 & 4/8 & $-$4.01 to 1.14 & $-$4.72 to 1.07\\
+Additional & 24 & Periodic & 0.07 & 5/8 & $-$2.24 to 2.02 & $-$2.37 to 2.36\\
+Additional & 24 & Historical predictor & 0.62 & 5/8 & $-$4.70 to 5.00 & $-$4.89 to 5.88\\
+Additional & 48 & Block deadline & 3.42 & 4/8 & $-$1.95 to 11.13 & $-$1.57 to 12.72\\
+Additional & 48 & Flow trigger & $-$0.65 & 4/8 & $-$3.72 to 1.40 & $-$4.34 to 1.14\\
+Additional & 48 & Periodic & 0.80 & 5/8 & $-$3.00 to 4.10 & $-$3.15 to 4.76\\
+Additional & 48 & Historical predictor & 2.33 & 5/8 & $-$3.66 to 7.75 & $-$4.24 to 8.86\\
+Additional & 96 & Block deadline & 2.95 & 7/8 & 0.93 to 5.67 & 1.21 to 5.93\\
+Additional & 96 & Flow trigger & 0.09 & 5/8 & $-$2.52 to 1.99 & $-$2.85 to 2.00\\
+Additional & 96 & Periodic & 1.04 & 4/8 & $-$2.82 to 4.64 & $-$2.33 to 6.00\\
+Additional & 96 & Historical predictor & 4.52 & 5/8 & $-$2.36 to 10.97 & $-$2.86 to 13.32\\
+Temporal & 24 & Block deadline & 2.73 & 7/9 & 0.46 to 5.58 & 0.57 to 7.15\\
+Temporal & 24 & Flow trigger & 1.05 & 5/9 & $-$0.26 to 2.57 & $-$0.08 to 3.72\\
+Temporal & 24 & Periodic & 2.93 & 6/9 & 0.11 to 6.26 & 1.00 to 5.70\\
+Temporal & 24 & Historical predictor & 8.93 & 9/9 & 4.33 to 14.15 & 4.53 to 14.81\\
+Temporal & 48 & Block deadline & 3.10 & 6/9 & 0.39 to 5.74 & 0.53 to 7.09\\
+Temporal & 48 & Flow trigger & 0.94 & 5/9 & $-$0.95 to 3.20 & $-$0.90 to 3.69\\
+Temporal & 48 & Periodic & 0.99 & 5/9 & $-$1.78 to 3.86 & $-$2.04 to 5.76\\
+Temporal & 48 & Historical predictor & 10.55 & 9/9 & 6.06 to 14.97 & 6.19 to 16.70\\
+Temporal & 96 & Block deadline & 2.54 & 7/9 & 0.99 to 4.17 & 1.45 to 4.11\\
+Temporal & 96 & Flow trigger & 0.83 & 6/9 & $-$0.86 to 2.42 & $-$0.68 to 2.30\\
+Temporal & 96 & Periodic & 3.81 & 7/9 & $-$0.01 to 7.96 & $-$0.38 to 9.84\\
+Temporal & 96 & Historical predictor & 14.87 & 9/9 & 8.61 to 21.12 & 8.23 to 22.93\\
+\botrule
+\end{tabular}
+\end{center}
+
+Positive event absolute relative error differences favour load value sampling. All intervals are pointwise, and HUC4 resampling is a geographical sensitivity rather than proof of independent groups. The machine readable outputs additionally retain every site, budget, seed, whole window outcome, signed and absolute mass error, the 10\% and 20\% accuracy scenarios, the three event sensitivity and the HUC4 deletion results. No selected subset substitutes for the primary population.
+
+\bibliography{sn-bibliography}
+
+\end{document}

@@ -1,0 +1,24 @@
+{
+  "identity": "post_review_context_figures_not_confirmatory_tests",
+  "source_files": [
+    "context_plot_site_year_long.csv",
+    "context_plot_event_long.csv",
+    "context_residual_persistence.csv",
+    "context_plot_zero_label_long.csv"
+  ],
+  "station_year_selection": "All original data-gate included station years, no performance filtering; explicit stage column.",
+  "event_selection": "All unique detected events retained for missingness comparison. Timing shares should use scorable=True only; all excluded events remain in the file.",
+  "persistence_selection": "One seed(41) per original included station/year; all four lags and both support rules reported. Historical calibration audits exactly reproduced.",
+  "grouping": "Temporal2025, external2023/24, and development2023/24 kept separate. Nearby stations and repeated years are not independent replications.",
+  "distributions": "Raw descriptive points/medians only; no nine-station fitted mechanism model and no inferred optimal lag.",
+  "case_state": "Complete; revised closed-loop run, explicitly post-result",
+  "case_source_run": "experiments_main_temporal_v1",
+  "case_manifest": "context_case_manifest.json",
+  "case_source_files": [
+    "context_case_selection.csv",
+    "context_case_selection_population.csv",
+    "context_case_hourly.csv",
+    "context_case_attempts.csv",
+    "context_policy_event_timing.csv"
+  ]
+}

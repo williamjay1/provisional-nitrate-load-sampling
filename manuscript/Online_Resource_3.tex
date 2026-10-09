@@ -1,0 +1,515 @@
+%% Springer Nature LaTeX template (sn-jnl.cls) supplied with the submission.
+\documentclass[lineno,pdflatex,sn-apa]{sn-jnl}% Math and Physical Sciences Numbered Reference Style
+
+%%%% Standard Packages
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{listings}%
+\let\orcidlogo\undefined
+\usepackage{orcidlink}%
+%%%%
+
+\theoremstyle{thmstyleone}%
+\newtheorem{theorem}{Theorem}%
+\newtheorem{proposition}[theorem]{Proposition}%
+
+\theoremstyle{thmstyletwo}%
+\newtheorem{example}{Example}%
+\newtheorem{remark}{Remark}%
+
+\theoremstyle{thmstylethree}%
+\newtheorem{definition}{Definition}%
+
+\raggedbottom
+
+
+\begin{document}
+
+
+
+\title[Online Resource 3]{Online Resource 3: Earlier experiment settings and data provenance}
+
+
+
+\author*[1,2]{\fnm{Junjie} \sur{Zhang}\,\orcidlink{0009-0004-8821-4018}}\email{junjiezhang2024@shisu.edu.cn}
+
+\affil*[1]{\orgdiv{Shanghai Academy of Global Governance and Area Studies}, \orgname{Shanghai International Studies University}, \orgaddress{\city{Shanghai}, \postcode{201620}, \country{China}}}
+
+\affil[2]{\orgdiv{School of Economics and Finance}, \orgname{Shanghai International Studies University}, \orgaddress{\city{Shanghai}, \postcode{201620}, \country{China}}}
+
+
+\abstract{Earlier experiment settings, historical calendar designs, reconstruction sensitivities and diagnostic provenance for the sparse river nutrient monitoring assessment.}
+
+
+
+\keywords{experiment settings; calendar design; reconstruction sensitivity}
+
+
+
+\maketitle
+
+
+
+This resource documents the earlier experiment that produced the pooled residual results, together with the sensitivity analyses that followed it. The comparisons reported in the main text were specified after those results had been inspected, so the material here keeps both stages of evidence readable side by side and supports the analysis status described in the Materials and methods. The earlier configuration and its comparison tables are reproduced below without alteration.
+
+The historical QR and D optimal calendars are calendar adaptations rather than complete replications of published sparse sensing systems. Their rank is capped at eight while the smallest budget is 24 samples, so QR pivots after the basis rank can reflect numerical ordering, and both calendars allow unrestricted seasonal allocation unlike block quota policies. They are reported for completeness and they support no superiority claim against the published methods.
+
+Innovation scale adaptation in the earlier zero rate comparison changes both subsequent query weighting and reconstruction weighting, so it does not isolate a query only mechanism. The 6 h and 72 h sensitivity changes actual information availability and the subsequent calendars, which differs from the fixed real delay score ablation of the main text. Tables F1 to F4 retain these distinctions.
+
+\section*{S1. Predictor specification and historical calibration}
+
+Random forests used 64 trees, a maximum depth of 12, a minimum leaf size of 16, bootstrap sampling and otherwise default regression settings. At most 12,000 qualified historical pairs were selected without replacement for each fit. Inputs were log scaled discharge together with its 1, 6, 24 and 72 h lags and differences, an exponentially weighted log discharge mean with span 24, a discharge missingness indicator, and annual sine and cosine terms. Discharge scaling used its qualified median over the permitted historical block, and forward filling stopped after 24 h, after which the historical median was used. The annual phase used day of year and a 365.25 day denominator.
+
+For residual scale calibration, the latest historical year containing at least 1,000 qualified pairs supplied up to 4,000 calibration responses, and a forest fitted to preceding years predicted those responses. Discharge scaling used the complete permitted historical block including that calibration year, which makes this chronological response withholding rather than a fully nested preprocessing experiment. No target year responses entered either the calibration or the final historical fit. The initial coefficient variance and the measurement error proxy equalled the forward mean squared error, with the numerical floor specified in the main text.
+
+The nine component residual representation consisted of an intercept and four cosine and sine pairs. For standardised context $\widetilde x$, each pair was $\cos(\omega_j^\mathsf T\widetilde x)/2$ and $\sin(\omega_j^\mathsf T\widetilde x)/2$ with $\omega_j\sim N(0,I_4)$, and context standard deviations were bounded below at $10^{-6}$. Frequencies, standardisation and the 96 context reference library were fixed before each replay, and library candidates required observed, finite and nonnegative discharge, so filled values created no candidate observations. One seed generated each station year shared forest, feature map and reference library, and noise adaptation was bounded between 0.1 and 10 times its initial value.
+
+\section*{S2. Historical calendar designs}
+
+Each permitted historical year contributed separate daily discharge and concentration columns to a 366 position month and day matrix, and qualified observations were averaged within each day. Columns required at least 180 observed days, and gaps were linearly interpolated with endpoint filling solely to construct the historical design matrix. Each column was centred and divided by its sample standard deviation, effectively constant columns were discarded, and neither missing reference loads nor target concentrations were ever filled by this operation.
+
+A thin singular value decomposition retained the smallest rank that explained at least 85\% of the squared singular value energy, capped at eight. Historical QR applied a column pivoted QR decomposition to $U_rU_r^\mathsf T$. Historical D optimal initialised $M=10^{-6}I$, repeatedly selected the unchosen calendar row that maximised $u_j^\mathsf TM^{-1}u_j$ and added $u_ju_j^\mathsf T$ to $M$, with ties following calendar order. The highest ranked dates present in the target calendar were sampled at 12:00 UTC and 29 February was skipped in nonleap years, and if no historical columns qualified the fallback ranking was chronological.
+
+These calendar adaptations share the historical basis rationale of sparse sensing but not an entire published reconstruction pipeline. QR selection beyond the basis rank can depend on numerical pivot ordering, and the ridge and greedy oversampling of the D optimal calendar are explicit implementation choices. Both calendars permit unrestricted seasonal allocation under the annual budget and minimum spacing, unlike the five quota policies, and no target year completeness mask was used to avoid failed samples.
+
+\section*{S3. Fixed experiment factors}
+
+The development grid was C0 with a 72 h look ahead window, a 720 h half life and a 0.85 threshold quantile; C1 with 168 h, 720 h and 0.85; C2 with 72 h, 2160 h and 0.85; and C3 with 72 h, 720 h and 0.65. Selection used seed 41, all three budgets and the five quota policies, averaging available years within station and weighting stations, policies and budgets equally, and C2 was selected as the common configuration.
+
+The temporal and spatial assessments crossed budgets of 24, 48 and 96 samples with seeds 41, 73 and 109, seven samplers and three reconstruction modes, at a delay of 24 h and a noise adaptation rate of 0.1. The unchanged forest supplied a separate comparator with no new labels, and uniform phases were 0.25, 0.50 and 0.75. All samplers respected a 6 h grid and a 24 h minimum spacing. Prespecified temporal sensitivities changed the delay to 6 or 72 h or set the adaptation rate to zero for the uniform, flow, uncertainty and sampling value policies with online reconstruction, and the zero adaptation comparison changes both future query weighting and residual measurement weighting rather than isolating a query only intervention. These factors were recorded before the policy outcomes were inspected.
+
+\section*{S4. Reconstruction sensitivities on fixed calendars}
+
+Two additional online reconstructors were evaluated on calendars that had already been purchased. Let $s$ index the latest successful sample returned by time $t$, with arrival time $a_s$. The first estimated
+
+\begin{equation}
+\widehat c_t=\max\{0,c_0(x_t)+[c_s-c_0(x_s)] \exp[-(t-a_s)/168]\}.
+\end{equation}
+
+The 168 h value is an exponential time constant measured from arrival and inherited from the earlier pilot, and it is not a 168 h half life. The second reconstructor held the latest returned concentration constant until another response arrived. Both used the unchanged forest before the first return and excluded responses arriving beyond the reporting horizon.
+
+This was a descriptive check of reconstruction dependence with no new parameter search. The sampling value and uncertainty calendars had originally been generated from the Bayesian residual state and were not regenerated under the replacement predictors, so these results compare alternative reconstruction of fixed measurements rather than the performance of newly evaluated closed loop policies.
+
+\section*{S5. Diagnostic definitions and provenance}
+
+Event capture means at least one attempt within the event. Timely return within the event requires a successful sample collected during the event and returned strictly before its end, and any return additionally includes samples collected before event onset but returned during the event. The denominator for all three proportions is all defined events rather than only captured events, and proportions are averaged over seeds within station before equal station averaging. Stations with no defined events have undefined proportions and are excluded from these diagnostic means, so the 2025 all event means use 12 stations and the eligible event means use nine, where the latter apply the reference coverage and boundary rules before aggregation. Receiving a label does not by itself establish that prediction improves.
+
+Fallback frequency is deadline only attempts divided by annual attempts. Exact calendar overlap is the intersection divided by the union of timestamps, and the 6 h overlap matches timestamps one to one and reports twice the matched count divided by total attempts across the pair. These diagnostics include all 13 data eligible stations, and capture and error associations retain fixed capture states without estimating causal effects.
+
+\section*{S6. Analysis versions and data use}
+
+\begin{center}
+\noindent\textbf{Table S3} What was fixed when, and which comparisons were formed after the evaluation records had been inspected
+\end{center}
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}p{0.196\textwidth}p{0.110\textwidth}p{0.574\textwidth}@{}}
+\toprule
+Component & Status & What was fixed, and when\\
+\midrule
+Reference preparation and historical predictor & Fixed before the original assessments & Quality screens, the 12,000 pair training cap and the forest settings (64 trees, depth 12, minimum leaf 16) were set in the original configuration freeze on development stations\\
+Original acquisition surrogate and pooled output rule & Fixed before the original assessments & The nine component random feature state with the 2160 h forgetting half life and the pooled output rule were selected as configuration C2 on the development grid before the held out assessments\\
+Latest residual correction with a 168 h time constant from arrival & Post hoc component, inherited & Derived from an earlier reconstruction diagnostic on calendars that had already been purchased, and fixed without new tuning on the evaluation years\\
+Complete systems that issue the saved output & Post hoc comparison & Acquisition was rerun with the prediction actually issued at purchase; no evaluation year parameter search was performed\\
+Fixed calendar factorial over family, memory and age origin & Post hoc diagnostic & The component grid was declared before execution, and no evaluation year winner replaced the declared main output\\
+Fixed real delay ablations & Post hoc diagnostic & Actual arrival times were preserved and only the delay assumed by the acquisition score changed\\
+Coverage and delay origin sensitivities & Post hoc diagnostic & Thresholds and factor levels were declared before execution, on records that had already been inspected\\
+Information use during the simulation & Enforced in code & Hourly estimates use only results that have arrived, unpurchased concentrations remain hidden, and a separate implementation checked the chronology\\
+\botrule
+\end{tabular}
+\end{center}
+
+The two columns answer different questions. The simulation never uses a future result, and that property is checked in code. Whether the choice of method was influenced by inspected evaluation results is a separate question, and the post hoc entries above record it.
+
+\textbf{Table F1. Complete development configuration grid.} Mean event error (\%), seed 41, with years averaged within station and stations weighted equally. C0 is a 72 h window with a 720 h half life and a 0.85 quantile, C1 is 168 h, 720 h and 0.85, C2 is 72 h, 2160 h and 0.85, and C3 is 72 h, 720 h and 0.65. The selection score averages the five quota policies and all three budgets, while historical QR and D optimal are reported but excluded from that average.
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Config & Policy & 24 attempts & 48 attempts & 96 attempts\\
+\midrule
+C0 & Flow trigger & 20.78 & 19.80 & 17.28\\
+C0 & Historical D optimal & 26.03 & 24.78 & 21.71\\
+C0 & Historical QR & 26.16 & 25.60 & 24.37\\
+C0 & Discharge $\times$ posterior SD & 21.51 & 21.28 & 16.59\\
+C0 & Stratified random & 23.99 & 19.50 & 19.04\\
+C0 & Periodic & 21.21 & 20.86 & 16.42\\
+C0 & Delayed load value & 21.84 & 19.45 & 18.14\\
+C1 & Flow trigger & 20.78 & 19.80 & 17.28\\
+C1 & Historical D optimal & 26.03 & 24.78 & 21.71\\
+C1 & Historical QR & 26.16 & 25.60 & 24.37\\
+C1 & Discharge $\times$ posterior SD & 21.51 & 21.28 & 16.59\\
+C1 & Stratified random & 23.99 & 19.50 & 19.04\\
+C1 & Periodic & 21.21 & 20.86 & 16.42\\
+C1 & Delayed load value & 21.37 & 19.42 & 18.13\\
+C2 & Flow trigger & 20.19 & 19.13 & 16.32\\
+C2 & Historical D optimal & 25.52 & 24.26 & 21.06\\
+C2 & Historical QR & 25.71 & 24.89 & 24.05\\
+C2 & Discharge $\times$ posterior SD & 20.75 & 20.19 & 17.20\\
+C2 & Stratified random & 23.77 & 19.14 & 19.02\\
+C2 & Periodic & 19.69 & 19.86 & 16.65\\
+C2 & Delayed load value & 19.80 & 18.32 & 17.23\\
+C3 & Flow trigger & 23.85 & 21.08 & 17.68\\
+C3 & Historical D optimal & 26.03 & 24.78 & 21.71\\
+C3 & Historical QR & 26.16 & 25.60 & 24.37\\
+C3 & Discharge $\times$ posterior SD & 21.21 & 19.53 & 18.95\\
+C3 & Stratified random & 23.99 & 19.50 & 19.04\\
+C3 & Periodic & 21.21 & 20.86 & 16.42\\
+C3 & Delayed load value & 24.04 & 22.02 & 16.67\\
+\botrule
+\end{tabular}
+\end{center}
+
+\textbf{Table F2. Earlier temporal online paired improvements.} Positive differences in percentage points favour sampling value. Intervals use 10,000 station or HUC4 resamples and they are pointwise empirical summaries rather than simultaneous intervals. The cohort contains nine stations and five HUC4 groups.
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Budget & Comparator & \shortstack{Mean\\improvement} & Station wins & \shortstack{Station 95\%\\interval} & \shortstack{HUC4 95\%\\interval}\\
+\midrule
+24 & Flow trigger & 0.62 & 4/9 & $-$0.33 to 1.74 & $-$0.07 to 1.60\\
+24 & Periodic & 2.96 & 6/9 & $-$0.22 to 6.97 & $-$0.19 to 7.92\\
+48 & Flow trigger & 1.42 & 6/9 & $-$0.46 to 3.24 & $-$0.57 to 4.48\\
+48 & Periodic & 0.34 & 4/9 & $-$1.61 to 2.27 & $-$1.47 to 1.89\\
+96 & Flow trigger & 1.31 & 6/9 & $-$0.05 to 2.74 & 0.36 to 3.25\\
+96 & Periodic & 2.89 & 7/9 & 0.26 to 6.23 & 0.61 to 8.51\\
+\botrule
+\end{tabular}
+\end{center}
+
+\textbf{Table F3. Online reconstruction diagnostic on fixed calendars.} Event error (\%) for unchanged realized calendars, where no replacement reconstructor regenerated acquisition decisions. Cohorts and weighting match the main event analyses, and the latest residual uses a 168 h exponential time constant from response arrival.
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Cohort & Reconstruction & Calendar & 24 attempts & 48 attempts & 96 attempts\\
+\midrule
+Temporal & Latest residual & Periodic & 25.75 & 22.18 & 20.68\\
+Temporal & Latest residual & Stratified random & 26.81 & 23.09 & 19.11\\
+Temporal & Latest residual & Flow trigger & 23.86 & 22.13 & 17.70\\
+Temporal & Latest residual & Discharge $\times$ posterior SD & 23.05 & 22.04 & 17.11\\
+Temporal & Latest residual & Delayed load value & 22.81 & 21.53 & 17.03\\
+Temporal & Latest residual & Historical QR & 28.87 & 26.45 & 24.30\\
+Temporal & Latest residual & Historical D optimal & 30.04 & 27.58 & 24.16\\
+Temporal & Latest concentration & Periodic & 28.67 & 24.94 & 21.08\\
+Temporal & Latest concentration & Stratified random & 30.54 & 26.72 & 22.26\\
+Temporal & Latest concentration & Flow trigger & 30.44 & 25.29 & 18.83\\
+Temporal & Latest concentration & Discharge $\times$ posterior SD & 28.62 & 24.45 & 18.53\\
+Temporal & Latest concentration & Delayed load value & 26.99 & 24.77 & 18.49\\
+Temporal & Latest concentration & Historical QR & 70.36 & 47.80 & 33.02\\
+Temporal & Latest concentration & Historical D optimal & 69.45 & 44.15 & 33.61\\
+Additional & Latest residual & Periodic & 18.52 & 17.54 & 15.59\\
+Additional & Latest residual & Stratified random & 20.11 & 19.47 & 16.01\\
+Additional & Latest residual & Flow trigger & 17.42 & 16.09 & 14.64\\
+Additional & Latest residual & Discharge $\times$ posterior SD & 17.37 & 16.03 & 14.40\\
+Additional & Latest residual & Delayed load value & 18.35 & 16.71 & 14.72\\
+Additional & Latest residual & Historical QR & 17.71 & 17.53 & 17.52\\
+Additional & Latest residual & Historical D optimal & 18.08 & 18.29 & 16.27\\
+Additional & Latest concentration & Periodic & 33.91 & 28.70 & 22.77\\
+Additional & Latest concentration & Stratified random & 37.26 & 29.16 & 24.42\\
+Additional & Latest concentration & Flow trigger & 33.42 & 28.80 & 24.30\\
+Additional & Latest concentration & Discharge $\times$ posterior SD & 33.41 & 30.26 & 24.09\\
+Additional & Latest concentration & Delayed load value & 31.39 & 27.44 & 22.59\\
+Additional & Latest concentration & Historical QR & 27.88 & 28.63 & 24.93\\
+Additional & Latest concentration & Historical D optimal & 36.52 & 37.94 & 26.85\\
+\botrule
+\end{tabular}
+\end{center}
+
+\textbf{Table F4. Prespecified temporal sensitivities with online reconstruction.} Mean event error (\%). The pooled output configuration, cohort, weighting and all other settings follow the methods specified in Section S3, and the 24 h rows disable innovation scale adaptation while retaining residual mean updates.
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Delay (h) & \shortstack{Adaptation\\rate} & Policy & 24 attempts & 48 attempts & 96 attempts\\
+\midrule
+6 & 0.1 & Flow trigger & 27.03 & 28.90 & 25.85\\
+6 & 0.1 & Discharge $\times$ posterior SD & 27.43 & 29.21 & 26.32\\
+6 & 0.1 & Periodic & 29.01 & 27.48 & 28.52\\
+6 & 0.1 & Delayed load value & 26.04 & 27.27 & 24.94\\
+24 & 0.0 & Flow trigger & 27.34 & 27.87 & 27.28\\
+24 & 0.0 & Discharge $\times$ posterior SD & 27.76 & 28.37 & 27.91\\
+24 & 0.0 & Periodic & 29.09 & 27.49 & 28.14\\
+24 & 0.0 & Delayed load value & 26.68 & 27.24 & 26.53\\
+72 & 0.1 & Flow trigger & 28.30 & 30.49 & 29.48\\
+72 & 0.1 & Discharge $\times$ posterior SD & 29.47 & 30.84 & 29.85\\
+72 & 0.1 & Periodic & 30.71 & 29.42 & 31.19\\
+72 & 0.1 & Delayed load value & 28.20 & 29.19 & 28.27\\
+\botrule
+\end{tabular}
+\end{center}
+
+\section*{S7. Fixed calendar delay and residual decay origin}
+
+The main comparison holds the result delay at 24 h and lets the residual correction decay from the arrival time. This diagnostic holds the purchase calendars fixed at a budget of 96 samples per year and crosses the actual return delay with the decay origin, so that the delay effect and the definition of residual age can be read separately. Levels are mean event absolute relative errors over the temporal cohort after station, seed and year aggregation.
+
+Panel A reports levels and Panel B reports paired station bootstrap contrasts in percentage points.
+
+\begin{center}
+\noindent\textbf{Table F5} Fixed calendar event error by actual return delay and residual decay origin
+\end{center}
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Calendar & Delay (h) & Decay origin & \shortstack{Mean event\\error (\%)} & Events\\
+\midrule
+deadline\_only & 6 & arrival & 16.54 & 138\\
+deadline\_only & 6 & collection & 16.82 & 138\\
+deadline\_only & 24 & arrival & 19.41 & 138\\
+deadline\_only & 24 & collection & 20.34 & 138\\
+deadline\_only & 72 & arrival & 22.77 & 138\\
+deadline\_only & 72 & collection & 23.35 & 138\\
+flow\_trigger & 6 & arrival & 14.42 & 138\\
+flow\_trigger & 6 & collection & 14.65 & 138\\
+flow\_trigger & 24 & arrival & 17.70 & 138\\
+flow\_trigger & 24 & collection & 18.38 & 138\\
+flow\_trigger & 72 & arrival & 23.09 & 138\\
+flow\_trigger & 72 & collection & 23.32 & 138\\
+uniform & 6 & arrival & 18.80 & 138\\
+uniform & 6 & collection & 18.93 & 138\\
+uniform & 24 & arrival & 20.68 & 138\\
+uniform & 24 & collection & 20.81 & 138\\
+uniform & 72 & arrival & 24.81 & 138\\
+uniform & 72 & collection & 24.13 & 138\\
+\botrule
+\end{tabular}
+\end{center}
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Calendar & Stratum & Contrast & \shortstack{Difference\\(points)} & \shortstack{95\% station\\interval} & \shortstack{Stations\\favouring}\\
+\midrule
+deadline\_only & arrival & delay: 72h vs 6h at origin=arrival & +6.23 & 1.03 to 11.96 & 7/9\\
+deadline\_only & arrival & delay: 72h vs 24h at origin=arrival & +3.36 & $-$0.23 to 6.81 & 7/9\\
+deadline\_only & arrival & delay: 24h vs 6h at origin=arrival & +2.87 & 0.40 to 6.15 & 7/9\\
+deadline\_only & collection & delay: 72h vs 6h at origin=collection & +6.53 & 1.38 to 12.20 & 7/9\\
+deadline\_only & collection & delay: 72h vs 24h at origin=collection & +3.01 & $-$0.12 to 6.35 & 6/9\\
+deadline\_only & collection & delay: 24h vs 6h at origin=collection & +3.52 & 1.11 to 6.68 & 8/9\\
+flow\_trigger & arrival & delay: 72h vs 6h at origin=arrival & +8.67 & 5.15 to 12.72 & 9/9\\
+flow\_trigger & arrival & delay: 72h vs 24h at origin=arrival & +5.39 & 2.96 to 7.70 & 8/9\\
+flow\_trigger & arrival & delay: 24h vs 6h at origin=arrival & +3.28 & 0.27 to 6.86 & 8/9\\
+flow\_trigger & collection & delay: 72h vs 6h at origin=collection & +8.66 & 4.62 to 12.98 & 9/9\\
+flow\_trigger & collection & delay: 72h vs 24h at origin=collection & +4.93 & 2.06 to 7.74 & 7/9\\
+flow\_trigger & collection & delay: 24h vs 6h at origin=collection & +3.73 & 0.44 to 7.20 & 8/9\\
+uniform & arrival & delay: 72h vs 6h at origin=arrival & +6.01 & 3.04 to 8.76 & 7/9\\
+uniform & arrival & delay: 72h vs 24h at origin=arrival & +4.13 & 1.46 to 6.31 & 7/9\\
+uniform & arrival & delay: 24h vs 6h at origin=arrival & +1.88 & 0.91 to 3.08 & 9/9\\
+uniform & collection & delay: 72h vs 6h at origin=collection & +5.20 & 1.79 to 8.25 & 8/9\\
+uniform & collection & delay: 72h vs 24h at origin=collection & +3.32 & 0.53 to 5.63 & 8/9\\
+uniform & collection & delay: 24h vs 6h at origin=collection & +1.88 & 1.01 to 2.86 & 9/9\\
+deadline\_only & 6 h & collection minus arrival & +0.27 & 0.03 to 0.53 & 6/9\\
+deadline\_only & 24 h & collection minus arrival & +0.92 & 0.07 to 1.84 & 6/9\\
+deadline\_only & 72 h & collection minus arrival & +0.57 & $-$0.66 to 1.78 & 5/9\\
+flow\_trigger & 6 h & collection minus arrival & +0.24 & $-$0.00 to 0.48 & 5/9\\
+flow\_trigger & 24 h & collection minus arrival & +0.68 & $-$0.21 to 1.61 & 6/9\\
+flow\_trigger & 72 h & collection minus arrival & +0.23 & $-$1.02 to 1.52 & 4/9\\
+uniform & 6 h & collection minus arrival & +0.13 & $-$0.06 to 0.32 & 5/9\\
+uniform & 24 h & collection minus arrival & +0.13 & $-$0.80 to 1.05 & 5/9\\
+uniform & 72 h & collection minus arrival & $-$0.68 & $-$2.83 to 1.62 & 3/9\\
+\botrule
+\end{tabular}
+\end{center}
+
+\section*{S8. Coverage threshold sensitivity}
+
+The primary endpoint scores an event only when at least 95\% of its reference hours are complete. Lowering the threshold adds events to the eligible set, while raising it to 100\% removes events and one station. Paired differences are reported where the archive scored the affected events; the 90\% threshold adds events that were never scored in the archive, so only counts and support are reported there.
+
+\begin{center}
+\noindent\textbf{Table F6} Effect of the reference coverage threshold on the eligible event set and on the primary paired differences
+\end{center}
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+Threshold & Cohort & Stations & Events & \shortstack{Mean support\\(\%)} & \shortstack{Minimum\\support (\%)} & \shortstack{Events added\\vs 95\%}\\
+\midrule
+90\% & additional & 8 & 68 & 99.30 & 90.00 & 4\\
+90\% & development & 7 & 38 & 98.87 & 92.57 & 2\\
+90\% & temporal & 9 & 51 & 98.73 & 90.00 & 5\\
+95\% & additional & 8 & 64 & 99.75 & 97.24 & 0\\
+95\% & development & 7 & 36 & 99.21 & 96.30 & 0\\
+95\% & temporal & 9 & 46 & 99.35 & 95.56 & 0\\
+100\% & additional & 6 & 54 & 100.00 & 100.00 & 0\\
+100\% & development & 6 & 23 & 100.00 & 100.00 & 0\\
+100\% & temporal & 8 & 29 & 100.00 & 100.00 & 0\\
+\botrule
+\end{tabular}
+\end{center}
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+Threshold & Cohort & Measure & Baseline & Events & \shortstack{Difference\\(value minus\\baseline)} & \shortstack{95\% station\\interval}\\
+\midrule
+95\% & additional & absolute mass error & Block deadline & 64 & +2034 & $-$636 to 5535\\
+95\% & additional & absolute mass error & Flow trigger & 64 & +707 & $-$1350 to 2721\\
+95\% & additional & absolute mass error & Historical predictor & 64 & +18739 & $-$8560 to 45450\\
+95\% & additional & absolute mass error & Periodic & 64 & $-$1325 & $-$12296 to 5559\\
+95\% & additional & relative error & Block deadline & 64 & +2.95 & 0.93 to 5.67\\
+95\% & additional & relative error & Flow trigger & 64 & +0.09 & $-$2.52 to 1.99\\
+95\% & additional & relative error & Historical predictor & 64 & +4.52 & $-$2.36 to 10.97\\
+95\% & additional & relative error & Periodic & 64 & +1.04 & $-$2.82 to 4.64\\
+95\% & temporal & absolute mass error & Block deadline & 46 & +2798 & $-$4312 to 10499\\
+95\% & temporal & absolute mass error & Flow trigger & 46 & +7735 & $-$1738 to 22852\\
+95\% & temporal & absolute mass error & Historical predictor & 46 & +92917 & 19002 to 177148\\
+95\% & temporal & absolute mass error & Periodic & 46 & $-$4268 & $-$26165 to 10993\\
+95\% & temporal & relative error & Block deadline & 46 & +2.54 & 0.99 to 4.17\\
+95\% & temporal & relative error & Flow trigger & 46 & +0.83 & $-$0.86 to 2.42\\
+95\% & temporal & relative error & Historical predictor & 46 & +14.87 & 8.61 to 21.12\\
+95\% & temporal & relative error & Periodic & 46 & +3.81 & $-$0.01 to 7.96\\
+100\% & additional & absolute mass error & Block deadline & 54 & +340 & $-$832 to 1512\\
+100\% & additional & absolute mass error & Flow trigger & 54 & +1854 & 225 to 3750\\
+100\% & additional & absolute mass error & Historical predictor & 54 & +25206 & 7784 to 41786\\
+100\% & additional & absolute mass error & Periodic & 54 & +2428 & 464 to 4454\\
+100\% & additional & relative error & Block deadline & 54 & +1.35 & 0.37 to 2.43\\
+100\% & additional & relative error & Flow trigger & 54 & +1.60 & 0.37 to 2.89\\
+100\% & additional & relative error & Historical predictor & 54 & +6.83 & $-$0.11 to 13.40\\
+100\% & additional & relative error & Periodic & 54 & +1.76 & $-$0.57 to 4.10\\
+100\% & temporal & absolute mass error & Block deadline & 29 & +1647 & $-$2189 to 4819\\
+100\% & temporal & absolute mass error & Flow trigger & 29 & $-$2244 & $-$5217 to 106\\
+100\% & temporal & absolute mass error & Historical predictor & 29 & +40714 & 4810 to 103719\\
+100\% & temporal & absolute mass error & Periodic & 29 & +4087 & $-$1215 to 9884\\
+100\% & temporal & relative error & Block deadline & 29 & +2.70 & $-$0.11 to 5.56\\
+100\% & temporal & relative error & Flow trigger & 29 & +0.13 & $-$1.35 to 1.48\\
+100\% & temporal & relative error & Historical predictor & 29 & +15.73 & 7.11 to 26.17\\
+100\% & temporal & relative error & Periodic & 29 & +4.90 & $-$1.41 to 12.47\\
+\botrule
+\end{tabular}
+\end{center}
+
+\section*{S9. Sampling opportunity overlap}
+
+The complex acquisition rule can only change the calendar where the quota, the minimum spacing and the deadline leave room. This table counts purchase timestamps and successful returns for the load value system against the three simple schedules at a budget of 96 samples.
+
+\begin{center}
+\noindent\textbf{Table F7} Overlap of purchase timestamps and returns between the load value system and the simple schedules
+\end{center}
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lccccccc@{}}
+\toprule
+Cohort & Policy A & Policy B & Attempts each & \shortstack{Identical\\timestamps} & \shortstack{Differing\\timestamps} & \shortstack{Successful\\returns A} & \shortstack{Successful\\returns B}\\
+\midrule
+additional & Load value & Block deadline & 4608 & 3779 & 829 & 4313 & 4323\\
+additional & Load value & Block deadline & 4608 & 3779 & 829 & 4313 & 4323\\
+additional & Load value & Flow trigger & 4608 & 3703 & 905 & 4313 & 4308\\
+additional & Load value & Flow trigger & 4608 & 3703 & 905 & 4313 & 4308\\
+additional & Load value & Periodic & 4608 & 44 & 4564 & 4313 & 4267\\
+additional & Load value & Periodic & 4608 & 44 & 4564 & 4313 & 4267\\
+temporal & Load value & Block deadline & 3744 & 2879 & 865 & 3349 & 3345\\
+temporal & Load value & Block deadline & 2592 & 1840 & 752 & 2301 & 2298\\
+temporal & Load value & Flow trigger & 3744 & 3127 & 617 & 3349 & 3328\\
+temporal & Load value & Flow trigger & 2592 & 2082 & 510 & 2301 & 2290\\
+temporal & Load value & Periodic & 3744 & 36 & 3708 & 3349 & 3329\\
+temporal & Load value & Periodic & 2592 & 30 & 2562 & 2301 & 2287\\
+\botrule
+\end{tabular}
+\end{center}
+
+\section*{S10. Station level differences}
+
+Positive values indicate that load value sampling had the larger error. Stations where returned sample updating worsened relative error appear first.
+
+\begin{center}
+\noindent\textbf{Table F8} Per station comparison of load value and flow triggered sampling at a budget of 96 samples
+\end{center}
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lcccccccc@{}}
+\toprule
+Cohort & Station & HUC4 & \shortstack{Eligible\\events} & \shortstack{Load value\\error (\%)} & \shortstack{Flow error\\(\%)} & \shortstack{Difference\\(value minus\\flow, points)} & \shortstack{Mass\\difference (kg\\N)} & \shortstack{Relative error\\worsened}\\
+\midrule
+additional & 5537980 & 712 & 19 & 9.19 & 12.70 & $-$3.51 & $-$3540 & no\\
+additional & 3353200 & 512 & 10 & 18.41 & 21.30 & $-$2.90 & $-$999 & no\\
+additional & 2035000 & 208 & 13 & 8.85 & 10.15 & $-$1.30 & $-$1333 & no\\
+additional & 1646500 & 207 & 6 & 11.76 & 12.88 & $-$1.12 & $-$10 & no\\
+additional & 3339000 & 512 & 6 & 18.37 & 18.72 & $-$0.35 & $-$5848 & no\\
+additional & 5482300 & 710 & 1 & 14.17 & 14.08 & +0.08 & +331 & yes\\
+additional & 5484000 & 710 & 8 & 26.59 & 26.27 & +0.32 & +881 & yes\\
+additional & 5599490 & 714 & 1 & 9.04 & 0.99 & +8.05 & +4861 & yes\\
+temporal & 3374100 & 512 & 2 & 9.12 & 13.73 & $-$4.61 & $-$65752 & no\\
+temporal & 7144100 & 1103 & 4 & 45.25 & 49.13 & $-$3.89 & $-$287 & no\\
+temporal & 5482300 & 710 & 3 & 4.71 & 6.54 & $-$1.84 & $-$612 & no\\
+temporal & 2035000 & 208 & 6 & 11.59 & 13.27 & $-$1.68 & $-$1215 & no\\
+temporal & 5482000 & 710 & 5 & 5.24 & 6.85 & $-$1.61 & $-$11548 & no\\
+temporal & 5484000 & 710 & 7 & 19.12 & 20.10 & $-$0.98 & +1093 & no\\
+temporal & 3346500 & 512 & 6 & 25.37 & 23.46 & +1.91 & $-$562 & yes\\
+temporal & 5484500 & 710 & 6 & 15.90 & 13.85 & +2.05 & +3128 & yes\\
+temporal & 6902000 & 1028 & 7 & 15.53 & 12.36 & +3.17 & +6138 & yes\\
+\botrule
+\end{tabular}
+\end{center}
+
+\section*{S11. Station profiles}
+
+Coverage is the median over eligible events, peak flow and reference concentration are medians over eligible events, and the lag correlations are historical forward residual correlations computed with continuously qualified support.
+
+\begin{center}
+\noindent\textbf{Table F9} Stations in the working record set with evaluation years, eligible events, reference support and historical residual persistence
+\end{center}
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}p{0.072\textwidth}p{0.180\textwidth}p{0.126\textwidth}p{0.072\textwidth}p{0.108\textwidth}p{0.117\textwidth}p{0.126\textwidth}p{0.081\textwidth}@{}}
+\toprule
+Station & Cohort & Years & Events & Coverage (\%) & Q peak (m3/s) & Conc. (mg N/L) & r (168 h)\\
+\midrule
+1646500 & additional & 2023;2024 & 6 & 100.00 & 700.8 & 0.84 & 0.37\\
+3353200 & additional & 2023;2024 & 10 & 100.00 & 19.9 & 2.10 & 0.33\\
+5537980 & additional & 2023;2024 & 19 & 100.00 & 248.6 & 5.52 & 0.27\\
+6902000 & temporal & 2025 & 7 & 98.31 & 359.6 & 0.89 & 0.52\\
+2035000 & temporal;additional & 2023;2024;2025 & 19 & 100.00 & 931.6 & 0.23 & 0.40\\
+3339000 & temporal;additional & 2023;2024;2025 & 6 & 100.00 & 167.1 & 5.45 & 0.68\\
+5482300 & temporal;additional & 2023;2024;2025 & 4 & 99.44 & 30.8 & 11.54 & 0.53\\
+5484000 & temporal;additional & 2023;2024;2025 & 15 & 100.00 & 39.1 & 4.72 & 0.57\\
+5599490 & temporal;additional & 2023;2024;2025 & 1 & 98.82 & 190.9 & 0.70 & 0.42\\
+3346500 & temporal;development & 2023;2024;2025 & 7 & 100.00 & 227.1 & 1.83 & $-$0.03\\
+3374100 & temporal;development & 2023;2024;2025 & 5 & 98.44 & 1472.5 & 1.24 & 0.39\\
+5447500 & temporal;development & 2023;2024;2025 & 10 & 100.00 & 50.3 & 3.33 & 0.34\\
+5482000 & temporal;development & 2023;2024;2025 & 11 & 100.00 & 286.0 & 5.06 & 0.86\\
+5484500 & temporal;development & 2023;2024;2025 & 9 & 100.00 & 145.8 & 5.57 & 0.47\\
+5595000 & temporal;development & 2023;2024;2025 & 4 & 100.00 & 443.2 & 0.91 & 0.35\\
+7144100 & temporal;development & 2023;2024;2025 & 13 & 100.00 & 15.3 & 1.11 & 0.18\\
+\botrule
+\end{tabular}
+\end{center}
+
+\bibliography{sn-bibliography}
+
+\end{document}

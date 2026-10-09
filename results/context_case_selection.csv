@@ -1,0 +1,4 @@
+case_id,selection,site,year,event_id,seed,budget,delta_absRE_value_minus_flow,value_relative_error,flow_relative_error,start_time,end_time_exclusive,source_run,status
+largest_improvement_06902000_2025_12,largest_improvement,06902000,2025,12,41,96,-0.3725954223787058,0.0465597865627646,0.4191552089414704,2025-07-09 08:00:00+00:00,2025-07-10 07:00:00+00:00,experiments_main_temporal_v1,revised_post_result_closed_loop
+largest_harm_06902000_2025_11,largest_harm,06902000,2025,11,41,96,0.2803738423285472,-0.4183099424199105,-0.1379361000913633,2025-07-06 22:00:00+00:00,2025-07-08 04:00:00+00:00,experiments_main_temporal_v1,revised_post_result_closed_loop
+nearest_median_difference_02035000_2025_3,nearest_median_difference,02035000,2025,3,41,96,0.0,0.0043757782590597,0.0043757782590597,2025-05-14 08:00:00+00:00,2025-05-21 06:00:00+00:00,experiments_main_temporal_v1,revised_post_result_closed_loop

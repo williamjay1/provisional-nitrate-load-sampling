@@ -1,0 +1,69 @@
+{
+  "generated_utc": "2026-10-09T06:45:33.658971+00:00",
+  "python": "3.12.14",
+  "pandas": "3.0.1",
+  "numpy": "2.3.5",
+  "archive_root": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\revision_20261009",
+  "output_root": "F:\\SCI\\nitrate_rev\\analysis_arch",
+  "read_only_note": "no file under the archive root was created, modified or deleted",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 271828,
+  "primary_budget": 96,
+  "candidate_grid_hours": 6,
+  "minimum_spacing_hours": 24,
+  "estimand": "mean within station-year-seed events, across seeds, then years within station, equal stations",
+  "difference_convention": "baseline minus value; positive means value has the lower error",
+  "cohort_naming": {
+    "temporal": "temporal",
+    "external": "additional-station",
+    "development": "development"
+  },
+  "input_sha256": {
+    "aggregate_metrics": "c944b54cd3a899e03ee4bc3f2bc3a69066a53809f1a6af7eb6a8e6be0ff64796",
+    "attempt_summaries": "4fba821036981445ce224fe636580ee902bd807ea48e4d6a97a2bf3ee75d0fd0",
+    "attempts_external": "76bd0e48dde5ed0b1fddf42c55180eab781d1eac9a8a4fcec419d71569c13e4e",
+    "attempts_temporal": "9025860abb39607ec1b1f5af9ce5e078dfc96dd03aa4553eb91ec10ad9aa9b52",
+    "context_analysis_plan": "1065f47b7431836ef8f94691aad9bf2d8caa3d3787a364c70d9e372283e2daec",
+    "context_event_retention_summary": "3a4789d04bb37b6288e8155cf5491e8914ff9c52bb45b0d22f5a21623e457618",
+    "context_events": "5d26775ecc468384d6c44d88057b2178155639a0814508af89cfb9743eaccac3",
+    "context_forward_model": "e79c63ea1909f0f81980e370826f38df9422fc999a62646df533bbdd98963b76",
+    "context_manifest": "1a96b325c7974e78d44fb4991b8c61ee25cebd44955f3014a646e76ee87bb6c5",
+    "context_residual_persistence": "df4adb9ca4e52e038990d3170bde2c563468c9f1735502f4a51d2b9e8a8873cf",
+    "context_site_year": "34fae439bb309791f2b5aeddc3f1fad1f7d76543529a390b490c4dc3e0c7ce07",
+    "context_station_year_diagnostics": "f83141b3e0670f1ae72f476742d534e6e4be788798b6b44c9db82753baafcaf3",
+    "context_summary": "6df10ee2e1ec9e9bf5b4755ee2abcc7babaab239d0484a0a97b935836ec3529e",
+    "context_variable_definitions": "eee19d8478cf44cc05bc5684f49ccdd7aedc79bf90e4835fcdfcdb187d4c27af",
+    "docs_CONTEXT_ANALYSIS": "5c0dbabd01ed076566941013ddb9f4fb29e9a819660885ed6e5e124426bda25e",
+    "docs_EXPERIMENTS": "0e3bef1d8ea903a09df617202eab52b5a02da335d81c9e02c404e5b954040b1b",
+    "eligible_events": "8788da5a49286563065b89d3926eda656691eb8f2be594cdc07910245abebb3f",
+    "factor_family_contrasts": "f2fdfd67508af200b244c40de4973a1991d7f0942fecdb8376f30386de3dfdc6",
+    "mechanism_contrasts": "174f790f5fd53260c3ad727686768ebe54a2926f0775ca3623919fb8af1f97bf",
+    "paired_effects": "308b0f971d1e98b063e81c6c69eb51c042116a336043700f85b8bc90ad9b4e0a",
+    "site_year_metrics": "3f2dddd6818506e6f65d760a6805b3d15537cbde4b9f2e2490c80240b4cbb882",
+    "station_metrics": "de380da195d2b809d456a118e2e0654b8322a99d127210ec73174a5aada5752f",
+    "summary_manifest": "f1cd51c1fa02eacb11b5a804e2c4c28eced0076526465ffd500654ff8209a174"
+  },
+  "script_sha256": "229de1d89a8c7906433570e1e052f9ffe96fac3762e76db253fe5c2957f1ec12",
+  "outputs": {
+    "coverage_sensitivity.csv": {
+      "sha256": "8e0d132d144397a911959a42b0cd32a9b32d9ff546d8fc705c5354f16f513599",
+      "rows": 66
+    },
+    "overlap_counts.csv": {
+      "sha256": "be01d6920d08ef12c15b9caaa3d889ff9e458e1d3402e1ed214ca7f52a22eb66",
+      "rows": 12
+    },
+    "mass_error_pairs.csv": {
+      "sha256": "ddbad975fee66bf8de7af17a6f63f639a7d72db89be9b00c7a1c886c13e34fbc",
+      "rows": 24
+    },
+    "per_station_differences.csv": {
+      "sha256": "b1a88bd3491dc66ce8877c35eecdf81ae262017105708532a5df082b6ec9a36f",
+      "rows": 17
+    },
+    "station_profile.csv": {
+      "sha256": "336d88f3c7b14f0f8802dd7e98fbd90981c58bb3e82dc9fb2dc0c2e2aea40d66",
+      "rows": 16
+    }
+  }
+}
