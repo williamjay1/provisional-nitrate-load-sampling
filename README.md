@@ -21,6 +21,18 @@ not a final annual load reassembled after every result has returned.
 | `docs/` | Experiment description, context analysis, verification records and delivery audit |
 | `manuscript/` | LaTeX source of the manuscript and the Online Resources, plus the vector figure files |
 
+## Archived release and DOI
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23256544.svg)](https://doi.org/10.5281/zenodo.23256544)
+
+Version 1.0.0 of this archive is deposited on Zenodo:
+
+- Version DOI (this snapshot): https://doi.org/10.5281/zenodo.23256544
+- Concept DOI (all versions): https://doi.org/10.5281/zenodo.23256543
+- GitHub release: https://github.com/williamjay1/provisional-nitrate-load-sampling/releases/tag/v1.0.0
+
+Please cite the version DOI when referring to the analyses reported in the manuscript.
+
 ## Data provenance
 
 All observations come from the United States Geological Survey Water Data for the Nation service
