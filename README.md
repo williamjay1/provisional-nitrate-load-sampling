@@ -21,6 +21,10 @@ not a final annual load reassembled after every result has returned.
 | `docs/` | Experiment description, context analysis, verification records and delivery audit |
 | `manuscript/` | LaTeX source of the manuscript and the Online Resources, plus the vector figure files |
 
+## Extensions after the first release
+
+- `analysis/new_analyses/delay_168h/` - fixed calendar delay and decay origin diagnostic extended to a 168 h (one week) turnaround, including `results.csv`, `summary.csv` and the validation record against the archived 24 h case. The 24 h endpoint reproduces all 117 archived calendar calibrations to a maximum absolute difference of 9.7e-17.
+
 ## Archived release and DOI
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23256544.svg)](https://doi.org/10.5281/zenodo.23256544)

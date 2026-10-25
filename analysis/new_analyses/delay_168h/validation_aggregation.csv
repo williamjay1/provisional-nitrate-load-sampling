@@ -1,0 +1,5 @@
+check,subject,mine,archived,absolute_difference,mine_stations,archived_stations,note,mine_ci_low,mine_ci_high,archived_ci_low,archived_ci_high,ci_absolute_differences
+level_value_vs_archived_main_summary,uniform,0.20682496614107992,0.2068249661410799,2.7755575615628914e-17,9,9,archived events column sums seed-averaged counts; summary.csv n_events sums seed counts,,,,,
+level_value_vs_archived_main_summary,flow_trigger,0.1769944978723957,0.1769944978723957,0.0,9,9,archived events column sums seed-averaged counts; summary.csv n_events sums seed counts,,,,,
+level_value_vs_archived_main_summary,deadline_only,0.19413589495277317,0.1941358949527731,5.551115123125783e-17,9,9,archived events column sums seed-averaged counts; summary.csv n_events sums seed counts,,,,,
+station_bootstrap_vs_archived_paired_effect,"uniform minus value (delay 24 h, budget 96)",0.03813342234575214,0.0381334223457521,4.163336342344337e-17,9,9,"same estimator, seed and replicate count as summarize_revision.py",-9.632684340565167e-05,0.079565445602381,-9.632684340565169e-05,0.079565445602381,"[1.3552527156068805e-20, 0.0]"

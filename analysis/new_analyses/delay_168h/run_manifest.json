@@ -1,0 +1,380 @@
+{
+  "analysis": "fixed-calendar actual-return-delay and residual-decay-origin diagnostic (budget 96)",
+  "analysis_status": "post hoc diagnostic on archived replay outputs; not unseen validation",
+  "started_at_utc": "2026-10-25T22:08:34.744710+00:00",
+  "completed_at_utc": "2026-10-25T22:09:16.816401+00:00",
+  "elapsed_seconds_stage1": 38.69587789988145,
+  "elapsed_seconds_stage2": 0.4545715998392552,
+  "elapsed_seconds_total": 39.1504502997268,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "inputs": {
+    "archive": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\revision_20261009\\results\\experiments_main_temporal_v1",
+    "context_cache": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64",
+    "dataset_sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905",
+    "files": {
+      "revision_20261009/results/experiments_main_temporal_v1/attempts.csv": {
+        "sha256": "9025860abb39607ec1b1f5af9ce5e078dfc96dd03aa4553eb91ec10ad9aa9b52",
+        "bytes": 7818913,
+        "exists": true
+      },
+      "revision_20261009/results/experiments_main_temporal_v1/metrics.csv": {
+        "sha256": "75a903aae0f8deaf7b68980216a0c9b8500f275e5b1b01fe61b1cb3a942a4505",
+        "bytes": 173602,
+        "exists": true
+      },
+      "revision_20261009/results/experiments_main_temporal_v1/events.csv": {
+        "sha256": "624c7bdc58349221609ec1f6a163cdd72e997c38f7a728fbf973e9ebe5d4bc79",
+        "bytes": 1638594,
+        "exists": true
+      },
+      "revision_20261009/results/experiments_main_temporal_v1/run_manifest.json": {
+        "sha256": "55dcc703377a706dea751b4a29d78bd7fe2aee418c6dfe8a7add0dd1173700f0",
+        "bytes": 1883,
+        "exists": true
+      },
+      "datasets/extended_hourly_2019_2025_v1.parquet": {
+        "sha256": "05398eb7d883d36cbb5682847954dd56ac651ae7fa1e2649e6f0de68d9ea9905",
+        "bytes": 27703115,
+        "exists": true
+      }
+    },
+    "code": {
+      "scripts/paper_context.py": {
+        "sha256": "14804504c05fdb18b256711d74ef4a817cbd9df4a77bab0fbd16a788bc691cb0",
+        "matches_archived_manifest": null
+      },
+      "scripts/replay.py": {
+        "sha256": "56be2ad9c7680d882b4e2661c8eb5c0a3d8f67c48393dd2bd93d283a6538a314",
+        "matches_archived_manifest": null
+      },
+      "scripts/paper_metrics.py": {
+        "sha256": "32c381af8b3481f5aca7a9f73a8ce6af770eed4c090f158e857ca54f8986aaf6",
+        "matches_archived_manifest": null
+      },
+      "scripts/value_sampling.py": {
+        "sha256": "f4a508ba2ec77102d06d4615eb027e4ceb4a0c7c1bbf27a20ff683b052039e1b",
+        "matches_archived_manifest": null
+      },
+      "revision_20261009/scripts/revision_state.py": {
+        "sha256": "c0c4b920dcd5e002d997e5aee42ff5d67fd16e91a50c045f51668e910a67504f",
+        "matches_archived_manifest": null
+      }
+    },
+    "context_cache_files": [
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\02035000_2025_41.joblib",
+        "sha256": "08005c4efeaf5a078244db760ba34c4fb296ddaf7198594f55b3de1ff6d41967",
+        "bytes": 2708313
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\02035000_2025_73.joblib",
+        "sha256": "2154bd3ef9d69936a712eb416d6f178c1dade1270be3eaced4ea6e70bf4dab3c",
+        "bytes": 2701699
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\02035000_2025_109.joblib",
+        "sha256": "fbd912aa1a3d31ba8546ca47f7b1c995d9adecfede47747af91bd41c38b1999a",
+        "bytes": 2705762
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\03339000_2025_41.joblib",
+        "sha256": "dadb63ef989e6306e0bd05dc438eb7f4ade8be021bb11b02163be52cb2700be0",
+        "bytes": 3082451
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\03339000_2025_73.joblib",
+        "sha256": "0d1ef885696b02a0be95f6f503df27853cd54a5b2820f787b30fdc81d61cd657",
+        "bytes": 3081556
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\03339000_2025_109.joblib",
+        "sha256": "ecb2f3afcb4596cdf3665da3ff0d73eb126571363123e5321ed836299342d467",
+        "bytes": 3082505
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\03346500_2025_41.joblib",
+        "sha256": "4c5b6377875a9ff20a8ecb719e179e4b12672b0b82333fd29a54ae58c043e0be",
+        "bytes": 2717286
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\03346500_2025_73.joblib",
+        "sha256": "ad09b91ed1966fab3dcd1aa130d8232fe47d73031f61d05ebc5ea4e7e951e361",
+        "bytes": 2719420
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\03346500_2025_109.joblib",
+        "sha256": "352afbc24041533527cc427c4d36b3967b173edcc354fb13fc106b273a455c23",
+        "bytes": 2724071
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\03374100_2025_41.joblib",
+        "sha256": "56450d756671d95327fec7712e14422004a8406a5783d97d491c5830823624ac",
+        "bytes": 2677553
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\03374100_2025_73.joblib",
+        "sha256": "4f279d1a28a6c5a3b7af133a9015a670c77aa41caf5fd8831662cc40232ac521",
+        "bytes": 2674047
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\03374100_2025_109.joblib",
+        "sha256": "c85ce1e538bf5d63e8f0b7fe0af2d43243aac323de1a3f720496aa0e28963445",
+        "bytes": 2677749
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05447500_2025_41.joblib",
+        "sha256": "081d1a5ae2bd7a5a025ae2e3c825c4fe8c464a80720e0b7eeeb374bbd6fbac5f",
+        "bytes": 2342942
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05447500_2025_73.joblib",
+        "sha256": "77c77544312b344669e276a7599ee951a9e00cd72cba114f69207ddb84b51665",
+        "bytes": 2340418
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05447500_2025_109.joblib",
+        "sha256": "27d13650f3a222056cf4df3564eb3fe575cd9cbfb35a351349cc7e36b9b33052",
+        "bytes": 2346734
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05482000_2025_41.joblib",
+        "sha256": "3a96347a86df8a129b1b3f861e4b2712a7d0eb778bb6140fbc8cb8e77e8d6345",
+        "bytes": 2232525
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05482000_2025_73.joblib",
+        "sha256": "57f83feb3166fefc0591d16dc9672d8ad94af5b63e05afccbe247cb77646e731",
+        "bytes": 2229529
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05482000_2025_109.joblib",
+        "sha256": "da166be006aa97583ca344e5e09322a483c6434bce50738dc535655e179b213e",
+        "bytes": 2225473
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05482300_2025_41.joblib",
+        "sha256": "d45fa8d28082d3241a40c138b573207fdffcefffb83176ae9d6b2063e46404b8",
+        "bytes": 2217986
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05482300_2025_73.joblib",
+        "sha256": "f53cad4db23da9ea95e75f50b110e526b8664682db8fea0bd113aeb9fbae3762",
+        "bytes": 2220592
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05482300_2025_109.joblib",
+        "sha256": "a8e00cb061d155d34a7167af2291a429fd422349ecf79fa2d990b58afb90be1b",
+        "bytes": 2219603
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05484000_2025_41.joblib",
+        "sha256": "3190055e87d2db3d186c4589c35e0a7a4301abc767a8f301837730b754490c92",
+        "bytes": 1953057
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05484000_2025_73.joblib",
+        "sha256": "c26814874bda9898be08cd4b6e9653bd8420ca06f8eb0c47aafa8ac2d37053eb",
+        "bytes": 1959573
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05484000_2025_109.joblib",
+        "sha256": "9de57c2563c66db080769457e4da0a974ec8868cc26ed873a150e857c96fca6e",
+        "bytes": 1958818
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05484500_2025_41.joblib",
+        "sha256": "259db1f1bc385ff1821e11f52fa49aabb75edd782fb5a6d15d0b235288c9c992",
+        "bytes": 2183616
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05484500_2025_73.joblib",
+        "sha256": "c552a93f3eb62ac57b9cbc82ed466e837d1870b60373c12b933654fcf9324dc3",
+        "bytes": 2179630
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05484500_2025_109.joblib",
+        "sha256": "14ea112cf624fb2aaf643c245f4a8235ea791767ee295f8ea5ae3a8e7e94b8a1",
+        "bytes": 2180327
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05595000_2025_41.joblib",
+        "sha256": "e87a1a461f831786abba347718a6e76d15c792b2034dd0933f7a7ffdc18ba19e",
+        "bytes": 3221174
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05595000_2025_73.joblib",
+        "sha256": "a0fcf9cd26244e2e008240c8e25e29b4fe95ad0a06f0a82c6cc521adfe49f73c",
+        "bytes": 3217442
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05595000_2025_109.joblib",
+        "sha256": "f4a7c9413f4171dae5b3cf93fe75bc143113171327d2ae03c59f08b6629e39e4",
+        "bytes": 3213615
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05599490_2025_41.joblib",
+        "sha256": "fc5728a13d00c8d5e876e52d3a28d25cffe6ce4342d64244785d370c2acfccd1",
+        "bytes": 3247709
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05599490_2025_73.joblib",
+        "sha256": "30e373bc33fbef8a4d2185341f5536a4ade864b2e8ce1e72d79d4e2bfcbb7e42",
+        "bytes": 3249889
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\05599490_2025_109.joblib",
+        "sha256": "5a87c3bd7571255030b4204017fbf96179ceaba04729381d18e480e853cdd09d",
+        "bytes": 3251121
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\06902000_2025_41.joblib",
+        "sha256": "41657ca0c00a54dfe679f659075b05d282366c6c161edeb0655569c55a368009",
+        "bytes": 2428262
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\06902000_2025_73.joblib",
+        "sha256": "d689538f5f8060d2bd5508bd1afbaddda4f798e3e731d44626adff700d5a5d6f",
+        "bytes": 2420194
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\06902000_2025_109.joblib",
+        "sha256": "bb4c7938ff6be101305d432bfd4494f8efa281120cb17cb16e768bc5d801c971",
+        "bytes": 2417664
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\07144100_2025_41.joblib",
+        "sha256": "543ef39b10c0a6cbbc760e461b5d7048b1ef3306de4e8ea34606b2d01f473f50",
+        "bytes": 2306005
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\07144100_2025_73.joblib",
+        "sha256": "ae23fe9c7c35a9d04d9caa9d0d47e0da44010830501aa48dfd59a32e4fa4f029",
+        "bytes": 2304246
+      },
+      {
+        "path": "D:\\MLWork\\NitrateAdaptiveSampling_20261005\\cache\\paper_contexts\\05398eb7d883_a1553d8eaf64\\07144100_2025_109.joblib",
+        "sha256": "6d1fd8064924e823ce90da820f9534ebfa6267154ccbedb8813ad3c0a1f0296b",
+        "bytes": 2307159
+      }
+    ]
+  },
+  "design": {
+    "calendars": [
+      "uniform",
+      "flow_trigger",
+      "deadline_only"
+    ],
+    "delays_hours": [
+      6,
+      24,
+      72,
+      168
+    ],
+    "decay_origins": [
+      "collection",
+      "arrival"
+    ],
+    "budget": 96,
+    "correction": "latest_residual tau=168 h (half-life 168*ln2)",
+    "base_prediction": "archived frozen historical-forest target_base"
+  },
+  "endpoint": {
+    "name": "event_mean_absolute_relative_error",
+    "aggregation": "events within station-year-seed, then seeds, then years, then stations equally",
+    "event_eligibility": "paper_metrics.evaluate, coverage>=0.95, boundary-censored"
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 271828,
+    "cluster": "station",
+    "statistic": "ratio of summed station differences to summed station counts",
+    "difference": "mean over stations of station-level (baseline minus candidate); positive values mean the candidate cell has the LOWER mean absolute relative error"
+  },
+  "endpoint_validation": {
+    "calendars_checked": 117,
+    "endpoint_max_absolute_difference": 9.71445146547012e-17,
+    "all_event_counts_match": true,
+    "all_endpoints_match_archive": true,
+    "max_reference_mass_difference_kg": 4.656612873077393e-10,
+    "max_predicted_mass_difference_kg": 9.313225746154785e-10,
+    "events_compared": 414
+  },
+  "outputs": {
+    "results.csv": "3539e0af938d847c36e2a8bc67111f59bd26b61757091145ddd7435dcb4d5798",
+    "validation_against_archive.csv": "bfa95b2aa3afd8e7c9cd81dae1f3613be44b6896d6d5c12854c6f305d7929092",
+    "validation_aggregation.csv": "82c6d92b353553deb664393f5cd743a2539f355c7bb4809747de38f9ecf2c4ff",
+    "summary.csv": "2ca1e8378f6ef4e63638a8fbc024aa21047716ee65affff907b136dd028acbd7",
+    "_summary_tables.md": "089d59ac0d9b1815f2536e9f04583b868c26a5ab367b1a0eaf21fc55bbb53357",
+    "_numbers.json": "36612d1c562616ef962b661600b49aaa53ee87372c02395c311b5a1c7278982b"
+  },
+  "aggregation_validation": {
+    "archived_main_summary": "revision_20261009/results/summary_main_v1",
+    "level_values_match": true,
+    "station_bootstrap_matches": true,
+    "checks": [
+      {
+        "check": "level_value_vs_archived_main_summary",
+        "subject": "uniform",
+        "mine": 0.20682496614107992,
+        "archived": 0.2068249661410799,
+        "absolute_difference": 2.7755575615628914e-17,
+        "mine_stations": 9,
+        "archived_stations": 9,
+        "note": "archived events column sums seed-averaged counts; summary.csv n_events sums seed counts",
+        "mine_ci_low": NaN,
+        "mine_ci_high": NaN,
+        "archived_ci_low": NaN,
+        "archived_ci_high": NaN,
+        "ci_absolute_differences": NaN
+      },
+      {
+        "check": "level_value_vs_archived_main_summary",
+        "subject": "flow_trigger",
+        "mine": 0.1769944978723957,
+        "archived": 0.1769944978723957,
+        "absolute_difference": 0.0,
+        "mine_stations": 9,
+        "archived_stations": 9,
+        "note": "archived events column sums seed-averaged counts; summary.csv n_events sums seed counts",
+        "mine_ci_low": NaN,
+        "mine_ci_high": NaN,
+        "archived_ci_low": NaN,
+        "archived_ci_high": NaN,
+        "ci_absolute_differences": NaN
+      },
+      {
+        "check": "level_value_vs_archived_main_summary",
+        "subject": "deadline_only",
+        "mine": 0.19413589495277317,
+        "archived": 0.1941358949527731,
+        "absolute_difference": 5.551115123125783e-17,
+        "mine_stations": 9,
+        "archived_stations": 9,
+        "note": "archived events column sums seed-averaged counts; summary.csv n_events sums seed counts",
+        "mine_ci_low": NaN,
+        "mine_ci_high": NaN,
+        "archived_ci_low": NaN,
+        "archived_ci_high": NaN,
+        "ci_absolute_differences": NaN
+      },
+      {
+        "check": "station_bootstrap_vs_archived_paired_effect",
+        "subject": "uniform minus value (delay 24 h, budget 96)",
+        "mine": 0.03813342234575214,
+        "archived": 0.0381334223457521,
+        "absolute_difference": 4.163336342344337e-17,
+        "mine_stations": 9,
+        "archived_stations": 9,
+        "note": "same estimator, seed and replicate count as summarize_revision.py",
+        "mine_ci_low": -9.632684340565167e-05,
+        "mine_ci_high": 0.079565445602381,
+        "archived_ci_low": -9.632684340565169e-05,
+        "archived_ci_high": 0.079565445602381,
+        "ci_absolute_differences": [
+          1.3552527156068805e-20,
+          0.0
+        ]
+      }
+    ]
+  }
+}
